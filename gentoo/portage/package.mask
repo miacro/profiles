@@ -1,0 +1,10 @@
+media-video/libav
+=app-i18n/man-pages-zh_CN-9999::gentoo-zh
+=app-admin/eselect-opencl-1.1.0-r9::stuff
+=dev-util/nvidia-cuda-toolkit-6.0.37-r10::stuff
+>=x11-drivers/nvidia-drivers-340.46
+#=dev-util/nvidia-cuda-toolkit-6.5.14
+>=dev-util/nvidia-cuda-sdk-6.5.14
+=net-analyzer/nikto-2.1.5
+=dev-ml/findlib-1.5.5
+>app-emacs/ecb-2.40-r2

@@ -1,0 +1,59 @@
+ sys-kernel/gentoo-sources -~x86
+
+# required by dev-util/eclipse-sdk-bin (argument)
+=dev-util/eclipse-sdk-bin-4.2.1-r1 **
+sys-apps/systemd -~x86
+sys-fs/udev-init-scripts -~x86
+sys-apps/kmod -~x86
+sys-boot/syslinux -~x86
+x11-base/xorg-drivers -~x86
+x11-base/xorg-server -~x86
+net-wireless/hostapd -~x86
+app-shells/bash-completion -~x86
+
+sys-libs/e2fsprogs-libs -~x86
+
+#@system
+app-arch/gzip -~x86 
+sys-apps/file -~x86 
+virtual/os-headers -~x86
+sys-devel/gnuconfig -~x86
+sys-apps/which -~x86
+sys-apps/openrc -~x86
+sys-apps/diffutils -~x86
+sys-apps/sed -~x86
+virtual/editor -~x86
+net-misc/iputils -~x86
+virtual/shadow -~x86
+virtual/ssh -~x86
+virtual/libc -~x86
+net-misc/rsync -~x86
+app-arch/xz-utils -~x86
+sys-apps/coreutils -~x86
+virtual/dev-manager -~x86
+sys-devel/binutils -~x86
+virtual/modutils -~x86
+app-arch/bzip2 -~x86
+sys-apps/baselayout -~x86
+virtual/man -~x86
+net-misc/wget -~x86
+app-arch/tar -~x86
+sys-apps/kbd -~x86
+sys-devel/patch -~x86
+sys-apps/grep -~x86
+sys-apps/net-tools -~x86
+sys-devel/make -~x86
+virtual/package-manager -~x86
+sys-apps/busybox -~x86
+sys-process/procps -~x86
+sys-apps/man-pages -~x86
+sys-apps/util-linux -~x86
+#sys-devel/gcc -~x86
+sys-fs/e2fsprogs -~x86
+virtual/service-manager -~x86
+sys-apps/gawk -~x86
+app-shells/bash -~x86
+virtual/pager -~x86
+sys-apps/findutils -~x86
+sys-apps/less -~x86
+sys-process/psmisc -~x86
