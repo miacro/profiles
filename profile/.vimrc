@@ -10,7 +10,7 @@ Plugin 'git://github.com/fholgado/minibufexpl.vim.git'
 Plugin 'git://github.com/flazz/vim-colorschemes.git'
 Plugin 'git://github.com/gentoo/gentoo-syntax.git'
 Plugin 'git://github.com/gmarik/Vundle.vim'
-Plugin 'git://github.com/jiangmiao/auto-pairs.git'
+" Plugin 'git://github.com/jiangmiao/auto-pairs.git'
 Plugin 'git://github.com/mbbill/undotree.git'
 Plugin 'git://github.com/msanders/snipmate.vim.git'
 Plugin 'git://github.com/rstacruz/sparkup', {'rtp': 'vim/'}
