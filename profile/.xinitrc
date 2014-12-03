@@ -27,9 +27,8 @@ export XMODIFIERS="@im=fcitx"
 
 fqaq-conky &
 fqaq-sslocal.sh
-fcitx &
-volumeicon &
-exec ck-launch-session dbus-launch awesome
+# fcitx &
+# exec ck-launch-session dbus-launch awesome
 # exec enlightenment_start
 # exec gnome-session
  exec startkde 
