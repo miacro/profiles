@@ -1,10 +1,3 @@
-## about goagent
-export http_proxy=http://127.0.0.1:8087/
-#export http_proxy=http://127.0.0.1:5060/
-export https_proxy=$http_proxy
-export HTTP_PROXY=$http_proxy
-export HTTPS_PROXY=$HTTP_PROXY
-
 export PATH=$PATH:/home/aq/fqaq-bin:/home/aq/software/bin/:/sbin:/usr/sbin:/usr/local/sbin
 
 export ACE_ROOT=~/ace/ACE_wrappers
