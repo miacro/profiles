@@ -28,10 +28,11 @@ export XMODIFIERS="@im=fcitx"
 #fqaq-conky &
 fqaq-sslocal.sh
 fcitx &
-#exec ck-launch-session dbus-launch --sh-syntax --exit-with-session awesome
+kmix &
+exec ck-launch-session dbus-launch --sh-syntax --exit-with-session awesome
 # exec enlightenment_start
 # exec gnome-session
- exec startkde 
+# exec startkde 
 # exec startxfce4
 # exec awesome
 # exec startlxde
