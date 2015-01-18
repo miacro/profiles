@@ -7,3 +7,5 @@ wifi
 ACPI(Advanced Configuration and Power Management Interface)
 vmware
 virtualbox
+xen
+kvm
