@@ -44,7 +44,8 @@ xterm*cjkWidth:false
 ! 
 !解决Alt键不好使
 !xterm*eightBitInput:false
-!xterm*altSendsEscape:true
+xterm*altIsNotMeta:true
+xterm*altSendsEscape:true
 
 ! Solarized color scheme for the X Window System
 !

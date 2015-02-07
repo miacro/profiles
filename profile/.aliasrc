@@ -18,3 +18,5 @@ alias li='ls -i'
 alias lb='ls -b'
 alias lF='ls -F'
 alias lf='ls -F'
+
+alias grep='grep --color=auto --exclude-dir=.cvs --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn'

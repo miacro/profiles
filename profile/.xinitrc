@@ -25,14 +25,13 @@ export XMODIFIERS="@im=fcitx"
 #export LANG=zh_CN.UTF-8
 #LANG="en_US.UTF-8"
 
-#fqaq-conky &
-fqaq-sslocal.sh
-fcitx &
-kmix &
-exec ck-launch-session dbus-launch --sh-syntax --exit-with-session awesome
+fq_sslocal.sh
+#fcitx &
+#kmix &
+#exec ck-launch-session dbus-launch --sh-syntax --exit-with-session awesome
 # exec enlightenment_start
 # exec gnome-session
-# exec startkde 
+ exec startkde 
 # exec startxfce4
 # exec awesome
 # exec startlxde
