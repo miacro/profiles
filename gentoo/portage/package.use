@@ -5,11 +5,14 @@ app-editors/emacs xft Xaw3d athena games gconf gnutls gsettings gzip-el hesiod i
 app-editors/vim python cscope lua perl ruby tcl vim-pager
 app-emacs/auctex preview-latex
 app-emacs/emacs-common-gentoo games
+app-emacs/org-mode doc contrib odt-schema
 app-emulation/bochs doc
+app-emulation/qemu glusterfs infiniband lzo nfs numa python sasl smartcard snappy systemtap tci tls usbredir vde virtfs xattr xen xfs
 app-emulation/virtualbox doc
 app-emulation/vmware-tools vmware_guest_linux vmware_guest_netware
 app-emulation/vmware-workstation doc ovftool server vix vmware-tools
 app-emulation/wine opencl
+app-misc/tmux vim-syntax
 app-office/dia doc
 app-office/libreoffice-l10n linguas_en_GB linguas_zh_TW
 app-portage/eix doc
@@ -28,18 +31,23 @@ dev-lang/python doc
 dev-lang/R doc
 dev-lang/ruby doc
 dev-libs/boost doc python tools
+dev-libs/botan -bindist
+>=dev-libs/openssl-1.0.2-r1 -bindist
 dev-libs/wayland doc
 dev-qt/qt-creator doc
 dev-qt/qthelp doc
 dev-util/boost-build python
+dev-util/cmake doc emacs
 dev-util/codeblocks contrib pch
 dev-util/cscope emacs
+dev-util/global emacs doc vim 
 dev-vcs/bzr doc
-dev-vcs/git doc
+dev-vcs/git doc cgi cvs emacs gnome-keyring highlight xinetd tk
 dev-vcs/subversion doc
 kde-base/kde-l10n linguas_en_GB linguas_ko linguas_ja linguas_zh_TW
 kde-base/kmix pulseaudio
 media-fonts/dejavu fontforge
+media-fonts/source-han-sans linguas_ja linguas_zh_TW linguas_ko 
 media-gfx/digikam doc
 media-gfx/fontforge cjk
 media-gfx/gimp doc
@@ -54,11 +62,14 @@ media-sound/audacious chardet
 ########## sndfile---decoder for wav
 media-sound/deadbeef ape converter wavpack wma mms hotkeys tta alac m3u midi musepack sndfile adplug cover cover-imlib2 curl dumb gme lastfm mono2stereo notify pltbrowser psf rpath shn sid src supereq threads vtx zip
 media-sound/moc wavpack sndfile musepack jack
+media-sound/ncmpcpp clock outputs curl taglib visualizer
 media-sound/pulseaudio doc
+media-sound/mac mmx
 media-video/ffmpeg threads 3dnow 3dnowext amr amrenc avx avx2 bluray cdio celt cpudetection doc examples fdk flite fma3 fma4 frei0r gme gnutls gsm iec61883 ieee1394 jack jpeg2k ladspa libass libcaca libsoxr libv4l mmx mmxext modplug openal opus pulseaudio quvi rtmp schroedinger speex sse sse2 sse3 sse4 sse4_2 ssh ssse3 theora twolame v4l vaapi vdpau vpx wavpack webp x265 zvbi
 media-video/libav doc oss pulseaudio jack tools vaapi vdpau vpx threads
-media-video/mplayer bidi doc
-media-video/vlc libass httpd lua
+media-video/mplayer 3dnow 3dnowext aalib bl bluray bidi bs2b cdparanoia cpudetection dga directfb doc dv dvb faad fbcon ftp ggi gsm jack joystick jpeg2k ladspa libcaca libmpeg2 lirc live lzo md5sum mmxext nas nut openal oss pnm pvr radio rar rtc rtmp samba speex sse sse2 ssse3 tga theora toolame tremor twolame v4l vdpau vidix xanim zoran 
+media-video/mplayer2 3dnow 3dnowext bluray bs2b cpudetection directfb doc dvb ftp jack joystick ladspa libcaca lirc md5sum mmxext oss pnm portaudio pvr radio samba sse sse2 ssse3 tga v4l vcd vdpau yuv4mpeg 
+media-video/vlc libass httpd lua aalib atmo audioqueue avahi bidi bluray chromaprint dirac directfb dvb egl faad fdk fluidsynth gme gnome gnutls growl ieee1394 jack kate libcaca libsamplerate libtar libtiger linsys lirc live matroska mmx modplug mtp musepack omxil opencv optimisememory opus projectm rtsp samba schroedinger sdl-image sftp shout sid skins speex sse taglib theora tremor twolame upnp v4l vaapi vcdx vdpau vlm vnc wma-fixed zvbi 
 net-analyzer/wireshark doc
 net-dns/dnsmasq
 net-firewall/iptables netlink
@@ -66,6 +77,8 @@ net-fs/samba doc
 net-libs/libssh doc
 net-misc/iputils gnutls idn caps
 net-misc/networkmanager connection-sharing -bluetooth
+net-misc/openssh -bindist
+net-p2p/rtorrent daemon color
 net-wireless/hostapd netlink
 sys-apps/dbus doc
 sys-apps/portage doc
@@ -80,7 +93,9 @@ www-apps/lxr cvs mysql postgres vhosts
 www-plugins/adobe-flash sse2
 www-servers/apache doc
 x11-base/xorg-server doc udev dmx kdrive tslib unwind wayland xnest xvfb
+x11-drivers/nvidia-drivers uvm
 x11-libs/libdrm video_cards_nouveau
+x11-wm/awesome doc gnome
 x11-wm/fvwm doc
 
 
@@ -116,33 +131,6 @@ x11-wm/fvwm doc
 # required by dev-qt/qt-creator-2.8.1
 # required by qt-creator (argument)
 =dev-libs/botan-1.10.5 threads
-# required by dev-ruby/rdoc-4.0.1-r2[ruby_targets_ruby21]
-# required by dev-lang/ruby-2.1.2[rdoc]
-# required by dev-texlive/texlive-langcjk-2013
-# required by app-text/texlive-2013[cjk]
-# required by texlive (argument)
->=dev-ruby/racc-1.4.11 ruby_targets_ruby21
-# required by dev-lang/ruby-2.1.2
-# required by dev-texlive/texlive-langcjk-2013
-# required by app-text/texlive-2013[cjk]
-# required by texlive (argument)
->=dev-ruby/rake-10.3.2 ruby_targets_ruby21
-# required by dev-lang/ruby-2.1.2[rdoc]
-# required by dev-texlive/texlive-langcjk-2013
-# required by app-text/texlive-2013[cjk]
-# required by texlive (argument)
->=dev-ruby/rdoc-4.0.1-r2 ruby_targets_ruby21
-# required by dev-ruby/rdoc-4.0.1-r2[ruby_targets_ruby21]
-# required by dev-lang/ruby-2.1.2[rdoc]
-# required by dev-texlive/texlive-langcjk-2013
-# required by app-text/texlive-2013[cjk]
-# required by texlive (argument)
->=dev-ruby/json-1.8.1 ruby_targets_ruby21
-# required by dev-lang/ruby-2.1.2
-# required by dev-texlive/texlive-langcjk-2013
-# required by app-text/texlive-2013[cjk]
-# required by texlive (argument)
->=dev-ruby/rubygems-2.0.14-r1 ruby_targets_ruby21
 # required by media-sound/amarok-2.8.0-r2
 # required by amarok (argument)
 >=virtual/mysql-5.5 embedded
@@ -173,9 +161,6 @@ x11-wm/fvwm doc
 # required by x11-terms/terminator-0.97-r1
 # required by x11-terms/terminator (argument)
 >=dev-libs/keybinder-0.3.0-r200:0 python
-# required by dev-util/nvidia-cuda-sdk-6.0.37[examples]
-# required by dev-util/nvidia-cuda-sdk (argument)
->=x11-drivers/nvidia-drivers-340.24 uvm
 # required by net-p2p/deluge-1.3.6
 # required by net-p2p/deluge (argument)
 >=net-libs/rb_libtorrent-0.16.16 python
@@ -197,10 +182,6 @@ x11-wm/fvwm doc
 # required by x11-misc/appmenu-0.3::stuff[kde]
 # required by x11-misc/appmenu (argument)
 =x11-libs/gtk+-2.24.23-r1 appmenu
-# required by dev-util/nvidia-cuda-sdk-6.0.37[examples]
-# required by @selected
-# required by @world (argument)
-=x11-drivers/nvidia-drivers-337.25 uvm
 # required by net-analyzer/metasploit-4.9.3
 # required by @selected
 # required by @world (argument)
@@ -208,3 +189,17 @@ x11-wm/fvwm doc
 # required by net-misc/bcloud-3.5.1::gentoo-zh[python_targets_python3_3]
 # required by bcloud (argument)
 >=dev-lang/python-3.3.5-r1:3.3 sqlite
+# required by www-apps/rutorrent-3.4-r1
+# required by www-apps/rutorrent (argument)
+>=dev-lang/php-5.6.4 gd
+# required by media-video/vlc-2.1.5[vaapi]
+# required by @selected
+# required by @world (argument)
+>=virtual/ffmpeg-9-r1 vaapi
+# required by dev-qt/qtcore-5.4.0 
+# required by dev-qt/qttest-5.4.0 
+# required by dev-qt/qtdeclarative-5.4.0[-test] 
+# required by dev-qt/qt-creator-3.3.0 
+# required by @selected 
+# required by @world" (argument)
+>=dev-libs/libpcre-8.36 pcre16

@@ -1,1 +1,1 @@
-../../usr/portage/profiles/default/linux/x86/13.0/desktop/kde/systemd
+../../var/portage/profiles/default/linux/x86/13.0/desktop/kde/systemd

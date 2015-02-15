@@ -3,8 +3,11 @@ media-video/libav
 =app-admin/eselect-opencl-1.1.0-r9::stuff
 =dev-util/nvidia-cuda-toolkit-6.0.37-r10::stuff
 >=x11-drivers/nvidia-drivers-340.46
-#=dev-util/nvidia-cuda-toolkit-6.5.14
 >=dev-util/nvidia-cuda-sdk-6.5.14
 =net-analyzer/nikto-2.1.5
-=dev-ml/findlib-1.5.5
->app-emacs/ecb-2.40-r2
+dev-libs/boost::gentoo-zh
+dev-util/cmake::gentoo-zh
+app-text/goldendict::stuff
+=net-p2p/vuze-5.3.0.0
+=dev-lang/ruby-2.2.0
+=net-libs/nodejs-0.12.0

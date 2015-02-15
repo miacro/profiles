@@ -11,7 +11,8 @@ MAKEOPTS="-j4"
 # These are the USE flags that were used in addition to what is provided by the
 # profile used for building.
 
-USE="bindist git subversion xvmc apache2 php zsh-completion infinality doc"
+USE="bindist git subversion xvmc apache2 php zsh-completion infinality \
+     fontconfig pulseaudio ffmpeg ape"
 PORTDIR="/usr/portage"
 DISTDIR="${PORTDIR}/distfiles"
 PKGDIR="${PORTDIR}/packages"
@@ -34,5 +35,5 @@ PORTAGE_ELOG_SYSTEM="save"
 XFCE_PLUGINS="brightness clock trash battery"
 
 
-GENTOO_MIRRORS="http://mirrors.163.com/gentoo/ http://mirrors.sohu.com/gentoo/ rsync://mirrors.stuhome.net/gentoo/ http://mirrors.stuhome.net/gentoo/ ftp://mirrors.stuhome.net/gentoo/ http://mirrors.xmu.edu.cn/gentoo ftp://mirrors.xmu.edu.cn/gentoo rsync://mirrors.xmu.edu.cn/gentoo/ http://gentoo.aditsu.net:8000/ http://gentoo.channelx.biz/ http://gentoo.gg3.net/ ftp://gg3.net/pub/linux/gentoo/ ftp://ftp.iij.ad.jp/pub/linux/gentoo/ rsync://ftp.iij.ad.jp/pub/linux/gentoo/ http://ftp.iij.ad.jp/pub/linux/gentoo/ http://ftp.jaist.ac.jp/pub/Linux/Gentoo/ ftp://ftp.jaist.ac.jp/pub/Linux/Gentoo/ rsync://ftp.jaist.ac.jp/pub/Linux/Gentoo/"
+GENTOO_MIRRORS="http://mirrors.sohu.com/gentoo/ http://mirrors.163.com/gentoo/ rsync://mirrors.stuhome.net/gentoo/ http://mirrors.stuhome.net/gentoo/ ftp://mirrors.stuhome.net/gentoo/ http://mirrors.xmu.edu.cn/gentoo ftp://mirrors.xmu.edu.cn/gentoo rsync://mirrors.xmu.edu.cn/gentoo/ http://gentoo.aditsu.net:8000/ http://gentoo.channelx.biz/ http://gentoo.gg3.net/ ftp://gg3.net/pub/linux/gentoo/ ftp://ftp.iij.ad.jp/pub/linux/gentoo/ rsync://ftp.iij.ad.jp/pub/linux/gentoo/ http://ftp.iij.ad.jp/pub/linux/gentoo/ http://ftp.jaist.ac.jp/pub/Linux/Gentoo/ ftp://ftp.jaist.ac.jp/pub/Linux/Gentoo/ rsync://ftp.jaist.ac.jp/pub/Linux/Gentoo/"
 SYNC="rsync://rsync.cn.gentoo.org/gentoo-portage"
