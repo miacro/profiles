@@ -1,0 +1,10 @@
+sys-apps/dbus doc
+sys-apps/portage doc
+sys-apps/systemd doc
+sys-auth/consolekit doc
+sys-boot/grub doc
+sys-devel/clang multitarget python
+sys-devel/gcc doc
+sys-devel/gettext doc
+sys-devel/llvm clang doc gold multitarget python
+sys-libs/db doc

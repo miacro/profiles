@@ -1,17 +1,6 @@
 app-admin/conky imlib
 app-admin/eselect doc
 app-doc/doxygen latex dot doc
-app-editors/emacs xft Xaw3d athena games gconf gnutls gsettings gzip-el hesiod imagemagick kerberos libxml2 m17n-lib motif pax_kernel sound source toolkit-scroll-bars 
-app-editors/vim python cscope lua perl ruby tcl vim-pager
-app-emacs/auctex preview-latex
-app-emacs/emacs-common-gentoo games
-app-emacs/org-mode doc contrib odt-schema
-app-emulation/bochs doc
-app-emulation/qemu glusterfs infiniband lzo nfs numa python sasl smartcard snappy systemtap tci tls usbredir vde virtfs xattr xen xfs
-app-emulation/virtualbox doc
-app-emulation/vmware-tools vmware_guest_linux vmware_guest_netware
-app-emulation/vmware-workstation doc ovftool server vix vmware-tools
-app-emulation/wine opencl
 app-misc/tmux vim-syntax
 app-office/dia doc
 app-office/libreoffice-l10n linguas_en_GB linguas_zh_TW
@@ -27,7 +16,7 @@ dev-db/mariadb -xml
 dev-db/sqlite doc
 dev-lang/perl doc
 dev-lang/php -truetype -exif apache2
-dev-lang/python doc
+dev-lang/python doc sqlite
 dev-lang/R doc
 dev-lang/ruby doc
 dev-libs/boost doc python tools
@@ -57,19 +46,6 @@ media-libs/freetype doc
 media-libs/imlib2 doc
 media-libs/mesa opencl gles gles1 gles2
 media-libs/opencv doc
-media-plugins/audacious-plugins cue lame sndfile wavpack jack
-media-sound/audacious chardet 
-########## sndfile---decoder for wav
-media-sound/deadbeef ape converter wavpack wma mms hotkeys tta alac m3u midi musepack sndfile adplug cover cover-imlib2 curl dumb gme lastfm mono2stereo notify pltbrowser psf rpath shn sid src supereq threads vtx zip
-media-sound/moc wavpack sndfile musepack jack
-media-sound/ncmpcpp clock outputs curl taglib visualizer
-media-sound/pulseaudio doc
-media-sound/mac mmx
-media-video/ffmpeg threads 3dnow 3dnowext amr amrenc avx avx2 bluray cdio celt cpudetection doc examples fdk flite fma3 fma4 frei0r gme gnutls gsm iec61883 ieee1394 jack jpeg2k ladspa libass libcaca libsoxr libv4l mmx mmxext modplug openal opus pulseaudio quvi rtmp schroedinger speex sse sse2 sse3 sse4 sse4_2 ssh ssse3 theora twolame v4l vaapi vdpau vpx wavpack webp x265 zvbi
-media-video/libav doc oss pulseaudio jack tools vaapi vdpau vpx threads
-media-video/mplayer 3dnow 3dnowext aalib bl bluray bidi bs2b cdparanoia cpudetection dga directfb doc dv dvb faad fbcon ftp ggi gsm jack joystick jpeg2k ladspa libcaca libmpeg2 lirc live lzo md5sum mmxext nas nut openal oss pnm pvr radio rar rtc rtmp samba speex sse sse2 ssse3 tga theora toolame tremor twolame v4l vdpau vidix xanim zoran 
-media-video/mplayer2 3dnow 3dnowext bluray bs2b cpudetection directfb doc dvb ftp jack joystick ladspa libcaca lirc md5sum mmxext oss pnm portaudio pvr radio samba sse sse2 ssse3 tga v4l vcd vdpau yuv4mpeg 
-media-video/vlc libass httpd lua aalib atmo audioqueue avahi bidi bluray chromaprint dirac directfb dvb egl faad fdk fluidsynth gme gnome gnutls growl ieee1394 jack kate libcaca libsamplerate libtar libtiger linsys lirc live matroska mmx modplug mtp musepack omxil opencv optimisememory opus projectm rtsp samba schroedinger sdl-image sftp shout sid skins speex sse taglib theora tremor twolame upnp v4l vaapi vcdx vdpau vlm vnc wma-fixed zvbi 
 net-analyzer/wireshark doc
 net-dns/dnsmasq
 net-firewall/iptables netlink
@@ -80,15 +56,6 @@ net-misc/networkmanager connection-sharing -bluetooth
 net-misc/openssh -bindist
 net-p2p/rtorrent daemon color
 net-wireless/hostapd netlink
-sys-apps/dbus doc
-sys-apps/portage doc
-sys-apps/systemd doc
-sys-auth/consolekit doc
-sys-boot/grub doc
-sys-devel/gcc doc
-sys-devel/gettext doc
-sys-devel/llvm clang doc
-sys-libs/db doc
 www-apps/lxr cvs mysql postgres vhosts
 www-plugins/adobe-flash sse2
 www-servers/apache doc
@@ -203,3 +170,32 @@ x11-wm/fvwm doc
 # required by @selected 
 # required by @world" (argument)
 >=dev-libs/libpcre-8.36 pcre16
+# required by media-video/mpv-0.7.3::gentoo[wayland]
+# required by mpv (argument)
+>=media-libs/mesa-10.4.4 wayland
+# required by net-fs/samba-4.1.17::gentoo
+# required by media-video/mplayer-1.2_pre20150214::gentoo[samba]
+# required by @selected
+# required by @world (argument)
+>=sys-libs/ntdb-1.0-r1 python
+# required by sys-libs/ldb-1.1.20::gentoo
+# required by net-fs/samba-4.1.17::gentoo
+# required by media-video/mplayer-1.2_pre20150214::gentoo[samba]
+# required by @selected
+# required by @world (argument)
+>=sys-libs/tevent-0.9.24 python
+# required by net-fs/samba-4.1.17::gentoo
+# required by media-video/mplayer-1.2_pre20150214::gentoo[samba]
+# required by @selected
+# required by @world (argument)
+>=app-crypt/heimdal-1.5.3-r2 -ssl
+# required by sys-libs/ldb-1.1.20::gentoo
+# required by net-fs/samba-4.1.17::gentoo
+# required by media-video/mplayer-1.2_pre20150214::gentoo[samba]
+# required by @selected
+# required by @world (argument)
+>=sys-libs/tdb-1.3.4 python
+# required by media-video/vlc-2.2.0::gentoo[samba]
+# required by @selected
+# required by @world (argument)
+>=net-fs/samba-4.1.17 client

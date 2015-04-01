@@ -1,0 +1,8 @@
+media-plugins/audacious-plugins cue lame sndfile wavpack jack
+media-sound/audacious chardet 
+########## sndfile---decoder for wav
+media-sound/deadbeef ape converter wavpack wma mms hotkeys tta alac m3u midi musepack sndfile adplug cover cover-imlib2 curl dumb gme lastfm mono2stereo notify pltbrowser psf rpath shn sid src supereq threads vtx zip
+media-sound/moc wavpack sndfile musepack jack
+media-sound/ncmpcpp clock outputs curl taglib visualizer
+media-sound/pulseaudio doc
+media-sound/mac mmx
