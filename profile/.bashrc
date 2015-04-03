@@ -1,4 +1,3 @@
-source /etc/profile.d/bash_completion.sh
 #alias grep='grep --color=auto'
 #alias ls='ls --color=auto'
 #eval $(dircolors -b)
