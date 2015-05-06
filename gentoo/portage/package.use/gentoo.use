@@ -20,8 +20,8 @@ dev-lang/python doc sqlite
 dev-lang/R doc
 dev-lang/ruby doc
 dev-libs/boost doc python tools
-dev-libs/botan -bindist
->=dev-libs/openssl-1.0.2-r1 -bindist
+dev-libs/botan bindist
+>=dev-libs/openssl-1.0.2-r1 bindist
 dev-libs/wayland doc
 dev-qt/qt-creator doc
 dev-qt/qthelp doc
@@ -53,7 +53,7 @@ net-fs/samba doc
 net-libs/libssh doc
 net-misc/iputils gnutls idn caps
 net-misc/networkmanager connection-sharing -bluetooth
-net-misc/openssh -bindist
+net-misc/openssh bindist
 net-p2p/rtorrent daemon color
 net-wireless/hostapd netlink
 www-apps/lxr cvs mysql postgres vhosts
@@ -107,7 +107,8 @@ x11-wm/fvwm doc
 >=dev-db/mariadb-5.5.37-r1 embedded
 # required by dev-lang/php-5.5.12
 # required by php (argument)
->=app-admin/eselect-php-0.7.1-r3 apache2
+# move app-admin/eselect-php app-eselect/eselect-php
+>=app-eselect/eselect-php-0.7.1-r3 apache2
 # required by net-wireless/aircrack-ng-1.2_beta3-r1[airdrop-ng]
 # required by aircrack-ng (argument)
 =net-wireless/lorcon-0.0_p20130212-r1 python

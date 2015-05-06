@@ -8,3 +8,17 @@ sys-devel/gcc doc
 sys-devel/gettext doc
 sys-devel/llvm clang doc gold multitarget python
 sys-libs/db doc
+# 
+>=media-libs/phonon-4.8.3 designer
+# required by app-i18n/kcm-fcitx-0.4.3::gentoo-zh
+# required by @selected
+# required by @world (argument)
+>=dev-qt/designer-4.8.6-r1:4 -phonon
+# required by dev-libs/libappindicator-12.10.0-r1::gentoo
+# required by net-misc/bcloud-3.6.1::gentoo-zh[indicator]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libdbusmenu-12.10.2-r1:0 gtk3
+# required by media-sound/split2flac-114::gentoo[mp4]
+# required by media-sound/split2flac (argument)
+>=media-libs/libmp4v2-2.0.0 utils
