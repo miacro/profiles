@@ -1,7 +1,9 @@
 games-action/chromium-bsu
 games-action/supertuxkart
+games-board/gnome-mines
 games-fps/nexuiz
-#games-sports/foobillard
+games-fps/xonotic
+games-misc/typespeed
 games-sports/torcs
 games-strategy/wesnoth
 games-util/steam-meta
