@@ -1,0 +1,11 @@
+{
+	"server":"::",
+	"server_port":8590,
+	"local_address":"127.0.0.1",
+	"local_port":5060,
+	"password":"freethink",
+	"timeout":300,
+	"method":"aes-256-cfb",
+	"fast_open":false,
+	"workers":5
+}

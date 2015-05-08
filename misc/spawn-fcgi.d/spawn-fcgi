@@ -1,0 +1,6 @@
+FCGI_APPLICATION=/usr/sbin/fcgiwrap
+IP_ADDR=192.168.0.81
+PORT=10801
+USER=gitweb
+GROUP=gitweb
+CHILD_COUNT=10
