@@ -1,5 +1,5 @@
-bind = 127.0.0.1
-ip = 127.0.0.1
+# bind = 127.0.0.1
+# ip = 127.0.0.1
 port_range = 51412-51450
 port_random = no
 check_hash = no
