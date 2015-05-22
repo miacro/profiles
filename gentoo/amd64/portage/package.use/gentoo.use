@@ -1,0 +1,69 @@
+app-admin/conky imlib
+app-admin/eselect doc
+app-arch/unzip bzip2 natspec
+app-doc/doxygen latex dot doc
+app-i18n/fcitx qt4
+app-misc/tmux vim-syntax
+app-office/dia doc
+app-office/libreoffice-l10n linguas_en_GB linguas_zh_TW
+app-portage/eix doc
+app-shells/tcsh doc 
+app-shells/zsh examples doc
+app-text/djvu doc
+app-text/dvipng t1lib
+app-text/texlive-core cjk tk xetex doc
+app-text/texlive doc cjk context detex dvi2tty dvipdfm epspdf extra games graphics humanities jadetex luatex metapost music omega pstricks publishers science tex4ht texi2html xetex xindy linguas_zh linguas_en linguas_en_GB
+app-text/xdvik Xaw3d emacs motif neXt
+dev-db/mariadb -xml
+dev-db/sqlite doc
+dev-lang/perl doc
+dev-lang/php -truetype -exif apache2
+dev-lang/python doc sqlite
+dev-lang/R doc
+dev-lang/ruby doc
+dev-libs/boost doc python tools
+dev-libs/botan bindist
+>=dev-libs/openssl-1.0.2-r1 bindist
+dev-libs/wayland doc
+dev-qt/qt-creator doc
+dev-qt/qthelp doc
+dev-util/boost-build python
+dev-util/cmake doc emacs internal-jsoncpp
+dev-util/codeblocks contrib pch
+dev-util/cscope emacs
+dev-util/global emacs doc vim 
+dev-vcs/bzr doc
+dev-vcs/git doc cgi cvs emacs gnome-keyring highlight xinetd tk
+dev-vcs/subversion doc perl -dso
+kde-base/kde-l10n linguas_en_GB linguas_ko linguas_ja linguas_zh_TW
+kde-base/kmix pulseaudio
+media-fonts/dejavu fontforge
+media-fonts/source-han-sans linguas_ja linguas_zh_TW linguas_ko 
+media-gfx/digikam doc
+media-gfx/fontforge cjk
+media-gfx/gimp doc
+media-gfx/graphviz doc 
+media-libs/freetype doc
+media-libs/imlib2 doc
+media-libs/mesa opencl gles gles1 gles2
+media-libs/opencv doc
+net-analyzer/wireshark doc
+net-dns/dnsmasq
+net-firewall/iptables netlink
+net-fs/samba doc acl client cups fam ldap addns ads aio avahi cluster dmapi gnutls quota winbind iprint
+net-libs/libssh doc
+net-misc/iputils gnutls idn caps
+net-misc/networkmanager connection-sharing -bluetooth
+net-misc/openssh bindist
+net-p2p/rtorrent daemon color xmlrpc
+net-wireless/hostapd netlink
+www-apps/lxr cvs postgres vhosts
+www-plugins/adobe-flash sse2
+www-servers/apache doc
+x11-base/xorg-server doc udev dmx kdrive tslib unwind wayland xnest xvfb
+x11-drivers/nvidia-drivers uvm
+x11-libs/libdrm video_cards_nouveau
+x11-terms/xterm Xaw3d toolbar
+x11-wm/awesome doc
+x11-wm/fvwm doc
+

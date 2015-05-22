@@ -1,0 +1,12 @@
+net-misc/curl
+net-misc/dhcp
+net-misc/dhcpcd
+net-misc/netctl
+net-misc/netkit-telnetd
+net-misc/networkmanager
+net-misc/ntp
+net-misc/ntpclient
+net-misc/openssh
+net-misc/openvpn
+net-misc/tigervnc
+net-misc/whois

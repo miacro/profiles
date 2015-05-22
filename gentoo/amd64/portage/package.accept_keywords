@@ -1,0 +1,4 @@
+sys-kernel/gentoo-sources -~amd64
+sys-devel/gcc -~amd64
+# required by =net-proxy/shadowsocks-libev-9999 (argument)
+=net-proxy/shadowsocks-libev-9999 **
