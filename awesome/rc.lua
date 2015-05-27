@@ -66,7 +66,7 @@ for s = 1, screen.count() do
   -- configuration - edit to your liking
   wp_index = 1
   wp_timeout  = 100
-  wp_path = "/home/aq/Pictures/dream/"
+  wp_path = "/home/fq/Pictures/png_wallpapers/"
   wp_filter = function(s) return string.match(s,"%.png$") or string.match(s,"%.jpg$") end
   wp_files = scandir(wp_path, wp_filter)
 
@@ -164,17 +164,23 @@ myawesomemenu = {
    { "edit config", editor_cmd .. " " .. awesome.conffile },
    { "restart", awesome.restart },
    { "quit", awesome.quit }
-}
+ }
 
-mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
-                                    { "open terminal", terminal }
-                                  }
-                        })
+ mymainmenu = awful.menu({ items = { 
+   { "awesome", myawesomemenu, beautiful.awesome_icon },
+   { "open terminal", terminal },
+   { "transmission-qt", "transmission-qt"},
+   { "deadbeef", "deadbeef"},
+   { "Battle.net", "wine /home/fq/games/Battle.net/Battle.net.exe"},
+   { "steam", "steam"}
+ }})
 
-mylauncher = awful.widget.launcher({ image = beautiful.awesome_icon,
-                                     menu = mymainmenu })
 
--- Menubar configuration
+ mylauncher = awful.widget.launcher({ 
+   image = beautiful.awesome_icon,
+   menu = mymainmenu })
+
+ -- Menubar configuration
 menubar.utils.terminal = terminal -- Set the terminal for applications that require it
 -- }}}
 
