@@ -15,6 +15,7 @@ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${LOCAL_LIB}:${EHR_LIB}:${ACE_LIB}
 
 export EDITOR="vim" 
 
-export PATH=$PATH:~/bin:~/bin/fq_scripts:~/bin/private:${LOCAL_ROOT}/bin/:/sbin:/usr/sbin:/usr/local/sbin
+UESR_PATH=~/bin:~/bin/private:~/bin/fq-scripts:~/bin/android-sdk-linux
+export PATH=$PATH:${USER_PATH}:${LOCAL_ROOT}/bin/:/sbin:/usr/sbin:/usr/local/sbin
 
 #source ~/.proxyrc
