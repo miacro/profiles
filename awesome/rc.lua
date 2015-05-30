@@ -169,7 +169,7 @@ myawesomemenu = {
  mymainmenu = awful.menu({ items = { 
    { "awesome", myawesomemenu, beautiful.awesome_icon },
    { "open terminal", terminal },
-   { "transmission-qt", "transmission-qt"},
+   { "transmission", "fq-transmission.sh"},
    { "deadbeef", "deadbeef"},
    { "Battle.net", "wine /home/fq/games/Battle.net/Battle.net.exe"},
    { "steam", "steam"}
