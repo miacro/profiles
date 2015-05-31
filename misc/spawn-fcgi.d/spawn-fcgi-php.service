@@ -1,0 +1,13 @@
+[Unit]
+Description=spawn-fcgi
+After=network.target
+
+[Service]
+Type=forking
+EnvironmentFile=/etc/spawn-fcgi.d/spawn-fcgi-php
+ExecStart=/usr/bin/spawn-fcgi -f ${FCGI_APPLICATION} -C ${CHILD_COUNT} -a ${IP_ADDR} -p ${PORT} -u ${USER} -g ${GROUP}
+ExecReload=/bin/kill -HUP $MAINPID
+ExecStop=/bin/kill -QUIT $MAINPID
+
+[Install]
+WantedBy=multi-user.target
