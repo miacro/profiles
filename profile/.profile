@@ -15,7 +15,7 @@ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${LOCAL_LIB}:${EHR_LIB}:${ACE_LIB}
 
 export EDITOR="vim" 
 
-UESR_PATH=~/bin:~/bin/private:~/bin/fq-scripts
+USER_PATH=~/bin:~/bin/private:~/bin/fq-scripts
 ANDROID_PATH=~/bin/android-sdk-linux/tools:~/bin/android-sdk-linux/platform-tools:~/bin/android-sdk-linux/build-tools
 ANDROID_PATH=${ANDROID_PATH}:~/bin/android-studio/bin:~/bin/android-ndk-r10e
 USER_PATH=${USER_PATH}:${ANDROID_PATH}:~/local/bin
