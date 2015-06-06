@@ -52,7 +52,7 @@ for s = 1, screen.count() do
       filter = function(s) return true end
     end
     print(filter)
-    for filename in popen('ls -a "'..directory..'"'):lines() do
+    for filename in popen('find "'..directory..'"'):lines() do
       if filter(filename) then
         i = i + 1
         t[i] = filename
@@ -66,7 +66,7 @@ for s = 1, screen.count() do
   -- configuration - edit to your liking
   wp_index = 1
   wp_timeout  = 100
-  wp_path = "/home/fq/Pictures/png_wallpapers/"
+  wp_path = "/home/fq/Pictures/"
   wp_filter = function(s) return string.match(s,"%.png$") or string.match(s,"%.jpg$") end
   wp_files = scandir(wp_path, wp_filter)
 
@@ -76,7 +76,8 @@ for s = 1, screen.count() do
 
     -- set wallpaper to current index for all screens
     for s = 1, screen.count() do
-      gears.wallpaper.maximized(wp_path .. wp_files[wp_index], s, true)
+      --  gears.wallpaper.maximized(wp_path .. wp_files[wp_index], s, true)
+      gears.wallpaper.maximized(wp_files[wp_index], s, true)
     end
 
     -- stop the timer (we don't need multiple instances running at the same time)
@@ -170,6 +171,8 @@ myawesomemenu = {
    { "awesome", myawesomemenu, beautiful.awesome_icon },
    { "open terminal", terminal },
    { "deadbeef", "deadbeef"},
+   { "dolphin", "dolphin"},
+   { "gwenview", "gwenview"},
    { "Battle.net", "wine /home/fq/games/Battle.net/Battle.net.exe"},
    { "steam", "steam"}
  }})
