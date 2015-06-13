@@ -4,8 +4,8 @@ After=network.target
 
 [Service]
 Type=forking
-EnvironmentFile=/etc/spawn-fcgi.d/spawn-fcgi-php
-ExecStart=/usr/bin/spawn-fcgi -f ${FCGI_APPLICATION} -C ${CHILD_COUNT} -a ${IP_ADDR} -p ${PORT} -u ${USER} -g ${GROUP}
+EnvironmentFile=/etc/spawn-fcgi.d/%i
+ExecStart=/usr/bin/spawn-fcgi $SPAWN_FCGI_ARGS
 ExecReload=/bin/kill -HUP $MAINPID
 ExecStop=/bin/kill -QUIT $MAINPID
 

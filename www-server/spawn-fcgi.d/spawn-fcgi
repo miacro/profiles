@@ -1,6 +1,5 @@
-FCGI_APPLICATION=/usr/sbin/fcgiwrap
-IP_ADDR=192.168.1.248
-PORT=10802
-USER=nginx
-GROUP=nginx
-CHILD_COUNT=5
+SPAWN_FCGI_ARGS="-f /usr/sbin/fcgiwrap \
+				 -s /run/fastcgi/php-cgi.socket \
+				 -u nginx \
+				 -g nginx \
+				 -F 5"
