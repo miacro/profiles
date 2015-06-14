@@ -1,6 +1,6 @@
-# scgi_port = 127.0.0.1:5000
+scgi_port = 127.0.0.1:5000
 # scgi_port = localhost:5000
-scgi_port = :5000
+# scgi_port = 192.168.1.248:5000
 
 # bind = 127.0.0.1
 # ip = 127.0.0.1

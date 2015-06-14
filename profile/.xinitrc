@@ -14,20 +14,9 @@ fi
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources 
 eval "$(dbus-launch --sh-syntax --exit-with-session)"
 
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS="@im=fcitx"
-#fcitx
-#export GTK_IM_MODULE=ibus
-#export XMODIFIERS=@im=ibus
-#export QT_IM_MODULE=ibus
-#ibus-daemon -d -x
-#export LANG=zh_CN.UTF-8
-#LANG="en_US.UTF-8"
 
-fcitx &
-kmix &
-sogou-qimpanel &
+source ~/.init-scipts.sh
+
 # exec ck-launch-session dbus-launch --sh-syntax --exit-with-session awesome
 exec awesome
 # exec enlightenment_start
