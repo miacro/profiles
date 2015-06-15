@@ -1,5 +1,5 @@
 SPAWN_FCGI_ARGS="-f /usr/sbin/fcgiwrap \
-				 -s /run/fastcgi/php-cgi.socket \
+				 -s /run/fastcgi/fcgiwrap.socket \
 				 -u nginx \
 				 -g nginx \
 				 -F 5"
