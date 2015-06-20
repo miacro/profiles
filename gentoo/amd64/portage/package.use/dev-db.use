@@ -1,0 +1,3 @@
+virtual/mysql embedded
+dev-db/mariadb embedded
+dev-db/mysql embedded

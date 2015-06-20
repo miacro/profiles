@@ -12,17 +12,6 @@ sys-libs/db doc
 # required by net-print/cups-2.0.2-r1::gentoo
 # required by net-print/cups-filters-1.0.66::gentoo
 >=app-text/ghostscript-gpl-9.15-r1 cups
-# required by app-text/texlive-core-2014-r4::gentoo[xetex]
-# required by dev-texlive/texlive-fontsextra-2014::gentoo
-# required by app-text/texlive-2014::gentoo[extra]
-# required by app-doc/doxygen-1.8.9.1::gentoo[latex]
-# required by sys-apps/dbus-1.8.16::gentoo[doc]
-# required by gnome-base/gnome-keyring-3.14.0::gentoo
-# required by gnome-base/libgnome-keyring-3.12.0::gentoo
-# required by dev-vcs/git-2.4.0::gentoo[gnome-keyring]
-# required by sys-devel/gettext-0.19.4::gentoo[git]
-# required by app-crypt/gcr-3.14.0::gentoo
->=media-libs/harfbuzz-0.9.40 icu
 # required by media-libs/fontconfig-2.11.93::gentoo[doc]
 # required by net-print/cups-filters-1.0.66::gentoo
 # required by net-print/cups-2.0.2-r1::gentoo
@@ -64,12 +53,6 @@ sys-libs/db doc
 # required by @selected
 # required by @world (argument)
 >=x11-libs/libxcb-1.11-r1 xkb
-# required by kde-base/kopete-4.14.3-r1::gentoo
-# required by kde-base/kdenetwork-meta-4.14.3::gentoo
-# required by kde-base/kde-meta-4.14.3::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-qt/qtgui-4.8.6-r4:4 mng
 # required by media-video/vlc-2.2.1::gentoo
 # required by media-libs/phonon-vlc-0.8.2::gentoo
 # required by media-libs/phonon-4.8.3::gentoo[vlc]
@@ -109,6 +92,9 @@ sys-libs/db doc
 # required by net-analyzer/metasploit-4.9.3::gentoo[ruby_targets_ruby19]
 # required by @net-analyzer (argument)
 >=dev-ruby/activerecord-4.2.1 postgres
-# required by dev-qt/qtwebkit-5.4.1::gentoo
-# required by qtwebkit (argument)
->=dev-qt/qtcore-5.4.1 icu
+# required by games-strategy/wesnoth-1.12.2::gentoo[-dedicated]
+# required by @games (argument)
+>=media-libs/sdl-mixer-1.2.12-r4 vorbis
+# required by gnome-base/gnome-keyring-3.16.0-r1::gentoo
+# required by app-crypt/libsecret-0.18.2::gentoo
+>=app-crypt/pinentry-0.9.4-r1 gnome-keyring

@@ -1,0 +1,5 @@
+*/*::funtoo-deadbeef
+*/*::gentoo-zh
+*/*::games-overlay
+*/*::steam-overlay
+

@@ -17,16 +17,14 @@ app-text/xdvik Xaw3d emacs motif neXt
 dev-db/mariadb -xml
 dev-db/sqlite doc
 dev-lang/perl doc
-dev-lang/php -truetype -exif apache2
+dev-lang/php -truetype -exif apache2 gd cgi fpm xmlrpc
 dev-lang/python doc sqlite
 dev-lang/R doc
 dev-lang/ruby doc
-dev-libs/boost doc python tools
-dev-libs/botan bindist
->=dev-libs/openssl-1.0.2-r1 bindist
+dev-libs/boost doc python tools context
 dev-libs/wayland doc
-dev-qt/qt-creator doc
-dev-qt/qthelp doc
+dev-libs/xmlrpc-c tools
+dev-lisp/sbcl source doc
 dev-util/boost-build python
 dev-util/cmake doc emacs internal-jsoncpp
 dev-util/codeblocks contrib pch
@@ -35,8 +33,7 @@ dev-util/global emacs doc vim
 dev-vcs/bzr doc
 dev-vcs/git doc cgi cvs emacs gnome-keyring highlight xinetd tk
 dev-vcs/subversion doc perl -dso
-kde-base/kde-l10n linguas_en_GB linguas_ko linguas_ja linguas_zh_TW
-kde-base/kmix pulseaudio
+kde-apps/kde-l10n linguas_en_GB linguas_ko linguas_ja linguas_zh_TW
 media-fonts/dejavu fontforge
 media-fonts/source-han-sans linguas_ja linguas_zh_TW linguas_ko 
 media-gfx/digikam doc
@@ -54,10 +51,10 @@ net-fs/samba doc acl client cups fam ldap addns ads aio avahi cluster dmapi gnut
 net-libs/libssh doc
 net-misc/iputils gnutls idn caps
 net-misc/networkmanager connection-sharing -bluetooth
-net-misc/openssh bindist
 net-p2p/rtorrent daemon color xmlrpc
 net-wireless/hostapd netlink
 www-apps/lxr cvs postgres vhosts
+www-apps/rutorrent vhosts
 www-plugins/adobe-flash sse2
 www-servers/apache doc
 x11-base/xorg-server doc udev dmx kdrive tslib unwind wayland xnest xvfb

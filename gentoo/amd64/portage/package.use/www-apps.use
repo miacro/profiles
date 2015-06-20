@@ -1,0 +1,6 @@
+dev-libs/fcgi html
+app-eselect/eselect-php fpm
+www-servers/nginx vim-syntax
+# required by games-strategy/wesnoth-1.12.2::gentoo[-dedicated]
+# required by @games (argument)
+>=media-libs/sdl-mixer-1.2.12-r4 vorbis
