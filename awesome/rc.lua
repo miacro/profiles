@@ -38,7 +38,7 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init("~/.config/awesome/themes/sky/theme.lua")
+beautiful.init("~/.config/awesome/theme.lua")
 for s = 1, screen.count() do
     gears.wallpaper.maximized(beautiful.wallpaper, s, true)
   end
