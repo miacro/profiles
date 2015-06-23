@@ -29,6 +29,8 @@ wp_path = "/home/fq/Pictures/"
 wp_filter = function(s) return string.match(s,"%.png$") or string.match(s,"%.jpg$") end
 wp_files = scandir(wp_path, wp_filter)
 
+wp_index = math.random( 1, #wp_files)
+gears.wallpaper.maximized(wp_files[wp_index], s, true)
 -- setup the timer
 wp_timer = timer { timeout = wp_timeout }
 wp_timer:connect_signal("timeout", function()
