@@ -6,5 +6,5 @@ globalkeys = awful.util.table.join(
 globalkeys,
 awful.key({ }, "Print", 
 function () 
-  awful.util.spawn("scrot -e 'mv $f ~/Pictures/screenshots/ 2>/dev/null'")
+  awful.util.spawn("scrot -e 'mv $f ~/screenshots/ 2>/dev/null'")
 end))
