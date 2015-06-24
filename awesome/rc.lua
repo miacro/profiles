@@ -70,13 +70,7 @@ local layouts =
 }
 -- }}}
 
--- {{{ Wallpaper
--- if beautiful.wallpaper then
---     for s = 1, screen.count() do
---         gears.wallpaper.maximized(beautiful.wallpaper, s, true)
---     end
--- end
--- }}}
+require("fq_wallpaper")
 
 -- {{{ Tags
 -- Define a tag table which hold all screen tags.
@@ -87,31 +81,8 @@ for s = 1, screen.count() do
 end
 -- }}}
 
+require("fq_menu")
 
--- {{{ Menu
--- Create a laucher widget and a main menu
-myawesomemenu = {
-  { "manual", terminal .. " -e man awesome" },
-  { "edit config", editor_cmd .. " " .. awesome.conffile },
-  { "restart", awesome.restart },
-  { "quit", awesome.quit }
-}
-
-mymainmenu = awful.menu({ items = { 
-  { "awesome", myawesomemenu, beautiful.awesome_icon },
-  { "open terminal", terminal },
-  { "deadbeef", "deadbeef"},
-  { "dolphin", "dolphin"},
-  { "gwenview", "gwenview"},
-  { "Battle.net", "wine /home/fq/games/Battle.net/Battle.net.exe"},
-  { "steam", "steam"}
-}})
-
-
-mylauncher = awful.widget.launcher({ 
-  image = beautiful.awesome_icon,
-  menu = mymainmenu 
-})
 
 -- Menubar configuration
 menubar.utils.terminal = terminal -- Set the terminal for applications that require it
@@ -220,6 +191,7 @@ awful.button({ }, 4, awful.tag.viewnext),
 awful.button({ }, 5, awful.tag.viewprev)
 ))
 -- }}}
+--
 
 -- {{{ Key bindings
 globalkeys = awful.util.table.join(
@@ -348,6 +320,8 @@ for i = 1, 9 do
   end))
 end
 
+require("fq_globalkeys")
+
 clientbuttons = awful.util.table.join(
 awful.button({ }, 1, function (c) client.focus = c; c:raise() end),
 awful.button({ modkey }, 1, awful.mouse.client.move),
@@ -453,4 +427,3 @@ client.connect_signal("focus", function(c) c.border_color = beautiful.border_foc
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
 
-require("random_wallpaper")
