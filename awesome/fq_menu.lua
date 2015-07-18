@@ -20,9 +20,9 @@ fq_gamesmenu = {
 mymainmenu = awful.menu({ items = { 
   { "awesome", fq_awesomemenu, beautiful.awesome_icon },
   { "games", fq_gamesmenu },
-  { "chromium", "chromium"},
-  { "firefox", "firefox"},
+--  { "chromium", "chromium"},
   { "chrome", "google-chrome-stable"},
+  { "firefox", "firefox"},
   { "open terminal", terminal },
   { "deadbeef", "deadbeef"},
   { "dolphin", "dolphin"},
