@@ -6,7 +6,7 @@ export LOCAL_LIB=~/local/lib
 export LOCAL_INC=~/local/include
 
 #EHR_SRC=~/cqthink/ehr_svc_v3/src
-EHR_LIB=~/cqthink/dependencies/linux/lib
+EHR_LIB=~/cqthink/dependencies/lib/linux
 
 export C_INCLUDE_PATH=${C_INCLUDE_PATH}:${LOCAL_INC}:${EHR_SRC}
 export CPLUS_INCLUDE_PATH=${C_INCLUDE_PATH}:${LOCAL_INC}:${EHR_SRC}
