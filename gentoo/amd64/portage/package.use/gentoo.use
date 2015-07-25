@@ -15,7 +15,7 @@ app-text/texlive-core cjk tk xetex doc
 app-text/texlive doc cjk context detex dvi2tty dvipdfm epspdf extra games graphics humanities jadetex luatex metapost music omega pstricks publishers science tex4ht texi2html xetex xindy linguas_zh linguas_en linguas_en_GB
 app-text/xdvik Xaw3d emacs motif neXt
 dev-db/mariadb -xml
-dev-db/sqlite doc
+dev-db/sqlite doc secure-delete
 dev-lang/perl doc
 dev-lang/php -truetype -exif apache2 gd cgi fpm xmlrpc
 dev-lang/python doc sqlite
@@ -53,14 +53,15 @@ net-misc/iputils gnutls idn caps
 net-misc/networkmanager connection-sharing -bluetooth
 net-p2p/rtorrent daemon color xmlrpc
 net-wireless/hostapd netlink
+sys-libs/ncurses tinfo
 www-apps/lxr cvs postgres vhosts
 www-apps/rutorrent vhosts
 www-plugins/adobe-flash sse2
 www-servers/apache doc
 x11-base/xorg-server doc udev dmx kdrive tslib unwind wayland xnest xvfb
 x11-drivers/nvidia-drivers uvm
+x11-libs/gtk+ cups
 x11-libs/libdrm video_cards_nouveau
 x11-terms/xterm Xaw3d toolbar
 x11-wm/awesome doc
 x11-wm/fvwm doc
-

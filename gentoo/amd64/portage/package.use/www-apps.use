@@ -4,3 +4,6 @@ www-servers/nginx vim-syntax
 # required by games-strategy/wesnoth-1.12.2::gentoo[-dedicated]
 # required by @games (argument)
 >=media-libs/sdl-mixer-1.2.12-r4 vorbis
+# required by app-emulation/virt-manager-1.2.0::gentoo[gtk]
+# required by app-emulation/virt-manager (argument)
+>=net-misc/spice-gtk-0.28 usbredir

@@ -1,0 +1,2 @@
+www-client/firefox egl gmp-autoupdate gstreamer jemalloc3 jit pulseaudio minimal startup-notification system-cairo  system-icu system-jpeg system-libvpx system-sqlite
+www-client/chromium cups gnome gnome-keyring hidpi hotwording kerberos proprietary-codecs pulseaudio tcmalloc

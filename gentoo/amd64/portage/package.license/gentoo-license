@@ -2,3 +2,9 @@ dev-java/oracle-jdk-bin Oracle-BCLA-JavaSE
 media-libs/fdk-aac FraunhoferFDK
 www-client/google-chrome google-chrome
 www-plugins/adobe-flash AdobeFlash-11.x
+dev-util/adobe-air-runtime AdobeAIRSDK
+# required by www-plugins/chrome-binary-plugins (argument)
+>=www-plugins/chrome-binary-plugins-44.0.2403.61_beta1:beta google-chrome
+# required by dev-util/nvidia-cuda-sdk-7.0.28::gentoo
+# required by nvidia-cuda-sdk (argument)
+>=dev-util/nvidia-cuda-toolkit-7.0.28 NVIDIA-CUDA

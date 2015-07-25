@@ -1,0 +1,2 @@
+dev-util/nvidia-cuda-sdk cuda doc opencl examples
+dev-util/nvidia-cuda-toolkit debugger profiler doc
