@@ -4,10 +4,10 @@ exec tail -n +3 $0
 # menu entries you want to add after this comment.  Be careful not to change
 # the 'exec tail' line above.
 
-menuentry "Windows 8" {
-	insmod ntfs
-	insmod fat
-	set root='hd1,gpt1'
-	search --no-floppy --fs-uuid --set=root A237-3DDD
-	chainloader /EFI/Boot/bootx64.efi
-}
+# menuentry "Windows 8" {
+# 	insmod ntfs
+# 	insmod fat
+# 	set root='hd1,gpt2'
+# 	search --no-floppy --fs-uuid --set=root 1019-A899
+# 	chainloader /EFI/Boot/bootx64.efi
+# }
