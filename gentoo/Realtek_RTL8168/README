@@ -1,0 +1,2 @@
+1. don't set CONFIG_R8169 in kernel config
+2. install net-misc/r8168
