@@ -2,4 +2,5 @@
 */*::gentoo-zh
 */*::games-overlay
 */*::steam-overlay
+*/*::torbrowser
 

@@ -2,3 +2,4 @@ app-i18n/sogoupinyin::gentoo-zh
 app-office/wps-office::gentoo-zh
 net-proxy/shadowsocks-libev::gentoo-zh
 net-proxy/shadowsocks::gentoo-zh
+net-misc/bcloud::gentoo-zh

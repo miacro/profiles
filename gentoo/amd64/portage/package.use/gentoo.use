@@ -1,7 +1,7 @@
 app-admin/conky imlib
 app-admin/eselect doc
 app-arch/unzip bzip2 natspec
-app-doc/doxygen latex dot doc
+app-doc/doxygen dot doc clang doxysearch
 app-i18n/fcitx qt4
 app-misc/tmux vim-syntax
 app-office/dia doc
