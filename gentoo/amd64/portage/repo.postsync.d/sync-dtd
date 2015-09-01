@@ -1,0 +1,17 @@
+#!/bin/bash
+
+source /lib/gentoo/functions.sh
+
+repository_name="${1}"
+repository_path="${3}"
+
+if [[ ${repository_name} == "gentoo" ]]; then
+  DTDDIR="${repository_path}"/metadata/dtd
+  ebegin "updating dtas for ${repository_name}"
+  if [[ -e ${DTDDIR} ]]; then
+    git -C "${DTDDIR}" pull -q --ff
+  else
+    git clone -q https://anongit.gentoo.org/git/data/dtd.git "${DTDDIR}"
+  fi
+  eend "$?"
+fi

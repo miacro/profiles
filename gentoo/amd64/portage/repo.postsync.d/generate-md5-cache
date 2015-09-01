@@ -1,0 +1,22 @@
+#!/bin/sh
+source /lib/gentoo/functions.sh
+repository_name=${1}
+sync_uri=${2}
+repository_path=${3}
+ret=0
+
+if [ -n "${repository_name}" ]; then
+  if [ "${repository_name}" == "gentoo" ]; then
+    ebegin "updating md5-cache for ${repository_name}"
+    if ! egencache --update --write-timestamp --update-pkg-desc-index --repo="${repository_name}" --jobs=4
+      # emerge --metadata
+    then
+      echo "!!! egencache failed!"
+      ret=1
+    fi
+    eend "$?"
+  fi
+fi
+
+# Return explicit status.
+exit "${ret}"
