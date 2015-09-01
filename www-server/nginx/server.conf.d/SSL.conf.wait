@@ -1,6 +1,6 @@
 SSL example
 server {
-	listen 127.0.0.1:443;
+	listen 443;
 	server_name localhost;
 
 	ssl on;

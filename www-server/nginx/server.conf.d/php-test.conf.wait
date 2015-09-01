@@ -1,5 +1,5 @@
 server {
-	listen 127.0.0.1:10900;
+	listen 10900;
 	server_name localhost;
 	root /var/www/nginx/test/;
 	location / {

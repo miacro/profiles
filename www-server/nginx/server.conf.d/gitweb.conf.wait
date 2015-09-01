@@ -1,7 +1,7 @@
 index index.html;
 
 server {
-	listen 192.168.0.81:10800;
+	listen 10800;
 	server_name gitweb.cqthink.com;
 
 	location / {
