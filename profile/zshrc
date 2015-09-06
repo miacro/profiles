@@ -1,0 +1,15 @@
+COMMON_HOME=/home/share
+
+[ -f ${COMMON_HOME}/oh-my-zsh-rc ] && source /home/share/oh-my-zsh-rc
+fpath=(${COMMON_HOME}/zsh-completions/src $fpath)
+fpath=(${COMMON_HOME}/gentoo-zsh-completions/src $fpath)
+[ -f /etc/profile.d/autojump.sh ] && source /etc/profile.d/autojump.sh
+
+autoload -U compinit promptinit
+compinit
+promptinit
+# This will set the default prompt to the walters theme
+setopt completealiases
+
+# 
+source ${COMMON_HOME}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

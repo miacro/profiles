@@ -1,11 +1,3 @@
-autoload -U compinit promptinit
-compinit
-promptinit
-
-# This will set the default prompt to the walters theme
-prompt walters
-
-[[ -f /home/share/.oh-my-zsh-rc ]] && source /home/share/.oh-my-zsh-rc
-[[ -f /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
+[ -f /home/share/zshrc ] && source /home/share/zshrc
+[ -f ~/.aliasrc ] && source ~/.aliasrc
 GREP_OPTIONS=""
-source ~/.aliasrc
