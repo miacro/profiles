@@ -73,7 +73,7 @@ filetype plugin indent on    " required
 
 "encoding,fileencodings,fileencoding -- enc,fencs,fenc
 set encoding=utf-8
-set fencs=utf-8,gb18030,gbk,gb2312,chinese,shift-jis,ucs-bom,cp936,big5,cp936,euc-jp,euc-kr,latin1
+set fencs=utf-8,ucs-bom,shift-jis,gb18030,gb2312,gbk,cp936,big5,cp936,euc-jp,euc-kr,latin1
 "set fenc=utf-8
 "newline format
 set ffs=unix,dos,mac
