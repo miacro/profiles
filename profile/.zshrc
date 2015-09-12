@@ -1,4 +1,7 @@
 COMMON_HOME=~/.zsh-repository
+[[ ! -d ${COMMON_HOME}/antigen ]] && git clone git://github.com/zsh-users/antigen.git ${COMMON_HOME}/antigen
+
+
 [ -f /etc/profile.d/autojump.sh ] && source /etc/profile.d/autojump.sh
 #fpath=(${COMMON_HOME}/gentoo-zsh-completions/src $fpath)
 
@@ -33,5 +36,5 @@ antigen apply
 
 autoload -U compinit promptinit && compinit && promptinit
 setopt completealiases
-[ -f ~/.aliasrc ] && source ~/.aliasrc
+[[ -f ~/.aliasrc ]] && source ~/.aliasrc
 GREP_OPTIONS=""
