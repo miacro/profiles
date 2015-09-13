@@ -88,10 +88,6 @@ sys-apps/util-linux caps fdformat slang tty-helpers
 # required by @selected
 # required by @world (argument)
 >=net-dns/bind-tools-9.10.2 gssapi
-# required by dev-ruby/metasploit_data_models-0.17.0::gentoo[ruby_targets_ruby19]
-# required by net-analyzer/metasploit-4.9.3::gentoo[ruby_targets_ruby19]
-# required by @net-analyzer (argument)
->=dev-ruby/activerecord-4.2.1 postgres
 # required by games-strategy/wesnoth-1.12.2::gentoo[-dedicated]
 # required by @games (argument)
 >=media-libs/sdl-mixer-1.2.12-r4 vorbis

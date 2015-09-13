@@ -1,2 +1,3 @@
 media-plugins/deadbeef-plugins-meta::funtoo-deadbeef
-media-sound/deadbeef::funtoo-deadbeef
+=media-sound/deadbeef-0.6.2::funtoo-deadbeef
+#media-sound/deadbeef::funtoo-deadbeef

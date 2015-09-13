@@ -9,3 +9,5 @@ media-sound/mac mmx
 media-plugins/alsa-plugins jack
 media-libs/alsa-lib python
 media-sound/amarok cdda lastfm mtp ofa
+media-sound/split2flac enca flake imagemagick mac mp3 mp4 ogg replaygain wavpack
+media-libs/libmp4v2 utils

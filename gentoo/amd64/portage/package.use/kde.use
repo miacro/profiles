@@ -1,0 +1,3 @@
+kde-apps/kde-l10n linguas_en_GB linguas_ko linguas_ja linguas_zh_TW
+kde-plasma/plasma-desktop legacy-systray 
+x11-misc/sddm -upower

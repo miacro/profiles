@@ -3,7 +3,7 @@ games-action/supertuxkart
 games-board/gnome-mines
 games-fps/nexuiz
 games-fps/xonotic
-games-misc/typespeed
+#games-misc/typespeed
 games-sports/torcs
 games-strategy/wesnoth
 games-util/steam-meta
