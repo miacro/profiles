@@ -1,9 +1,8 @@
 server {
-  listen 10009;
+  listen 0.0.0.0:8088;
   server_name localhost;
 
   location / {
-    root /var/www/boost_1_59_0;
+    root /var/www/documents;
   }
 }
-

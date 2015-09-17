@@ -1,9 +1,0 @@
-server {
-	listen 8088;
-	server_name localhost;
-
-	location / {
-		root /var/www/ehr_document;
-	}
-}
-
