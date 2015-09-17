@@ -25,6 +25,7 @@ antigen bundle command-not-found
 antigen bundle git://github.com/radhermit/gentoo-zsh-completions.git src
 antigen bundle git://github.com/zsh-users/zsh-completions.git src
 antigen bundle git://github.com/zsh-users/zsh-syntax-highlighting
+antigen bundle git://github.com/voronkovich/gitignore.plugin.zsh.git
 
 # Load the theme.
 antigen theme clean
