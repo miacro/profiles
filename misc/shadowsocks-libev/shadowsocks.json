@@ -1,5 +1,5 @@
 {
-	"server":"0.0.0.0",
+    "server":["[::0]","0.0.0.0"],
 	"server_port":8590,
 	"local_address":"127.0.0.1",
 	"local_port":5060,
@@ -7,5 +7,5 @@
 	"timeout":300,
 	"method":"aes-256-cfb",
 	"fast_open":false,
-	"workers":1
+	"workers":5
 }
