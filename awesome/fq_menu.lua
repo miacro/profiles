@@ -14,7 +14,8 @@ fq_awesomemenu = {
 
 fq_gamesmenu = {
   { "Battle.net", "wine /home/fq/games/Battle.net/Battle.net.exe"},
-  { "steam", "steam"}
+  { "steam", "steam"},
+  { "minecraft", "java -jar /home/fq/.minecraft/launcher.jar"}
 }
 
 mymainmenu = awful.menu({ items = { 
@@ -25,6 +26,7 @@ mymainmenu = awful.menu({ items = {
   { "firefox", "firefox"},
   { "open terminal", terminal },
   { "deadbeef", "deadbeef"},
+  { "audacious", "audacious"},
   { "dolphin", "dolphin"},
   { "gwenview", "gwenview"},
 }})
