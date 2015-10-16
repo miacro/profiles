@@ -27,6 +27,7 @@ mymainmenu = awful.menu({ items = {
   { "open terminal", terminal },
   { "deadbeef", "deadbeef"},
   { "audacious", "audacious"},
+  { "pcmanfm", "pcmanfm"},
   { "dolphin", "dolphin"},
   { "gwenview", "gwenview"},
 }})
