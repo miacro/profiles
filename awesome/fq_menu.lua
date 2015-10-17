@@ -18,15 +18,20 @@ fq_gamesmenu = {
   { "minecraft", "java -jar /home/fq/.minecraft/launcher.jar"}
 }
 
+fq_audiomenu = {
+  { "deadbeef", "deadbeef"},
+  { "audacious", "audacious"},
+  { "kmix", "kmix"}
+}
+
 mymainmenu = awful.menu({ items = { 
   { "awesome", fq_awesomemenu, beautiful.awesome_icon },
   { "games", fq_gamesmenu },
+  { "audio", fq_audiomenu },
 --  { "chromium", "chromium"},
   { "chrome", "google-chrome-stable"},
   { "firefox", "firefox"},
   { "open terminal", terminal },
-  { "deadbeef", "deadbeef"},
-  { "audacious", "audacious"},
   { "pcmanfm", "pcmanfm"},
   { "dolphin", "dolphin"},
   { "gwenview", "gwenview"},
