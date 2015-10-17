@@ -3,3 +3,5 @@ app-editors/vim python cscope lua perl ruby tcl vim-pager -python_targets_python
 app-emacs/auctex preview-latex
 app-emacs/emacs-common-gentoo games
 app-emacs/org-mode doc contrib odt-schema
+
+app-text/poppler qt5

@@ -1,0 +1,39 @@
+virtual/mysql embedded
+dev-db/mariadb embedded client-libs
+dev-db/mysql embedded
+
+dev-qt/qt-creator doc
+dev-qt/qthelp doc
+dev-qt/qtgui mng
+dev-qt/qtmultimedia widgets
+dev-qt/qtwebkit printsupport
+
+dev-ruby/activerecord postgres
+
+dev-db/mariadb -xml
+dev-db/sqlite doc secure-delete
+dev-lang/perl doc
+dev-lang/php -truetype -exif apache2 gd cgi fpm xmlrpc
+dev-lang/python doc sqlite
+dev-lang/R doc
+dev-lang/ruby doc
+dev-libs/boost doc python tools context
+dev-libs/wayland doc
+dev-libs/xmlrpc-c tools
+dev-lisp/sbcl 
+dev-util/boost-build python
+dev-util/cmake doc emacs internal-jsoncpp
+dev-util/codeblocks contrib pch
+dev-util/cscope emacs
+dev-util/global emacs doc vim 
+dev-vcs/bzr doc
+dev-vcs/git doc cgi cvs emacs gnome-keyring highlight xinetd tk
+dev-vcs/subversion doc perl -dso
+
+dev-util/nvidia-cuda-sdk cuda doc opencl examples
+dev-util/nvidia-cuda-toolkit debugger profiler doc
+dev-libs/fcgi html
+
+# required by app-text/calibre-2.35.0::gentoo
+# required by app-text/calibre (argument)
+>=dev-python/PyQt5-5.5 widgets printsupport webkit network gui

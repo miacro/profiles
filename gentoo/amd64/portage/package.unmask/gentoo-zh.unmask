@@ -3,3 +3,6 @@ app-office/wps-office::gentoo-zh
 net-proxy/shadowsocks-libev::gentoo-zh
 net-proxy/shadowsocks::gentoo-zh
 net-misc/bcloud::gentoo-zh
+app-i18n/fcitx-googlepinyin::gentoo-zh
+app-i18n/libgooglepinyin::gentoo-zh
+app-i18n/fcitx-sogoupinyin::gentoo-zh

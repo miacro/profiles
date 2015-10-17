@@ -1,4 +1,3 @@
-dev-libs/fcgi html
 app-eselect/eselect-php fpm
 www-servers/nginx vim-syntax
 # required by games-strategy/wesnoth-1.12.2::gentoo[-dedicated]

@@ -2,7 +2,6 @@ app-admin/conky imlib
 app-admin/eselect doc
 app-arch/unzip bzip2 natspec
 app-doc/doxygen dot doc clang doxysearch latex
-app-i18n/fcitx qt4
 app-misc/tmux vim-syntax
 app-office/dia doc
 app-office/libreoffice-l10n linguas_en_GB linguas_zh_TW
@@ -14,25 +13,6 @@ app-text/dvipng t1lib
 app-text/texlive-core cjk tk xetex doc
 app-text/texlive doc cjk context detex dvi2tty dvipdfm epspdf extra games graphics humanities jadetex luatex metapost music omega pstricks publishers science tex4ht texi2html xetex xindy linguas_zh linguas_en linguas_en_GB
 app-text/xdvik Xaw3d emacs motif neXt
-dev-db/mariadb -xml
-dev-db/sqlite doc secure-delete
-dev-lang/perl doc
-dev-lang/php -truetype -exif apache2 gd cgi fpm xmlrpc
-dev-lang/python doc sqlite
-dev-lang/R doc
-dev-lang/ruby doc
-dev-libs/boost doc python tools context
-dev-libs/wayland doc
-dev-libs/xmlrpc-c tools
-dev-lisp/sbcl 
-dev-util/boost-build python
-dev-util/cmake doc emacs internal-jsoncpp
-dev-util/codeblocks contrib pch
-dev-util/cscope emacs
-dev-util/global emacs doc vim 
-dev-vcs/bzr doc
-dev-vcs/git doc cgi cvs emacs gnome-keyring highlight xinetd tk
-dev-vcs/subversion doc perl -dso
 media-fonts/dejavu fontforge
 media-fonts/source-han-sans linguas_ja linguas_zh_TW linguas_ko 
 media-gfx/digikam doc
@@ -46,7 +26,7 @@ media-libs/opencv doc
 net-analyzer/wireshark doc
 net-dns/dnsmasq
 net-firewall/iptables netlink
-net-fs/samba doc acl client cups fam ldap addns ads aio avahi cluster dmapi gnutls quota winbind iprint
+net-fs/samba system-mitkrb5 client addc addns ads aio avahi cups fam gnutls ldap quota winbind 
 net-libs/libssh doc
 net-misc/iputils gnutls idn caps
 net-misc/networkmanager connection-sharing -bluetooth

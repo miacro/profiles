@@ -1,3 +1,6 @@
-kde-apps/kde-l10n linguas_en_GB linguas_ko linguas_ja linguas_zh_TW
 kde-plasma/plasma-desktop legacy-systray 
 x11-misc/sddm -upower
+kde-apps/kdesu -handbook
+kde-plasma/kinfocenter -gles
+dev-libs/libdbusmenu-qt qt4 qt5
+kde-apps/gwenview -semantic-desktop
