@@ -35,6 +35,7 @@ mymainmenu = awful.menu({ items = {
   { "pcmanfm", "pcmanfm"},
   { "dolphin", "dolphin"},
   { "gwenview", "gwenview"},
+  { "volume", "kmix"},
 }})
 
 
