@@ -13,6 +13,7 @@ Plugin 'git://github.com/gmarik/Vundle.vim'
 " Plugin 'git://github.com/jiangmiao/auto-pairs.git'
 Plugin 'git://github.com/mbbill/undotree.git'
 Plugin 'git://github.com/msanders/snipmate.vim.git'
+Plugin 'git://github.com/pangloss/vim-javascript.git'
 Plugin 'git://github.com/rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'git://github.com/scrooloose/nerdcommenter.git'
 Plugin 'git://github.com/scrooloose/nerdtree.git'
@@ -276,3 +277,10 @@ autocmd FileType c,cpp,objc vnoremap <buffer><Leader>cf :ClangFormat<CR>
 autocmd FileType c,cpp,objc map <buffer><Leader>x <Plug>(operator-clang-format)
 " Toggle auto formatting:
 nmap <Leader>C :ClangFormatAutoToggle<CR>
+
+
+" vim-javascript
+set regexpengine=1
+let javascript_enable_domhtmlcss = 1
+let b:javascript_fold = 1
+let javascript_ignore_javaScriptdoc = 1
