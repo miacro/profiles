@@ -7,3 +7,10 @@ media-video/vlc bidi cdda cddb dc1394 dts libnotify rdp vpx xv a52 dvd vorbis db
 media-libs/libvpx postproc
 media-libs/phonon qt4 qt5
 media-libs/phonon-vlc qt4 qt5
+media-libs/clutter egl
+media-libs/cogl gles2
+media-libs/gst-plugins-base theora
+app-misc/tracker -gstreamer -cue
+media-libs/libmediaart -gtk
+media-libs/gst-plugins-bad egl
+media-libs/gexiv2 introspection -python_targets_python2_7 -python_targets_python3_3 python_targets_python3_4
