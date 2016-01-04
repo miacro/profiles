@@ -5,6 +5,7 @@ app-doc/doxygen dot doc clang doxysearch latex
 app-misc/tmux vim-syntax
 app-office/dia doc
 app-office/libreoffice-l10n linguas_en_GB linguas_zh_TW
+app-arch/p7zip rar wxwidgets
 app-portage/eix doc
 app-shells/tcsh doc 
 app-shells/zsh examples doc
@@ -26,11 +27,12 @@ media-libs/opencv doc
 net-analyzer/wireshark doc
 net-dns/dnsmasq
 net-firewall/iptables netlink
-net-fs/samba system-mitkrb5 client addc addns ads aio avahi cups fam gnutls ldap quota winbind 
+net-fs/samba system-mitkrb5 client -addc addns ads aio avahi cups fam gnutls ldap quota winbind 
 net-libs/libssh doc
 net-misc/iputils gnutls idn caps
 net-misc/networkmanager connection-sharing -bluetooth
 net-p2p/rtorrent daemon color xmlrpc
+net-print/cups dbus
 net-wireless/hostapd netlink
 sys-libs/ncurses tinfo
 www-apps/lxr cvs postgres vhosts

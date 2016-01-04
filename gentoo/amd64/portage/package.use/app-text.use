@@ -5,3 +5,5 @@ app-emacs/emacs-common-gentoo games
 app-emacs/org-mode doc contrib odt-schema
 
 app-text/poppler qt5
+app-editors/gedit -python_targets_python3_3
+dev-libs/libpeas  -python_targets_python3_3

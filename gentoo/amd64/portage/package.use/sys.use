@@ -1,3 +1,4 @@
+dev-libs/glib dbus
 sys-apps/dbus doc
 sys-apps/portage doc
 sys-apps/systemd doc

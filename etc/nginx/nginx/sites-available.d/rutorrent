@@ -8,7 +8,7 @@ server {
 	}
 
 	location ~ \.php$ {
-		fastcgi_pass unix:/run/php-fpm/php5.6.socket;
+		fastcgi_pass unix:/run/php-fpm/php7.socket;
 		include fastcgi.conf;
 	}
 

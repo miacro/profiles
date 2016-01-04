@@ -1,1 +1,18 @@
 gnome-base/gvfs udisks
+gnome-base/gnome-settings-daemon policykit
+gnome-base/gnome-control-center networkmanager
+media-libs/grilo playlist
+media-plugins/grilo-plugins upnp-av
+net-dns/avahi dbus
+gnome-base/gvfs cdda
+
+dev-libs/folks eds
+gnome-extra/evolution-data-server vala
+media-plugins/grilo-plugins tracker
+
+virtual/libgudev introspection
+dev-libs/libgudev introspection
+
+
+
+

@@ -21,7 +21,6 @@ fq_gamesmenu = {
 fq_audiomenu = {
   { "deadbeef", "deadbeef"},
   { "audacious", "audacious"},
-  { "kmix", "kmix"}
 }
 
 mymainmenu = awful.menu({ items = { 
@@ -32,9 +31,10 @@ mymainmenu = awful.menu({ items = {
   { "chrome", "google-chrome-stable"},
   { "firefox", "firefox"},
   { "open terminal", terminal },
-  { "pcmanfm", "pcmanfm"},
+  { "nautilus", "nautilus"},
   { "dolphin", "dolphin"},
   { "gwenview", "gwenview"},
+  { "volume", "kmix"},
 }})
 
 
