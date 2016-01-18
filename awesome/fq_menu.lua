@@ -31,7 +31,6 @@ mymainmenu = awful.menu({ items = {
   { "chrome", "google-chrome-stable"},
   { "firefox", "firefox"},
   { "open terminal", terminal },
-  { "nautilus", "nautilus"},
   { "dolphin", "dolphin"},
   { "gwenview", "gwenview"},
   { "volume", "kmix"},

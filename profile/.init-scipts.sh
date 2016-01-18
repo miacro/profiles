@@ -10,6 +10,7 @@ export XMODIFIERS="@im=fcitx"
 #export LANG=zh_CN.UTF-8
 #LANG="en_US.UTF-8"
 
+export XDG_CURRENT_DESKTOP=KDE
 fcitx &
 kmix &
 #sogou-qimpanel &
