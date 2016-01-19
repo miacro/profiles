@@ -1,4 +1,4 @@
-app-admin/conky
+#app-admin/conky
 app-admin/denyhosts
 app-admin/logrotate
 app-admin/sudo
@@ -30,12 +30,12 @@ app-i18n/fcitx-googlepinyin
 app-i18n/fcitx-libpinyin
 app-i18n/kcm-fcitx
 app-i18n/libgooglepinyin
-app-misc/freemind
+#app-misc/freemind
 app-misc/screen
 app-misc/screenfetch
 app-misc/tmux
 app-misc/toilet
-app-misc/xmind
+#app-misc/xmind
 app-office/dia
 #app-office/wps-office
 #app-office/Yozo-Office
