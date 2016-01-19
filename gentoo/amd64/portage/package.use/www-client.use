@@ -1,5 +1,0 @@
-www-client/firefox egl gmp-autoupdate gstreamer jemalloc3 jit pulseaudio minimal startup-notification system-cairo  system-icu system-jpeg system-libvpx system-sqlite
-www-client/chromium cups gnome gnome-keyring hidpi hotwording kerberos proprietary-codecs pulseaudio tcmalloc
-# required by mail-client/alpine-2.00-r5::gentoo
-# required by @mail-client (argument)
->=net-libs/c-client-2007f-r4 chappa

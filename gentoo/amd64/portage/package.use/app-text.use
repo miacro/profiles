@@ -1,9 +1,0 @@
-app-editors/emacs xft Xaw3d athena games gconf gnutls gsettings gzip-el hesiod imagemagick kerberos libxml2 m17n-lib motif pax_kernel sound source toolkit-scroll-bars 
-app-editors/vim python cscope lua perl ruby tcl vim-pager -python_targets_python3_4 -python_targets_python3_3
-app-emacs/auctex preview-latex
-app-emacs/emacs-common-gentoo games
-app-emacs/org-mode doc contrib odt-schema
-
-app-text/poppler qt5
-app-editors/gedit -python_targets_python3_3
-dev-libs/libpeas  -python_targets_python3_3

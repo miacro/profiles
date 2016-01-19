@@ -1,0 +1,10 @@
+x11-base/xorg-server doc udev dmx kdrive tslib unwind wayland xnest xvfb
+x11-drivers/nvidia-drivers uvm
+x11-libs/cairo xcb
+x11-libs/gtk+ cups
+x11-libs/libdrm video_cards_nouveau
+x11-libs/libxcb xkb
+x11-libs/wxGTK tiff
+x11-terms/xterm Xaw3d toolbar
+x11-wm/awesome doc
+x11-wm/fvwm doc

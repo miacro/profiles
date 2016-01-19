@@ -1,3 +1,6 @@
-=app-admin/keepass-2.30
 =media-video/nvidia-settings-355.11
 =dev-lisp/asdf-3.1.6
+=dev-python/cryptography-1.1.2
+=dev-java/icedtea-web-1.6.1
+=media-libs/sdl2-mixer-2.0.1
+=sys-devel/crossdev-20151026

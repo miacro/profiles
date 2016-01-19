@@ -1,8 +1,0 @@
-app-emulation/bochs
-app-emulation/q4wine
-app-emulation/qemu
-app-emulation/virtualbox
-app-emulation/virtualbox-guest-additions
-app-emulation/wine
-app-emulation/winetricks
-app-emulation/xen-tools

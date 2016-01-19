@@ -3,3 +3,7 @@ www-client/google-chrome
 www-client/links
 www-client/uget
 www-client/w3m
+www-misc/fcgiwrap
+www-servers/apache
+www-servers/nginx
+www-servers/spawn-fcgi

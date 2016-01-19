@@ -1,0 +1,43 @@
+dev-db/freetds iodbc kerberos mssql odbc
+dev-db/mariadb embedded client-libs
+dev-db/mariadb -xml
+dev-db/mysql embedded
+dev-db/sqlite doc secure-delete
+dev-db/unixODBC odbcmanual -minimal unicode
+dev-lang/mono minimal
+dev-lang/perl doc
+dev-lang/php -truetype -exif apache2 gd cgi fpm xmlrpc mysqli
+dev-lang/python doc sqlite
+dev-lang/R doc
+dev-lang/ruby doc
+dev-libs/boost doc python tools context
+dev-libs/botan threads
+dev-libs/fcgi html
+dev-libs/folks eds
+dev-libs/glib dbus
+dev-libs/libgdata gnome-online-accounts
+dev-libs/libgudev introspection
+dev-libs/libpcre pcre16
+dev-libs/libpeas  -python_targets_python3_3
+dev-libs/wayland doc
+dev-libs/xmlrpc-c tools
+dev-lisp/sbcl 
+dev-qt/qt-creator doc
+dev-qt/qtgui mng
+dev-qt/qthelp doc
+dev-qt/qtmultimedia widgets
+dev-qt/qtwebkit printsupport
+dev-ruby/activerecord postgres
+dev-util/boost-build python
+dev-util/cmake doc emacs internal-jsoncpp
+dev-util/codeblocks contrib pch
+dev-util/cscope emacs
+dev-util/global emacs doc vim 
+dev-util/nvidia-cuda-sdk cuda doc opencl examples
+dev-util/nvidia-cuda-toolkit debugger profiler doc
+dev-vcs/bzr doc
+dev-vcs/git doc cgi cvs emacs gnome-keyring highlight xinetd tk
+dev-vcs/subversion doc perl -dso
+virtual/libgudev introspection
+virtual/mysql embedded
+
