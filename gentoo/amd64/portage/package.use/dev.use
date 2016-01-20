@@ -15,6 +15,7 @@ dev-libs/botan threads
 dev-libs/fcgi html
 dev-libs/folks eds
 dev-libs/glib dbus
+dev-libs/libdbusmenu-qt qt4
 dev-libs/libgdata gnome-online-accounts
 dev-libs/libgudev introspection
 dev-libs/libpcre pcre16
@@ -23,9 +24,13 @@ dev-libs/wayland doc
 dev-libs/xmlrpc-c tools
 dev-lisp/sbcl 
 dev-qt/qt-creator doc
-dev-qt/qtgui mng
+dev-qt/qtcore qt3support
+dev-qt/qtdeclarative qt3support
+dev-qt/qtgui mng qt3support
 dev-qt/qthelp doc
 dev-qt/qtmultimedia widgets
+dev-qt/qtopengl qt3support
+dev-qt/qtsql qt3support
 dev-qt/qtwebkit printsupport
 dev-ruby/activerecord postgres
 dev-util/boost-build python

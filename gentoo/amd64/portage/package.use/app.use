@@ -3,6 +3,7 @@ app-admin/eselect doc
 app-arch/p7zip rar wxwidgets
 app-arch/unzip bzip2 natspec
 app-crypt/pinentry gnome-keyring
+app-crypt/qca qt4
 app-doc/doxygen dot doc clang doxysearch latex
 app-editors/emacs xft Xaw3d athena games gconf gnutls gsettings gzip-el hesiod imagemagick kerberos libxml2 m17n-lib motif pax_kernel sound source toolkit-scroll-bars 
 app-editors/gedit -python_targets_python3_3
@@ -25,6 +26,7 @@ app-shells/tcsh doc
 app-shells/zsh examples doc
 app-text/djvu doc
 app-text/dvipng t1lib
+app-text/poppler qt4
 app-text/texlive-core cjk tk xetex doc
 app-text/texlive doc cjk context detex dvi2tty dvipdfm epspdf extra games graphics humanities jadetex luatex metapost music omega pstricks publishers science tex4ht texi2html xetex xindy
 app-text/xdvik Xaw3d emacs motif neXt
