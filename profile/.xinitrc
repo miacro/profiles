@@ -14,8 +14,7 @@ fi
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources 
 eval "$(dbus-launch --sh-syntax --exit-with-session)"
 
-
-source ~/.init-scipts.sh
+[[ -f ~/.xprofile ]] && source ~/.xprofile
 
 # exec ck-launch-session dbus-launch --sh-syntax --exit-with-session awesome
 exec awesome
