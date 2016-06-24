@@ -9,5 +9,7 @@ sys-devel/gcc doc
 sys-devel/gettext doc
 sys-devel/llvm clang doc gold multitarget python
 sys-libs/db doc
+sys-libs/libapparmor static-libs
+sys-libs/libseccomp static-libs
 sys-libs/ncurses tinfo
 sys-libs/zlib minizip

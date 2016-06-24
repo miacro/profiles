@@ -11,7 +11,7 @@ dev-libs/boost
 dev-libs/log4cpp
 dev-lisp/sbcl
 dev-qt/qtcore
-dev-qt/qt-creator
+#dev-qt/qt-creator
 dev-qt/qtnetwork
 #dev-util/android-ndk
 #dev-util/android-sdk-update-manager
@@ -25,6 +25,7 @@ dev-util/cscope
 dev-util/global
 dev-util/nvidia-cuda-sdk
 dev-util/nvidia-cuda-toolkit
+dev-util/strace
 dev-util/universalindentgui
 dev-util/valgrind
 dev-vcs/bzr

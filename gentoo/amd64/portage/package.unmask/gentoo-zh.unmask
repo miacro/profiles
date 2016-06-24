@@ -6,3 +6,5 @@ net-misc/bcloud::gentoo-zh
 app-i18n/fcitx-googlepinyin::gentoo-zh
 app-i18n/libgooglepinyin::gentoo-zh
 app-i18n/fcitx-sogoupinyin::gentoo-zh
+app-dicts/youdao-dict::gentoo-zh
+media-sound/netease-cloud-music::gentoo-zh

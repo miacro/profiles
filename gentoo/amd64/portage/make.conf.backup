@@ -2,7 +2,7 @@
 # built this stage.
 # Please consult /usr/share/portage/config/make.conf.example for a more
 # detailed example.
-CFLAGS="-march=native -O2 -pipe -fPIC"
+CFLAGS="-march=native -O2 -pipe"
 CXXFLAGS="${CFLAGS}"
 MAKEOPTS="-j12"
 # WARNING: Changing your CHOST is not something that should be done lightly.
@@ -30,8 +30,7 @@ USE="${SYS_USE} ${XORG_USE} ${AUDIO_USE} ${VIDEO_USE} ${DE_USE} ${MEDIA_USE} \
 DISTDIR="/var/gentoo-files/distfiles"
 PKGDIR="/var/gentoo-files/packages"
 
-#FEATURES="sandbox splitdebug compressdebug ccache candy cgroup clean-logs ebuild-locks split-elog  split-log"
-FEATURES="sandbox compressdebug ccache candy cgroup clean-logs ebuild-locks split-elog  split-log"
+FEATURES="sandbox splitdebug compressdebug ccache candy cgroup clean-logs ebuild-locks split-elog  split-log"
 
 ACCEPT_KEYWORDS="~amd64"
 LINGUAS="en_US zh_CN en zh"
@@ -59,4 +58,4 @@ APACHE2_MPMS="prefork"
 QEMU_SOFTMMU_TARGETS="x86_64"
 QEMU_USER_TARGETS="x86_64"
 
-GENTOO_MIRRORS="http://mirrors.163.com/gentoo/ ftp://mirrors.xmu.edu.cn/gentoo rsync://mirrors.xmu.edu.cn/gentoo/ http://mirrors.xmu.edu.cn/gentoo http://gentoo.aditsu.net:8000/ ftp://ftp.iij.ad.jp/pub/linux/gentoo/ http://ftp.iij.ad.jp/pub/linux/gentoo/ rsync://ftp.iij.ad.jp/pub/linux/gentoo/ http://ftp.jaist.ac.jp/pub/Linux/Gentoo/ ftp://ftp.jaist.ac.jp/pub/Linux/Gentoo/ rsync://ftp.jaist.ac.jp/pub/Linux/Gentoo/ http://ftp.twaren.net/Linux/Gentoo/ ftp://ftp.twaren.net/Linux/Gentoo/ http://gentoo.mirrors.easynews.com/linux/gentoo/ ftp://lug.mtu.edu/gentoo/ http://lug.mtu.edu/gentoo/ http://gentoo.netnitco.net ftp://gentoo.netnitco.net/pub/mirrors/gentoo/source/ http://gentoo.osuosl.org/ http://gentoo.mirrors.pair.com/ ftp://gentoo.mirrors.pair.com/ http://mirror.iawnet.sandia.gov/gentoo/ ftp://mirror.iawnet.sandia.gov/pub/gentoo/ http://gentoo.mirrors.tds.net/gentoo http://ftp.ucsb.edu/pub/mirrors/linux/gentoo/ ftp://ftp.ucsb.edu/pub/mirrors/linux/gentoo/"
+GENTOO_MIRRORS="http://mirrors.163.com/gentoo/ rsync://mirrors.xmu.edu.cn/gentoo/ ftp://mirrors.xmu.edu.cn/gentoo http://mirrors.xmu.edu.cn/gentoo http://ftp.iij.ad.jp/pub/linux/gentoo/ ftp://ftp.iij.ad.jp/pub/linux/gentoo/ rsync://ftp.iij.ad.jp/pub/linux/gentoo/ http://ftp.jaist.ac.jp/pub/Linux/Gentoo/ ftp://ftp.jaist.ac.jp/pub/Linux/Gentoo/ rsync://ftp.jaist.ac.jp/pub/Linux/Gentoo/ ftp://mirror.bytemark.co.uk/gentoo/ rsync://mirror.bytemark.co.uk/gentoo/ http://mirror.bytemark.co.uk/gentoo/ http://mirror.qubenet.net/mirror/gentoo/ rsync://rsync.mirrorservice.org/distfiles.gentoo.org/ http://www.mirrorservice.org/sites/distfiles.gentoo.org/ ftp://ftp.mirrorservice.org/sites/distfiles.gentoo.org/"

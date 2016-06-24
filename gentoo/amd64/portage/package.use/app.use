@@ -12,6 +12,7 @@ app-emacs/auctex preview-latex
 app-emacs/emacs-common-gentoo games
 app-emacs/org-mode doc contrib odt-schema
 app-emulation/bochs doc
+app-emulation/docker aufs btrfs apparmor overlay
 app-emulation/qemu iscsi sdl2 rbd  glusterfs infiniband lzo nfs numa python sasl smartcard snappy systemtap tci tls usbredir vde virtfs xattr xfs
 app-emulation/virtualbox doc
 app-emulation/vmware-tools vmware_guest_linux vmware_guest_netware

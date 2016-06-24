@@ -39,7 +39,7 @@ net-p2p/rtorrent
 #net-p2p/transmission
 net-p2p/vuze
 net-proxy/polipo
-net-proxy/shadowsocks
+#net-proxy/shadowsocks
 net-proxy/shadowsocks-libev
 net-wireless/aircrack-ng
 net-wireless/airsnort
