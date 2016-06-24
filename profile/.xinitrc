@@ -14,10 +14,12 @@ fi
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources 
 eval "$(dbus-launch --sh-syntax --exit-with-session)"
 
-[[ -f ~/.xprofile ]] && source ~/.xprofile
+
+source ~/.init-scipts.sh
 
 # exec ck-launch-session dbus-launch --sh-syntax --exit-with-session awesome
-exec awesome
+# export KDEWM=awesome
+ exec awesome
 # exec enlightenment_start
 # exec gnome-session
 # exec startkde 

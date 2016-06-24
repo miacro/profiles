@@ -37,5 +37,5 @@ antigen apply
 
 autoload -U compinit promptinit && compinit && promptinit
 setopt completealiases
-[[ -f ~/.initrc ]] && source ~/.initrc
+[[ -f ~/.aliasrc ]] && source ~/.aliasrc
 GREP_OPTIONS=""

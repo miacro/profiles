@@ -1,5 +1,6 @@
-(add-to-list 'load-path "~/fq-emacs.d/")
+(add-to-list 'load-path "~/emacs.d/")
 ;;(if (file-exists-p (concat my-em-con-dir "my-emacs-config.el"))(require 'my-emacs-config))
 ;(require 'init)
 ;;(load "~/.emacs.d/init.el")
 (require 'fq-init)
+(put 'downcase-region 'disabled nil)
