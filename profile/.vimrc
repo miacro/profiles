@@ -10,7 +10,7 @@ Plugin 'git://github.com/fholgado/minibufexpl.vim.git'
 Plugin 'git://github.com/flazz/vim-colorschemes.git'
 Plugin 'git://github.com/gentoo/gentoo-syntax.git'
 Plugin 'git://github.com/gmarik/Vundle.vim'
-" Plugin 'git://github.com/jiangmiao/auto-pairs.git'
+"Plugin 'git://github.com/jiangmiao/auto-pairs.git'
 Plugin 'git://github.com/mbbill/undotree.git'
 Plugin 'git://github.com/msanders/snipmate.vim.git'
 Plugin 'git://github.com/pangloss/vim-javascript.git'
@@ -32,6 +32,8 @@ Plugin 'git://github.com/vim-scripts/winmanager'
 Plugin 'git://github.com/Valloric/YouCompleteMe'
 Plugin 'git://github.com/rhysd/vim-clang-format'
 Plugin 'git://github.com/kana/vim-operator-user'
+Plugin 'git://github.com/ternjs/tern_for_vim'
+Plugin 'git://github.com/vim-scripts/OmniCppComplete'
 
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
@@ -169,11 +171,6 @@ map <F6> :make<CR>
 filetype plugin indent on   "filetype detecting
 set completeopt=longest,menu "disable the preview window when autocomplete
 
-"superTAB 
-let g:SuperTabRetainCompletionType=2
-
-let g:SuperTabDefaultCompletionType="<C-X><C-O>"
-
 "tags
 if exists("tags")
   set tags=./tags
@@ -284,3 +281,7 @@ set regexpengine=1
 let javascript_enable_domhtmlcss = 1
 let b:javascript_fold = 1
 let javascript_ignore_javaScriptdoc = 1
+
+"supertab
+let g:SuperTabDefaultCompletionType="<c-x><c-o>"
+
