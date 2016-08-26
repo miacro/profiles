@@ -9,6 +9,8 @@ LOCAL_PATH=~/.local/bin:~/bin:~/bin/private:~/bin/fq-scripts
 LOCAL_LIB=~/.local/lib:~/.local/lib64
 LOCAL_INC=~/.local/include
 
+#`find -L /usr/local -regex "/usr/local.*/bin" -type d -printf %p:`
+
 export PATH=${LOCAL_PATH}:${PATH}:/sbin:/usr/sbin:/usr/local/sbin
 export LIBRARY_PATH=${LOCAL_LIB}:${LIBRARY_PATH}
 export LD_LIBRARY_PATH=${LOCAL_LIB}:${LD_LIBRARY_PATH}
