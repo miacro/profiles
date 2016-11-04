@@ -1,5 +1,7 @@
 kde-apps/gwenview -semantic-desktop
 kde-apps/kolourpaint -handbook
 kde-base/kdelibs -acl -policykit -upower -crypt
+kde-frameworks/ktexteditor -git
 kde-plasma/kinfocenter -gles
 kde-plasma/plasma-desktop legacy-systray 
+kde-plasma/plasma-workspace -geolocation

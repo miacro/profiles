@@ -1,5 +1,5 @@
 games-action/chromium-bsu
-games-action/supertuxkart
+#games-action/supertuxkart
 games-board/gnome-mines
 games-fps/nexuiz
 games-fps/xonotic

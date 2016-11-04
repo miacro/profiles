@@ -1,5 +1,6 @@
 media-fonts/dejavu fontforge
 media-fonts/source-han-sans linguas_ja linguas_zh_TW linguas_ko 
+media-fonts/source-pro cjk
 media-gfx/digikam doc
 media-gfx/exiv2 xmp
 media-gfx/fontforge cjk
@@ -8,7 +9,8 @@ media-gfx/graphviz doc
 media-libs/alsa-lib python alisp
 media-libs/clutter egl
 media-libs/cogl gles2
-media-libs/freetype doc
+media-libs/freetype doc infinality -cleartype_hinting
+media-libs/gegl raw jpeg2k
 media-libs/gexiv2 introspection -python_targets_python2_7 -python_targets_python3_3 python_targets_python3_4
 media-libs/grilo playlist
 media-libs/gst-plugins-bad egl
@@ -16,6 +18,7 @@ media-libs/gst-plugins-base theora
 media-libs/imlib2 doc
 media-libs/libmediaart -gtk
 media-libs/libmp4v2 utils
+media-libs/libmypaint gegl
 media-libs/libpng apng
 media-libs/libvpx postproc svc
 media-libs/mesa opencl gles gles1 gles2
@@ -32,9 +35,9 @@ media-sound/deadbeef aac cdda dts vorbis ape converter wavpack wma mms hotkeys t
 media-sound/mac mmx
 media-sound/moc wavpack sndfile musepack jack
 media-sound/ncmpcpp clock outputs curl taglib visualizer
-media-sound/pulseaudio doc
+media-sound/pulseaudio doc gnome
 media-sound/split2flac enca flake imagemagick mac mp3 mp4 ogg replaygain wavpack
-media-video/ffmpeg threads 3dnow 3dnowext amr amrenc avx avx2 bluray cdio celt cpudetection doc examples flite fma3 fma4 gme gnutls gsm iec61883 ieee1394 jack jpeg2k ladspa libass libcaca libsoxr libv4l mmx mmxext modplug openal opus pulseaudio quvi rtmp schroedinger speex sse sse2 sse3 sse4 sse4_2 ssh ssse3 theora twolame v4l vaapi vdpau vpx wavpack webp x265 zvbi 
+media-video/ffmpeg vorbis threads 3dnow 3dnowext amr amrenc avx avx2 bluray cdio celt cpudetection doc examples flite fma3 fma4 gme gnutls gsm iec61883 ieee1394 jack jpeg2k ladspa libass libcaca libsoxr libv4l mmx mmxext modplug openal opus pulseaudio quvi rtmp schroedinger speex sse sse2 sse3 sse4 sse4_2 ssh ssse3 theora twolame v4l vaapi vdpau vpx wavpack webp x265 zvbi 
 media-video/libav doc oss pulseaudio jack tools vaapi vdpau vpx threads
 media-video/mplayer a52 cddb dts faac gif mng xinerama xvid 3dnow 3dnowext aalib bl bluray bidi bs2b cdparanoia cpudetection dga directfb doc dv dvb faad fbcon ftp ggi gsm jack joystick jpeg2k ladspa libcaca libmpeg2 lirc live lzo md5sum mmxext nas nut openal oss pnm pvr radio rar rtc rtmp samba speex sse sse2 ssse3 tga theora toolame tremor twolame v4l vdpau vidix xanim zoran 
 media-video/mpv bluray bs2b cdio doc-pdf dvb dvdnav egl jack joystick ladspa libcaca libguess libmpv lirc lua luajit openal portaudio oss postproc pvr samba sdl v4l vaapi vdpau vf-dlopen wayland

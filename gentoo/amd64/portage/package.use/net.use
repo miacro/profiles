@@ -4,6 +4,7 @@ net-dns/bind-tools gssapi
 net-dns/dnsmasq
 net-firewall/iptables netlink
 net-fs/samba system-mitkrb5 client -addc addns ads aio avahi cups fam gnutls ldap quota winbind 
+net-libs/c-client chappa
 net-libs/libssh doc
 net-misc/iputils gnutls idn caps
 net-misc/networkmanager connection-sharing -bluetooth
@@ -11,3 +12,4 @@ net-p2p/rtorrent daemon color xmlrpc
 net-print/cups dbus
 net-print/cups-filters -postscript
 net-wireless/hostapd netlink
+net-wireless/wpa_supplicant dbus

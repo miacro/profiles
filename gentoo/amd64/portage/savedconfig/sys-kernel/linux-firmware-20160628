@@ -474,8 +474,10 @@ cxgb3/ael2020_twx_edc.bin
 cxgb3/ael2005_twx_edc.bin
 cxgb3/ael2005_opt_edc.bin
 cxgb3/t3fw-7.10.0.bin
+cxgb4/t4fw-1.15.37.0.bin
 cxgb4/t4fw-1.14.4.0.bin
 cxgb4/bcm8483.bin
+cxgb4/t5fw-1.15.37.0.bin
 cxgb4/t5fw.bin
 cxgb4/t4fw.bin
 cxgb4/aq1202_fw.cld
@@ -559,17 +561,22 @@ intel/fw_sst_22a8.bin
 intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
 intel/ibt-11-5.sfi
 intel/dsp_fw_release_v927.bin
+intel/dsp_fw_release_v948.bin
 intel/dsp_fw_release.bin
+intel/dsp_fw_bxtn_v430.bin
 intel/ibt-hw-37.7.bseq
 intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq
 intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
+intel/ibt-11-16.ddc
 intel/dsp_fw_release_v896.bin
 intel/fw_sst_0f28.bin
 intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq
 intel/ibt-11-5.ddc
 intel/dsp_fw_release_v827.bin
 intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq
+intel/dsp_fw_bxtn.bin
 intel/IntcSST2.bin
+intel/ibt-11-16.sfi
 intelliport2.bin
 isci/README
 isci/Makefile
@@ -879,6 +886,7 @@ qca/nvm_usb_00000300.bin
 qca/rampatch_usb_00000300.bin
 qca/rampatch_usb_00000302.bin
 qca/rampatch_00130302.bin
+qed/qed_init_values_zipped-8.10.5.0.bin
 qed/qed_init_values_zipped-8.4.2.0.bin
 qed/qed_init_values_zipped-8.7.3.0.bin
 ql2100_fw.bin
@@ -896,6 +904,7 @@ r128/r128_cce.bin
 r8a779x_usb3_v1.dlmem
 r8a779x_usb3_v2.dlmem
 r8a779x_usb3_v3.dlmem
+radeon/verde_k_smc.bin
 radeon/RV620_me.bin
 radeon/R420_cp.bin
 radeon/CAICOS_smc.bin
@@ -906,6 +915,7 @@ radeon/verde_me.bin
 radeon/R200_cp.bin
 radeon/HAINAN_mc.bin
 radeon/HAWAII_mec.bin
+radeon/hawaii_k_smc.bin
 radeon/RV630_me.bin
 radeon/mullins_uvd.bin
 radeon/RV630_pfp.bin
@@ -1014,6 +1024,7 @@ radeon/KAVERI_mec.bin
 radeon/TURKS_me.bin
 radeon/kaveri_vce.bin
 radeon/R520_cp.bin
+radeon/oland_k_smc.bin
 radeon/tahiti_rlc.bin
 radeon/kabini_sdma1.bin
 radeon/kaveri_sdma.bin
@@ -1067,6 +1078,7 @@ radeon/kaveri_ce.bin
 radeon/RV770_uvd.bin
 radeon/VERDE_rlc.bin
 radeon/mullins_sdma.bin
+radeon/tahiti_k_smc.bin
 radeon/RV635_pfp.bin
 radeon/VERDE_ce.bin
 radeon/kabini_sdma.bin
@@ -1098,6 +1110,8 @@ radeon/verde_ce.bin
 radeon/CYPRESS_smc.bin
 radeon/ARUBA_pfp.bin
 radeon/REDWOOD_pfp.bin
+radeon/bonaire_k_smc.bin
+radeon/hainan_k_smc.bin
 radeon/kabini_vce.bin
 radeon/BONAIRE_me.bin
 radeon/RV770_me.bin
@@ -1131,6 +1145,7 @@ radeon/pitcairn_me.bin
 radeon/R100_cp.bin
 radeon/OLAND_pfp.bin
 radeon/OLAND_rlc.bin
+radeon/pitcairn_k_smc.bin
 radeon/PALM_pfp.bin
 radeon/TAHITI_rlc.bin
 radeon/mullins_mec.bin

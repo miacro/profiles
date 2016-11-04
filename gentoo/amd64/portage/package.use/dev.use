@@ -15,6 +15,7 @@ dev-lang/php -truetype -exif apache2 gd cgi fpm xmlrpc mysqli
 dev-lang/python doc sqlite
 dev-lang/R doc
 dev-lang/ruby doc
+dev-libs/boehm-gc threads
 dev-libs/boost doc python tools context python_targets_python3_5
 dev-libs/botan threads
 dev-libs/cyrus-sasl kerberos
@@ -24,6 +25,7 @@ dev-libs/glib dbus
 dev-libs/gmime smime
 dev-libs/libdbusmenu-qt qt4
 dev-libs/libgdata gnome-online-accounts
+dev-libs/libgit2 ssh
 dev-libs/libgudev introspection
 dev-libs/libpcre pcre16
 dev-libs/libpeas  -python_targets_python3_3
@@ -31,7 +33,7 @@ dev-libs/openssl gmp kerberos rfc3779 sctp
 dev-libs/wayland doc
 dev-libs/weston X colord dbus drm editor examples fbdev gles2 ivi launch rdp resize-optimizatio screen-sharing suid systemd unwind wayland-compositor xwayland 
 dev-libs/xmlrpc-c tools
-dev-lisp/sbcl 
+dev-lisp/sbcl doc
 dev-python/PyQt5 widgets printsupport webkit gui network
 dev-qt/qt-creator doc
 dev-qt/qtcore qt3support

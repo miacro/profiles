@@ -14,11 +14,13 @@ app-emacs/org-mode doc contrib odt-schema
 app-emulation/bochs doc
 app-emulation/docker aufs btrfs apparmor overlay
 app-emulation/qemu iscsi sdl2 rbd  glusterfs infiniband lzo nfs numa python sasl smartcard snappy systemtap tci tls usbredir vde virtfs xattr xfs
+app-emulation/runc apparmor
 app-emulation/virtualbox doc
 app-emulation/vmware-tools vmware_guest_linux vmware_guest_netware
 app-emulation/vmware-workstation doc ovftool server vix vmware-tools
 app-emulation/wine opencl
 app-eselect/eselect-php fpm
+app-i18n/fcitx qt4
 app-misc/tmux vim-syntax
 app-misc/tracker -gstreamer -cue
 app-office/dia doc
@@ -28,7 +30,8 @@ app-shells/zsh examples doc
 app-text/djvu doc
 app-text/dvipng t1lib
 app-text/poppler qt4
+app-text/tesseract l10n_zh-CN l10n_zh-TW
 app-text/texlive-core cjk tk xetex doc
-app-text/texlive doc cjk context detex dvi2tty dvipdfm epspdf extra games graphics humanities jadetex luatex metapost music omega pstricks publishers science tex4ht texi2html xetex xindy
+app-text/texlive doc cjk context detex dvi2tty dvipdfm epspdf extra games graphics humanities jadetex luatex metapost music omega pstricks publishers science tex4ht texi2html xetex
 app-text/xdvik Xaw3d emacs motif neXt
 

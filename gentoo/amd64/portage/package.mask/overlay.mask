@@ -3,4 +3,5 @@
 */*::games-overlay
 */*::steam-overlay
 */*::torbrowser
+*/*::java
 
