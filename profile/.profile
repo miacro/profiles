@@ -5,7 +5,7 @@ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}
 
 export EDITOR="vim" 
 
-LOCAL_PATH=~/.local/bin:~/bin:~/bin/private:~/bin/fq-scripts:~/bin/kindlegen
+LOCAL_PATH=~/.local/bin:~/bin:~/bin/private:~/bin/shell-scripts:~/bin/kindlegen
 LOCAL_LIB=~/.local/lib:~/.local/lib64
 LOCAL_INC=~/.local/include
 
