@@ -1,0 +1,9 @@
+[submodule "etc/nginx"]
+	path = etc/nginx
+	url = git@github.com:miacro/nginx-conf
+[submodule "emacs.d"]
+	path = emacs.d
+	url = git@github.com:miacro/emacs.d
+[submodule "vim.d"]
+	path = vim.d
+	url = git@github.com:miacro/vim.d
