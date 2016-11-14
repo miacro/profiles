@@ -7,3 +7,6 @@
 [submodule "vim.d"]
 	path = vim.d
 	url = git@github.com:miacro/vim.d
+[submodule "awesome"]
+	path = awesome
+	url = git@github.com:miacro/awesome
