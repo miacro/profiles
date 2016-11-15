@@ -10,3 +10,6 @@
 [submodule "awesome"]
 	path = awesome
 	url = git@github.com:miacro/awesome
+[submodule "stumpwm"]
+	path = stumpwm
+	url = git@github.com:miacro/stumpwm
