@@ -15,11 +15,12 @@ fi
 eval "$(dbus-launch --sh-syntax --exit-with-session)"
 
 
-source ~/.init-scipts.sh
+[[ -f ~/.init-scripts.sh ]] && source ~/.init-scripts.sh
 
 # exec ck-launch-session dbus-launch --sh-syntax --exit-with-session awesome
 # export KDEWM=awesome
- exec awesome
+exec ~/.stumpwm.d/bin/stumpwm
+exec awesome
 # exec enlightenment_start
 # exec gnome-session
 # exec startkde 
