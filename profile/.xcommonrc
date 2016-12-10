@@ -12,5 +12,7 @@ export XMODIFIERS="@im=fcitx"
 
 export XDG_CURRENT_DESKTOP=KDE
 fcitx &
+sogou-qimpanel &
 volumeicon &
-#sogou-qimpanel &
+
+#[[ -f ~/.xmodmaprc ]] && xmodmap ~/.xmodmaprc #disabled by input method

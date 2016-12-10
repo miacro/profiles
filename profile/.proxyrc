@@ -1,4 +1,3 @@
-export http_proxy=""
 #export http_proxy=http://127.0.0.1:8087/
 export http_proxy=http://127.0.0.1:5061/
 export https_proxy=$http_proxy

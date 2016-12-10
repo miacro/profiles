@@ -1,9 +1,4 @@
 #!/bin/sh
-#
-# ~/.xinitrc
-#
-# Executed by startx (run your window manager from here)
-
 if [ -d /etc/X11/xinit/xinitrc.d ]; then
   for f in /etc/X11/xinit/xinitrc.d/*; do
     [ -x "$f" ] && . "$f"
@@ -13,13 +8,11 @@ fi
 
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources 
 eval "$(dbus-launch --sh-syntax --exit-with-session)"
-
-
-[[ -f ~/.init-scripts.sh ]] && source ~/.init-scripts.sh
+[[ -f ~/.xcommonrc ]] && source ~/.xcommonrc
 
 # exec ck-launch-session dbus-launch --sh-syntax --exit-with-session awesome
 # export KDEWM=awesome
-exec ~/.stumpwm.d/bin/stumpwm
+#exec ~/.stumpwm.d/bin/stumpwm
 exec awesome
 # exec enlightenment_start
 # exec gnome-session

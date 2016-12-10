@@ -1,2 +1,1 @@
-#!/bin/sh
-source .init-scripts.sh
+[[ -f ~/.xcommonrc ]] && source ~/.xcommonrc
