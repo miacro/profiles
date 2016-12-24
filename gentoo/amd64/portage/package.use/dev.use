@@ -3,20 +3,17 @@ dev-db/mariadb embedded client-libs
 dev-db/mariadb -xml
 dev-db/mongodb kerberos mms-agent
 dev-db/mysql embedded
-dev-db/sqlite doc secure-delete
+dev-db/sqlite secure-delete
 dev-db/unixODBC odbcmanual -minimal unicode
 dev-java/icedtea-bin nsplugin
 dev-java/icedtea-web nsplugin
 dev-java/oracle-jdk-bin -nsplugin cups derby javafx jce
 dev-java/swt webkit
 dev-lang/mono minimal
-dev-lang/perl doc
 dev-lang/php -truetype -exif apache2 gd cgi fpm xmlrpc mysqli
-dev-lang/python doc sqlite
-dev-lang/R doc
-dev-lang/ruby doc
+dev-lang/python sqlite
 dev-libs/boehm-gc threads
-dev-libs/boost doc python tools context python_targets_python3_5
+dev-libs/boost python tools context python_targets_python3_5
 dev-libs/botan threads
 dev-libs/cyrus-sasl kerberos
 dev-libs/fcgi html
@@ -30,16 +27,13 @@ dev-libs/libgudev introspection
 dev-libs/libpcre pcre16
 dev-libs/libpeas  -python_targets_python3_3
 dev-libs/openssl gmp kerberos rfc3779 sctp
-dev-libs/wayland doc
 dev-libs/weston X colord dbus drm editor examples fbdev gles2 ivi launch rdp resize-optimizatio screen-sharing suid systemd unwind wayland-compositor xwayland 
 dev-libs/xmlrpc-c tools
 dev-lisp/sbcl doc
 dev-python/PyQt5 widgets printsupport webkit gui network
-dev-qt/qt-creator doc
 dev-qt/qtcore qt3support
 dev-qt/qtdeclarative qt3support
 dev-qt/qtgui mng qt3support egl
-dev-qt/qthelp doc
 dev-qt/qtmultimedia widgets gstreamer
 dev-qt/qtopengl qt3support
 dev-qt/qtsql qt3support
@@ -50,12 +44,11 @@ dev-util/boost-build python
 dev-util/cmake doc emacs internal-jsoncpp
 dev-util/codeblocks contrib pch
 dev-util/cscope emacs
-dev-util/global emacs doc vim 
-dev-util/nvidia-cuda-sdk cuda doc opencl examples
-dev-util/nvidia-cuda-toolkit debugger profiler doc
-dev-vcs/bzr doc
+dev-util/global emacs vim 
+dev-util/nvidia-cuda-sdk cuda opencl examples
+dev-util/nvidia-cuda-toolkit debugger profiler
 dev-vcs/git doc cgi cvs emacs gnome-keyring highlight xinetd tk
-dev-vcs/subversion doc perl -dso
+dev-vcs/subversion perl -dso
 virtual/libgudev introspection
 virtual/mysql embedded
 

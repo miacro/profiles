@@ -1,15 +1,11 @@
 sys-apps/busybox
-sys-apps/dbus doc
 sys-apps/portage doc
 sys-apps/systemd doc
 sys-apps/util-linux caps fdformat slang tty-helpers
-sys-auth/consolekit doc
 sys-boot/grub doc efiemu mount sdl truetype
 sys-devel/clang python
 sys-devel/gcc doc
-sys-devel/gettext doc
 sys-devel/llvm clang doc gold python
-sys-libs/db doc
 sys-libs/libapparmor static-libs
 sys-libs/libseccomp static-libs
 sys-libs/ncurses tinfo

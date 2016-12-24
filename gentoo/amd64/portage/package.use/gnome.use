@@ -1,5 +1,4 @@
 gnome-base/gnome-control-center networkmanager
 gnome-base/gnome-settings-daemon policykit
-gnome-base/gvfs cdda
-gnome-base/gvfs udisks
+gnome-base/gvfs cdda udisks
 gnome-extra/evolution-data-server vala
