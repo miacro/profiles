@@ -38,11 +38,12 @@ dev-python/PyQt5 widgets printsupport webkit gui network
 dev-qt/qt-creator doc
 dev-qt/qtcore qt3support
 dev-qt/qtdeclarative qt3support
-dev-qt/qtgui mng qt3support
+dev-qt/qtgui mng qt3support egl
 dev-qt/qthelp doc
 dev-qt/qtmultimedia widgets gstreamer
 dev-qt/qtopengl qt3support
 dev-qt/qtsql qt3support
+dev-qt/qtwayland egl
 dev-qt/qtwebkit printsupport
 dev-ruby/activerecord postgres
 dev-util/boost-build python

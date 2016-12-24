@@ -1,5 +1,5 @@
 sys-kernel/gentoo-sources -~amd64
-sys-kernel/linux-headers -~amd64
+#sys-kernel/linux-headers -~amd64
 #sys-devel/gcc -~amd64
 sys-apps/sandbox -~amd64
 sys-apps/portage -~amd64
@@ -12,4 +12,5 @@ x11-drivers/xf86-input-evdev -~amd64
 x11-drivers/xf86-input-mouse -~amd64
 x11-drivers/xf86-input-synaptics -~amd64
 x11-drivers/xf86-input-keyboard -~amd64
-app-i18n/fcitx -~amd64
+#app-i18n/fcitx -~amd64
+sys-apps/net-tools -~amd64

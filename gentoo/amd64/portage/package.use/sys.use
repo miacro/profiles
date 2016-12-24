@@ -1,3 +1,4 @@
+sys-apps/busybox
 sys-apps/dbus doc
 sys-apps/portage doc
 sys-apps/systemd doc
@@ -13,3 +14,4 @@ sys-libs/libapparmor static-libs
 sys-libs/libseccomp static-libs
 sys-libs/ncurses tinfo
 sys-libs/zlib minizip
+sys-process/tini static
