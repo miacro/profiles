@@ -34,6 +34,7 @@ dev-python/PyQt5 widgets printsupport webkit gui network
 dev-qt/qtcore qt3support
 dev-qt/qtdeclarative qt3support
 dev-qt/qtgui mng qt3support egl
+dev-qt/qtgui:4 mng qt3support -egl
 dev-qt/qtmultimedia widgets gstreamer
 dev-qt/qtopengl qt3support
 dev-qt/qtsql qt3support
