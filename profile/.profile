@@ -1,4 +1,4 @@
-LOCAL_PATH=~/.local/bin:~/bin:~/bin/private:~/bin/shell-scripts:~/bin/kindlegen
+LOCAL_PATH=~/.local/bin:~/bin:~/bin/private:~/bin/utils:~/bin/kindlegen
 LOCAL_LIB=~/.local/lib:~/.local/lib64
 LOCAL_INC=~/.local/include
 #`find -L /usr/local -regex "/usr/local.*/bin" -type d -printf %p:`
