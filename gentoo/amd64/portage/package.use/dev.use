@@ -25,6 +25,7 @@ dev-libs/libgdata gnome-online-accounts
 dev-libs/libgit2 ssh
 dev-libs/libgudev introspection
 dev-libs/libpcre pcre16
+dev-libs/libpcre2 pcre32
 dev-libs/libpeas  -python_targets_python3_3
 dev-libs/openssl gmp kerberos rfc3779 sctp
 dev-libs/weston X colord dbus drm editor examples fbdev gles2 ivi launch rdp resize-optimizatio screen-sharing suid systemd unwind wayland-compositor xwayland 

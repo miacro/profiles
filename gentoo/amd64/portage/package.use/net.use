@@ -1,9 +1,10 @@
 net-dns/avahi dbus
 net-dns/bind-tools gssapi
-net-dns/dnsmasq
+net-dns/dnsmasq script
 net-firewall/iptables netlink
 net-fs/samba system-mitkrb5 client -addc addns ads aio avahi cups fam gnutls ldap quota winbind 
 net-libs/c-client chappa
+net-libs/libvncserver gnutls
 net-misc/iputils gnutls idn caps
 net-misc/networkmanager connection-sharing -bluetooth
 net-p2p/rtorrent daemon color xmlrpc

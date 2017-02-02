@@ -215,6 +215,8 @@ atmel/wilc1000_ap_fw.bin
 atmel/wilc1000_p2p_fw.bin
 atmel/wilc1000_fw.bin
 atmsar11.fw
+atusb/rzusb-0.3.bin
+atusb/atusb-0.3.dfu
 atusb/ChangeLog
 atusb/atusb-0.2.dfu
 av7110/Makefile
@@ -308,8 +310,10 @@ brcm/brcmfmac4334-sdio.bin
 brcm/brcmfmac4354-sdio.bin
 brcm/bcm43xx-0.fw
 brcm/brcmfmac4350-pcie.bin
+brcm/brcmfmac4358-pcie.bin
 brcm/brcmfmac43340-sdio.bin
 brcm/brcmfmac4335-sdio.bin
+brcm/brcmfmac4356-sdio.bin
 brcm/brcmfmac43362-sdio.bin
 brcm/brcmfmac43241b5-sdio.bin
 brcm/brcmfmac4329-sdio.bin
@@ -494,10 +498,14 @@ cxgb4/t4fw-1.15.37.0.bin
 cxgb4/t4fw-1.14.4.0.bin
 cxgb4/bcm8483.bin
 cxgb4/t5fw-1.15.37.0.bin
+cxgb4/t5fw-1.16.26.0.bin
 cxgb4/t5fw.bin
+cxgb4/t6fw-1.16.26.0.bin
 cxgb4/t4fw.bin
 cxgb4/aq1202_fw.cld
 cxgb4/t5fw-1.14.4.0.bin
+cxgb4/t4fw-1.16.26.0.bin
+cxgb4/t6fw.bin
 dabusb/firmware.fw
 dabusb/bitstream.bin
 dsp56k/concat-bootstrap.pl
@@ -575,6 +583,7 @@ intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
 intel/ibt-hw-37.8.bseq
 intel/ibt-12-16.sfi
 intel/fw_sst_0f28.bin-48kHz_i2s_master
+intel/dsp_fw_release_v969.bin
 intel/dsp_fw_release_v951.bin
 intel/fw_sst_0f28_ssp0.bin
 intel/dsp_fw_kbl_v701.bin
@@ -600,6 +609,7 @@ intel/dsp_fw_release_v827.bin
 intel/dsp_fw_kbl_v1037.bin
 intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq
 intel/dsp_fw_bxtn.bin
+intel/dsp_fw_bxtn_v2010.bin
 intel/IntcSST2.bin
 intelliport2.bin
 isci/README

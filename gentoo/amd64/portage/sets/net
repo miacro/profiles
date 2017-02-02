@@ -1,5 +1,6 @@
 net-analyzer/dnsenum
 net-analyzer/ettercap
+net-analyzer/fail2ban
 net-analyzer/fping
 net-analyzer/hydra
 #net-analyzer/metasploit
