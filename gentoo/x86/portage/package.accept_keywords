@@ -1,8 +1,0 @@
-sys-kernel/gentoo-sources -~x86
-#x11-base/xorg-drivers -~x86
-#x11-base/xorg-server -~x86
- net-wireless/hostapd -~x86
-sys-devel/gcc -~x86
-
-# required by dev-util/eclipse-sdk-bin (argument)
-=dev-util/eclipse-sdk-bin-4.2.1-r1 **
