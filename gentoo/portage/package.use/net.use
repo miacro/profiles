@@ -3,6 +3,7 @@ net-dns/bind-tools gssapi
 net-dns/dnsmasq script
 net-firewall/iptables netlink
 net-fs/samba system-mitkrb5 client -addc addns ads aio avahi cups fam gnutls ldap quota winbind 
+#net-libs/libtorrent-rasterbar -python_targets_python2_7
 net-libs/c-client chappa
 net-libs/libvncserver gnutls
 net-misc/iputils gnutls idn caps

@@ -1,6 +1,8 @@
 media-fonts/dejavu fontforge
+media-fonts/noto cjk
 media-fonts/source-han-sans linguas_ja linguas_zh_TW linguas_ko 
 media-fonts/source-pro cjk
+media-fonts/unifont fontforge utils
 media-gfx/exiv2 xmp
 media-gfx/fontforge cjk
 media-libs/alsa-lib python alisp
