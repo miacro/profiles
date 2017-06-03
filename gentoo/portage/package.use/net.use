@@ -1,6 +1,6 @@
 net-dns/avahi dbus
 net-dns/bind-tools gssapi
-net-dns/dnsmasq script
+net-dns/dnsmasq script dbus
 net-firewall/iptables netlink
 net-fs/samba system-mitkrb5 client -addc addns ads aio avahi cups fam gnutls ldap quota winbind 
 #net-libs/libtorrent-rasterbar -python_targets_python2_7

@@ -13,7 +13,7 @@ dev-lang/mono minimal
 dev-lang/php -truetype -exif apache2 gd cgi fpm xmlrpc mysqli
 dev-lang/python sqlite
 dev-libs/boehm-gc threads
-dev-libs/boost -python tools context
+dev-libs/boost tools context
 dev-libs/botan threads
 dev-libs/cyrus-sasl kerberos
 dev-libs/fcgi html
@@ -41,7 +41,6 @@ dev-qt/qtsql qt3support
 dev-qt/qtwayland egl
 dev-qt/qtwebkit printsupport
 dev-ruby/activerecord postgres
-dev-util/boost-build -python
 dev-util/cmake doc emacs internal-jsoncpp
 dev-util/codeblocks contrib pch
 dev-util/cscope emacs

@@ -1,4 +1,1 @@
-=dev-db/mongodb-3.4.1
-=dev-db/mongodb-3.4.2
-=dev-db/mongodb-3.4.3
-=sys-devel/libtool-2.4.6-r4
+=dev-util/gperf-3.1
