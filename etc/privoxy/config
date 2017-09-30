@@ -780,7 +780,7 @@ logfile privoxy.log
 #
 #        listen-address [::1]:8118
 #
-listen-address  127.0.0.1:8118
+listen-address  0.0.0.0:8118
 #
 #  4.2. toggle
 #  ============
@@ -1593,7 +1593,7 @@ split-large-forms 0
 #
 #      keep-alive-timeout 300
 #
-keep-alive-timeout 5
+keep-alive-timeout 300
 #
 #  6.5. tolerate-pipelining
 #  =========================
