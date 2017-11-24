@@ -1,3 +1,3 @@
 {
-  "graph": "/var/lib/docker"
+  "data-root": "/var/lib/docker"
 }
