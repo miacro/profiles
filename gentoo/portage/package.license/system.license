@@ -1,7 +1,10 @@
+app-arch/rar RAR
 dev-java/oracle-jdk-bin Oracle-BCLA-JavaSE
+dev-util/adobe-air-runtime AdobeAIRSDK
+dev-util/nvidia-cuda-toolkit NVIDIA-CUDA
 media-libs/fdk-aac FraunhoferFDK
 www-client/google-chrome google-chrome
+www-client/opera-developer OPERA-2014
+www-client/opera OPERA-2014
 www-plugins/adobe-flash AdobeFlash-11.x
-dev-util/adobe-air-runtime AdobeAIRSDK
 www-plugins/chrome-binary-plugins google-chrome
-dev-util/nvidia-cuda-toolkit NVIDIA-CUDA
