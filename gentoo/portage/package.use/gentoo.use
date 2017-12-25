@@ -1,0 +1,189 @@
+app-admin/conky imlib
+app-arch/p7zip rar wxwidgets
+app-arch/unzip bzip2 natspec
+app-crypt/pinentry gnome-keyring
+app-crypt/qca qt4
+app-doc/doxygen dot clang doxysearch latex
+app-editors/emacs xft Xaw3d athena games gconf gnutls gsettings gzip-el hesiod imagemagick kerberos libxml2 m17n-lib motif pax_kernel sound source toolkit-scroll-bars 
+app-editors/gedit -python_targets_python3_3
+app-editors/vim python cscope lua perl ruby tcl vim-pager -python_targets_python3_4 -python_targets_python3_3
+app-emacs/auctex preview-latex
+app-emacs/emacs-common-gentoo games
+app-emacs/org-mode doc contrib odt-schema
+app-emulation/docker aufs btrfs apparmor overlay
+app-emulation/docker-runc apparmor
+app-emulation/libvirt  virt-network
+app-emulation/qemu iscsi sdl2 rbd infiniband lzo nfs numa python sasl smartcard snappy systemtap tci tls usbredir vde virtfs xattr xfs
+app-emulation/runc apparmor
+app-emulation/vmware-tools vmware_guest_linux vmware_guest_netware
+app-emulation/vmware-workstation ovftool server vix vmware-tools
+app-emulation/wine opencl
+app-eselect/eselect-php fpm
+app-i18n/fcitx qt4
+app-misc/tmux vim-syntax
+app-misc/tracker -gstreamer -cue
+app-shells/zsh examples doc
+app-text/asciidoc python_single_target_python2_7
+app-text/dvipng t1lib
+app-text/poppler qt4
+app-text/tesseract l10n_zh-CN l10n_zh-TW
+app-text/texlive cjk context detex dvi2tty dvipdfm epspdf extra games graphics humanities jadetex luatex metapost music omega pstricks publishers science tex4ht texi2html xetex
+app-text/texlive-core cjk tk xetex
+app-text/xdvik Xaw3d emacs motif neXt
+app-text/xmlto text
+dev-db/freetds kerberos mssql odbc
+dev-db/mariadb embedded client-libs
+dev-db/mariadb -xml
+dev-db/mongodb kerberos mms-agent
+dev-db/mysql embedded
+dev-db/sqlite secure-delete
+dev-db/unixODBC odbcmanual -minimal unicode
+dev-java/icedtea-bin nsplugin
+dev-java/icedtea-web nsplugin
+dev-java/oracle-jdk-bin -nsplugin cups derby javafx jce
+dev-lang/mono minimal
+dev-lang/php -truetype -exif apache2 gd cgi fpm xmlrpc mysqli
+dev-lang/python sqlite
+dev-libs/boehm-gc threads
+dev-libs/boost tools context
+dev-libs/botan threads
+dev-libs/cyrus-sasl kerberos
+dev-libs/fcgi html
+dev-libs/folks eds
+dev-libs/glib dbus
+dev-libs/gmime smime
+dev-libs/libdbusmenu-qt qt4
+dev-libs/libgdata gnome-online-accounts
+dev-libs/libgit2 ssh
+dev-libs/libgudev introspection
+dev-libs/libpcre2 pcre32 pcre16
+dev-libs/libpcre pcre16
+dev-libs/openssl gmp kerberos rfc3779 sctp
+dev-libs/weston X colord dbus drm editor examples fbdev gles2 ivi launch rdp resize-optimizatio screen-sharing suid systemd unwind wayland-compositor xwayland 
+dev-libs/xmlrpc-c tools
+dev-lisp/sbcl doc
+dev-python/PyQt5 widgets printsupport webkit gui network
+dev-qt/qtcore qt3support
+dev-qt/qtdeclarative qt3support
+dev-qt/qtgui:4 mng qt3support -egl
+dev-qt/qtgui mng qt3support egl
+dev-qt/qtmultimedia widgets gstreamer
+dev-qt/qtopengl qt3support
+dev-qt/qtsql qt3support
+dev-qt/qtwayland egl
+dev-qt/qtwebkit printsupport
+dev-qt/qtwidgets -gtk
+dev-ruby/activerecord postgres
+dev-util/cmake doc emacs internal-jsoncpp
+dev-util/codeblocks contrib pch
+dev-util/cscope emacs
+dev-util/global emacs vim 
+dev-util/nvidia-cuda-sdk cuda opencl examples
+dev-util/nvidia-cuda-toolkit debugger profiler
+dev-vcs/git doc cgi cvs emacs gnome-keyring highlight xinetd tk
+dev-vcs/subversion perl -dso
+games-util/steam-client-meta flash pulseaudio steamfonts steamruntime streaming trayicon
+games-util/steam-games-meta mono s3tc steamgames_bioshock_infinite steamgames_dwarfs steamgames_hammerwatch steamgames_ironclad_tactics steamgames_journey_down steamgames_narcissu steamgames_painkiller steamgames_portal steamgames_shatter steamgames_source_engine steamgames_tf2 steamgames_trine2 steamgames_unwritten_tales steamgames_voidexpanse steamgames_witcher2 steamruntime 
+games-util/steam-launcher steamruntime
+games-util/steam-meta steamruntime
+gnome-base/gnome-control-center networkmanager
+gnome-base/gnome-settings-daemon policykit
+gnome-base/gvfs cdda udisks
+gnome-extra/evolution-data-server vala
+kde-apps/gwenview -semantic-desktop
+kde-apps/kio-extras -man
+kde-apps/kolourpaint -handbook
+kde-apps/okular -chm
+kde-frameworks/kdelibs -acl -policykit -upower -crypt plasma
+kde-frameworks/ktexteditor -git
+kde-plasma/kinfocenter -gles
+kde-plasma/plasma-desktop legacy-systray 
+kde-plasma/plasma-workspace -geolocation
+media-fonts/dejavu fontforge
+media-fonts/noto cjk
+media-fonts/source-han-sans linguas_ja linguas_zh_TW linguas_ko 
+media-fonts/source-pro cjk
+media-fonts/unifont fontforge utils
+media-gfx/exiv2 xmp
+media-gfx/fontforge cjk
+media-libs/alsa-lib python alisp
+media-libs/clutter egl
+media-libs/cogl gles2
+media-libs/freetype infinality -cleartype_hinting
+media-libs/gegl raw jpeg2k
+media-libs/gexiv2 introspection -python_targets_python2_7 -python_targets_python3_3 python_targets_python3_4
+media-libs/grilo playlist
+media-libs/gst-plugins-bad egl
+media-libs/gst-plugins-base theora
+media-libs/libmediaart -gtk
+media-libs/libmp4v2 utils
+media-libs/libmypaint gegl
+media-libs/libpng apng
+media-libs/libvpx postproc svc
+media-libs/mesa opencl gles gles1 gles2
+media-libs/phonon qt4
+media-libs/phonon-vlc qt4
+media-plugins/alsa-plugins jack
+media-plugins/audacious-plugins -gtk -gtk3 cue lame sndfile wavpack jack adplug bs2b fluidsynth libsamplerate lirc midi mms -scrobbler sid
+media-plugins/grilo-plugins tracker
+media-plugins/grilo-plugins upnp-av
+media-sound/amarok cdda mtp ofa
+media-sound/audacious chardet  -gtk -gtk3
+media-sound/deadbeef aac cdda dts vorbis ape converter wavpack wma mms hotkeys tta alac m3u midi musepack sndfile adplug cover cover-network cover-imlib2 curl dumb gme lastfm mono2stereo notify pltbrowser psf rpath shn sid src supereq threads vtx
+media-sound/mac mmx
+media-sound/moc wavpack sndfile musepack jack
+media-sound/ncmpcpp clock outputs curl taglib visualizer
+media-sound/pulseaudio gnome
+media-sound/split2flac enca flake imagemagick mac mp3 mp4 ogg replaygain wavpack
+media-video/ffmpeg vorbis threads 3dnow 3dnowext amr amrenc avx avx2 bluray cdio celt cpudetection doc examples flite fma3 fma4 gme gnutls gsm iec61883 ieee1394 jack jpeg2k ladspa libass libcaca libsoxr libv4l mmx mmxext modplug openal opus pulseaudio quvi rtmp schroedinger speex sse sse2 sse3 sse4 sse4_2 ssh ssse3 theora twolame v4l vaapi vdpau vpx wavpack webp x265 zvbi 
+media-video/libav oss pulseaudio jack tools vaapi vdpau vpx threads
+media-video/mplayer a52 cddb dts faac gif mng xinerama xvid 3dnow 3dnowext aalib bl bluray bidi bs2b cdparanoia cpudetection dga directfb dv dvb faad fbcon ftp ggi gsm jack joystick jpeg2k ladspa libcaca libmpeg2 lirc lzo md5sum mmxext nas nut openal oss pnm pvr radio rar rtc rtmp samba speex sse sse2 ssse3 tga theora toolame tremor twolame v4l vdpau vidix xanim zoran 
+media-video/mpv bluray bs2b cdio doc-pdf dvb dvdnav egl jack joystick ladspa libcaca libguess libmpv lirc lua luajit openal portaudio oss postproc pvr samba sdl v4l vaapi vdpau vf-dlopen wayland
+media-video/vlc bidi cdda cddb dc1394 dts libnotify rdp vpx xv a52 dvd vorbis dbus ogg skins bibi libass httpd lua aalib atmo audioqueue avahi bluray chromaprint dirac directfb dvb egl faad fdk fluidsynth gme gnutls growl ieee1394 jack kate libcaca libsamplerate libtar libtiger linsys lirc matroska mmx modplug mtp musepack omxil opencv optimisememory opus projectm rtsp samba schroedinger sdl-image sftp shout sid speex sse taglib theora tremor twolame upnp v4l vaapi vcdx vdpau vlm vnc wma-fixed zvbi postproc
+net-dns/avahi dbus
+net-dns/bind dlz -threads
+net-dns/bind-tools gssapi
+net-dns/dnsmasq script dbus
+net-firewall/iptables netlink
+net-fs/samba system-mitkrb5 client -addc addns ads aio avahi cups fam gnutls ldap quota winbind 
+net-libs/c-client chappa
+net-libs/libvncserver gnutls
+net-misc/iputils gnutls idn caps
+net-misc/networkmanager connection-sharing -bluetooth
+net-p2p/rtorrent daemon color xmlrpc
+net-print/cups dbus
+net-print/cups-filters -postscript
+net-wireless/hostapd netlink
+net-wireless/wpa_supplicant dbus
+sci-visualization/gnuplot wxwidgets
+sys-apps/busybox
+sys-apps/pcsc-lite python_single_target_python3_5
+sys-apps/portage doc
+sys-apps/util-linux caps fdformat slang tty-helpers
+sys-boot/grub doc efiemu mount sdl truetype
+sys-devel/clang python
+sys-devel/gcc doc
+sys-devel/llvm clang doc gold python
+sys-libs/libapparmor static-libs
+sys-libs/libseccomp static-libs
+sys-libs/ncurses tinfo
+sys-libs/zlib minizip
+sys-process/tini static
+virtual/libgudev introspection
+virtual/mysql embedded
+www-apps/lxr cvs postgres vhosts
+www-apps/rutorrent vhosts
+www-client/chromium cups gnome gnome-keyring hidpi hotwording kerberos proprietary-codecs pulseaudio tcmalloc
+www-client/firefox egl gmp-autoupdate gstreamer jemalloc3 jit pulseaudio minimal startup-notification system-cairo  system-icu system-jpeg system-libvpx system-sqlite
+www-plugins/adobe-flash sse2
+www-servers/nginx vim-syntax
+x11-base/xorg-server dmx kdrive tslib unwind wayland xnest xvfb
+x11-drivers/nvidia-drivers uvm
+x11-libs/cairo xcb
+x11-libs/gdk-pixbuf tiff
+x11-libs/gtk+ cups
+x11-libs/libxcb xkb
+x11-libs/wxGTK tiff
+x11-terms/xterm Xaw3d toolbar
+x11-wm/awesome doc dbus
+x11-wm/stumpwm contrib doc

@@ -1,9 +1,0 @@
-kde-apps/gwenview -semantic-desktop
-kde-apps/kio-extras -man
-kde-apps/kolourpaint -handbook
-kde-apps/okular -chm
-kde-frameworks/kdelibs -acl -policykit -upower -crypt plasma
-kde-frameworks/ktexteditor -git
-kde-plasma/kinfocenter -gles
-kde-plasma/plasma-desktop legacy-systray 
-kde-plasma/plasma-workspace -geolocation

@@ -1,6 +1,0 @@
-www-apps/lxr cvs postgres vhosts
-www-apps/rutorrent vhosts
-www-client/chromium cups gnome gnome-keyring hidpi hotwording kerberos proprietary-codecs pulseaudio tcmalloc
-www-client/firefox egl gmp-autoupdate gstreamer jemalloc3 jit pulseaudio minimal startup-notification system-cairo  system-icu system-jpeg system-libvpx system-sqlite
-www-plugins/adobe-flash sse2
-www-servers/nginx vim-syntax
