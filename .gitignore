@@ -1,12 +1,4 @@
 
-### Vim
-[._]*.s[a-w][a-z]
-[._]s[a-w][a-z]
-*.un~
-Session.vim
-.netrwhist
-*~
-
 ### Emacs
 # -*- mode: gitignore; -*-
 *~
@@ -40,71 +32,32 @@ tramp
 
 # cask packages
 .cask/
-
-### Python
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-#env/
-build/
-develop-eggs/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# Flycheck
+flycheck_*.el
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# server auth directory
+/server/
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*,cover
+# projectiles files
+.projectile
 
-# Translations
-*.mo
-*.pot
+# directory configuration
+.dir-locals.el
 
-# Django stuff:
-*.log
+### Vim
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
 
-# Sphinx documentation
-docs/_build/
+# Session
+Session.vim
 
-# PyBuilder
-target/
-
-### CMake
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Makefile
-cmake_install.cmake
-install_manifest.txt
+# Temporary
+.netrwhist
+*~
+# Auto-generated tag files
+tags
