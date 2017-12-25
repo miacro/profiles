@@ -1,4 +1,4 @@
-dev-db/freetds iodbc kerberos mssql odbc
+dev-db/freetds kerberos mssql odbc
 dev-db/mariadb embedded client-libs
 dev-db/mariadb -xml
 dev-db/mongodb kerberos mms-agent
@@ -8,7 +8,6 @@ dev-db/unixODBC odbcmanual -minimal unicode
 dev-java/icedtea-bin nsplugin
 dev-java/icedtea-web nsplugin
 dev-java/oracle-jdk-bin -nsplugin cups derby javafx jce
-dev-java/swt webkit
 dev-lang/mono minimal
 dev-lang/php -truetype -exif apache2 gd cgi fpm xmlrpc mysqli
 dev-lang/python sqlite
@@ -25,7 +24,7 @@ dev-libs/libgdata gnome-online-accounts
 dev-libs/libgit2 ssh
 dev-libs/libgudev introspection
 dev-libs/libpcre pcre16
-dev-libs/libpcre2 pcre32
+dev-libs/libpcre2 pcre32 pcre16
 dev-libs/openssl gmp kerberos rfc3779 sctp
 dev-libs/weston X colord dbus drm editor examples fbdev gles2 ivi launch rdp resize-optimizatio screen-sharing suid systemd unwind wayland-compositor xwayland 
 dev-libs/xmlrpc-c tools
@@ -40,6 +39,7 @@ dev-qt/qtopengl qt3support
 dev-qt/qtsql qt3support
 dev-qt/qtwayland egl
 dev-qt/qtwebkit printsupport
+dev-qt/qtwidgets -gtk
 dev-ruby/activerecord postgres
 dev-util/cmake doc emacs internal-jsoncpp
 dev-util/codeblocks contrib pch

@@ -1,4 +1,5 @@
 net-dns/avahi dbus
+net-dns/bind dlz -threads
 net-dns/bind-tools gssapi
 net-dns/dnsmasq script dbus
 net-firewall/iptables netlink

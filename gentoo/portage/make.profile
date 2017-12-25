@@ -1,1 +1,1 @@
-../../var/portage/profiles/default/linux/amd64/13.0/systemd
+../../mnt/var/portage/profiles/default/linux/amd64/17.0/systemd

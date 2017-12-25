@@ -1,12 +1,13 @@
 sys-kernel/gentoo-sources -~amd64
+#sys-apps/systemd -~amd64
 #sys-kernel/linux-headers -~amd64
 #sys-devel/gcc -~amd64
+#sys-libs/glibc -~amd64
+
 #sys-apps/sandbox -~amd64
 #sys-apps/portage -~amd64
 
-sys-apps/systemd -~amd64
 #x11-base/xorg-server -~amd64
 #x11-base/xorg-drivers -~amd64
 #x11-drivers/xf86-input-evdev -~amd64
 #x11-drivers/xf86-input-synaptics -~amd64
-sys-devel/flex -~amd64

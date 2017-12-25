@@ -13,7 +13,7 @@ app-emacs/org-mode doc contrib odt-schema
 app-emulation/docker aufs btrfs apparmor overlay
 app-emulation/docker-runc apparmor
 app-emulation/libvirt  virt-network
-app-emulation/qemu iscsi sdl2 rbd  glusterfs infiniband lzo nfs numa python sasl smartcard snappy systemtap tci tls usbredir vde virtfs xattr xfs
+app-emulation/qemu iscsi sdl2 rbd infiniband lzo nfs numa python sasl smartcard snappy systemtap tci tls usbredir vde virtfs xattr xfs
 app-emulation/runc apparmor
 app-emulation/vmware-tools vmware_guest_linux vmware_guest_netware
 app-emulation/vmware-workstation ovftool server vix vmware-tools

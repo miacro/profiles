@@ -1,7 +1,6 @@
 sys-apps/busybox
-sys-apps/pcsc-lite python_single_target_python3_4
+sys-apps/pcsc-lite python_single_target_python3_5
 sys-apps/portage doc
-sys-apps/systemd doc
 sys-apps/util-linux caps fdformat slang tty-helpers
 sys-boot/grub doc efiemu mount sdl truetype
 sys-devel/clang python
