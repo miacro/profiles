@@ -14,18 +14,18 @@ install-dotfiles:
 	&& ${MAKE} install-powerline
 
 install-portage:
-	${MAKE} TARGET_DIR=/etc PACKAGE=portage PACKAGE_DIR=gentoo ln-${ACTION}
+	@${MAKE} TARGET_DIR=/etc PACKAGE=portage PACKAGE_DIR=gentoo ln-${ACTION}
 
 ln-reinstall:
-	${MAKE} ln-uninstall \
+	@${MAKE} ln-uninstall \
 	&& ${MAKE} ln-install
 
 ln-install:
-	[[ ! -L ${TARGET_DIR}/${PACKAGE} ]] && [[ ! -f ${TARGET_DIR}/${PACKAGE} ]] \
+	@[[ ! -L ${TARGET_DIR}/${PACKAGE} ]] && [[ ! -f ${TARGET_DIR}/${PACKAGE} ]] \
 	&& ln -s $(realpath ${PACKAGE_DIR}/${PACKAGE}) ${TARGET_DIR}/${PACKAGE}
 
 ln-uninstall:
-	[[ -L ${TARGET_DIR}/${PACKAGE} ]] \
+	@[[ -L ${TARGET_DIR}/${PACKAGE} ]] \
 	&& rm -f ${TARGET_DIR}/${PACKAGE}
 
 stow-reinstall:
