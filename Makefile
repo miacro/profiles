@@ -16,6 +16,9 @@ install-dotfiles:
 install-portage:
 	@${MAKE} TARGET_DIR=/etc PACKAGE=portage PACKAGE_DIR=gentoo ln-${ACTION}
 
+eselect-profile:
+	eselect profile set `cat gentoo/portage/readme.profile`
+
 ln-reinstall:
 	@${MAKE} ln-uninstall \
 	&& ${MAKE} ln-install
