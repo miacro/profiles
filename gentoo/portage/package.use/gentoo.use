@@ -172,11 +172,6 @@ sys-process/tini static
 virtual/libgudev introspection
 virtual/mysql embedded
 www-apps/lxr cvs postgres vhosts
-www-apps/rutorrent vhosts
-www-client/chromium cups gnome gnome-keyring hidpi hotwording kerberos proprietary-codecs pulseaudio tcmalloc
-www-client/firefox egl gmp-autoupdate gstreamer jemalloc3 jit pulseaudio minimal startup-notification system-cairo  system-icu system-jpeg system-libvpx system-sqlite
-www-plugins/adobe-flash sse2
-www-servers/nginx vim-syntax
 x11-base/xorg-server dmx kdrive tslib unwind wayland xnest xvfb
 x11-drivers/nvidia-drivers uvm
 x11-libs/cairo xcb
