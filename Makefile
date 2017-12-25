@@ -29,7 +29,8 @@ ln-install:
 
 ln-uninstall:
 	@[[ -L ${TARGET_DIR}/${PACKAGE} ]] \
-	&& rm -f ${TARGET_DIR}/${PACKAGE}
+	&& rm -f ${TARGET_DIR}/${PACKAGE} \
+	|| exit 0
 
 stow-reinstall:
 	@${MAKE} STOW_OPTIONS=-R stow
