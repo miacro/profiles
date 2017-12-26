@@ -78,7 +78,7 @@ dev-util/cmake doc emacs internal-jsoncpp
 dev-util/codeblocks contrib pch
 dev-util/cscope emacs
 dev-util/global emacs vim 
-dev-util/nvidia-cuda-sdk cuda opencl examples
+dev-util/nvidia-cuda-sdk cuda opencl -examples -doc
 dev-util/nvidia-cuda-toolkit debugger profiler
 dev-vcs/git doc cgi cvs emacs gnome-keyring highlight xinetd tk
 dev-vcs/subversion perl -dso
