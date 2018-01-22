@@ -2,7 +2,6 @@ app-admin/conky imlib
 app-arch/p7zip rar wxwidgets
 app-arch/unzip bzip2 natspec
 app-crypt/pinentry gnome-keyring
-app-crypt/qca qt4
 app-doc/doxygen dot clang doxysearch latex
 app-editors/emacs xft Xaw3d athena games gconf gnutls gsettings gzip-el hesiod imagemagick kerberos libxml2 m17n-lib motif pax_kernel sound source toolkit-scroll-bars 
 app-editors/vim python cscope lua perl ruby tcl vim-pager -python_targets_python3_4
@@ -15,10 +14,8 @@ app-emulation/vmware-tools vmware_guest_linux vmware_guest_netware
 app-emulation/vmware-workstation ovftool server vix vmware-tools
 app-emulation/wine opencl
 app-eselect/eselect-php fpm
-app-i18n/fcitx qt4
 app-text/asciidoc python_single_target_python2_7
 app-text/dvipng t1lib
-app-text/poppler qt4
 app-text/texlive cjk context detex dvi2tty dvipdfm epspdf extra games graphics humanities jadetex luatex metapost music omega pstricks publishers science tex4ht texi2html xetex
 app-text/texlive-core cjk tk xetex
 app-text/xdvik Xaw3d emacs motif neXt
@@ -43,7 +40,6 @@ dev-libs/fcgi html
 dev-libs/folks eds
 dev-libs/glib dbus
 dev-libs/gmime smime
-dev-libs/libdbusmenu-qt qt4
 dev-libs/libgdata gnome-online-accounts
 dev-libs/libgit2 ssh
 dev-libs/libgudev introspection
