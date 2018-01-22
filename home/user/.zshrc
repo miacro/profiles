@@ -31,8 +31,8 @@ antigen apply
 ################################################# antigen end
 
 [[ -f /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
-#fpath=(${COMMON_HOME}/gentoo-zsh-completions/src $fpath)
+# fpath=(${COMMON_HOME}/gentoo-zsh-completions/src $fpath)
 
-autoload -U compinit promptinit && compinit && promptinit
-setopt completealiases
+# autoload -U compinit promptinit && compinit && promptinit
+# setopt completealiases
 GREP_OPTIONS=""
