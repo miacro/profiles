@@ -1,19 +1,12 @@
-COMMON_HOME=~/.zsh-repository
-[[ -d ${COMMON_HOME}/antigen/.git ]] \
-|| git clone git://github.com/zsh-users/antigen.git ${COMMON_HOME}/antigen
+################################################# antigen begin
+## https://github.com/zsh-users/antigen.git
+ADOTDIR=~/.antigen
+[[ ! -d ${ADOTDIR} ]] && mkdir -p ${ADOTDIR}
+[[ -f ${ADOTDIR}/antigen.zsh ]] || curl -fSL git.io/antigen > ${ADOTDIR}/antigen.zsh
+source ${ADOTDIR}/antigen.zsh
 
-
-[[ -f /etc/profile.d/autojump.sh ]] \
-&& source /etc/profile.d/autojump.sh
-#fpath=(${COMMON_HOME}/gentoo-zsh-completions/src $fpath)
-
-##--------------------------------------------------------##
-source ${COMMON_HOME}/antigen/antigen.zsh
-ADOTDIR=${COMMON_HOME}/antigen-repos
-
-# antigen bundle git://github.com/zsh-users/antigen.git
 # Load the oh-my-zsh's library.
-# antigen bundle git://github.com/robbyrussell/oh-my-zsh.git
+# antigen bundle https://github.com/robbyrussell/oh-my-zsh.git
 antigen use oh-my-zsh
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
@@ -35,7 +28,10 @@ antigen theme Soliah
 
 # Tell antigen that you're done.
 antigen apply
-##--------------------------------------------------------##
+################################################# antigen end
+
+[[ -f /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
+#fpath=(${COMMON_HOME}/gentoo-zsh-completions/src $fpath)
 
 autoload -U compinit promptinit && compinit && promptinit
 setopt completealiases
