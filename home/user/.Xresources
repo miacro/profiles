@@ -9,7 +9,7 @@ XTerm*VT100.DynamicColors: true
 XTerm*VT100.Utf8: 2
 XTerm*VT100.EightBitInput: true
 XTerm*VT100.SaveLines: 40960
-XTerm*VT100.scrollKey: false
+XTerm*VT100.scrollKey: true
 XTerm*VT100.scrollTtyOutput: false
 XTerm*VT100.scrollBar: false
 XTerm*VT100.rightScrollBar: false
