@@ -11,8 +11,8 @@ XTerm*VT100.EightBitInput: true
 XTerm*VT100.SaveLines: 40960
 XTerm*VT100.scrollKey: true
 XTerm*VT100.scrollTtyOutput: false
-XTerm*VT100.scrollBar: false
-XTerm*VT100.rightScrollBar: false
+XTerm*VT100.ScrollBar: false
+XTerm*VT100.RightScrollBar: false
 XTerm*VT100.JumpScroll: true
 XTerm*VT100.MultiScroll: true
 XTerm*ToolBar: false
