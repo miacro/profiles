@@ -20,4 +20,4 @@
   - optimize: https://github.com/shadowsocks/shadowsocks/wiki/Optimizing-Shadowsocks
 * fail2ban
 * nginx
-  - ssl, acme-tiny
+  - ssl, acme-tiny, cron
