@@ -1,0 +1,23 @@
+* install
+- vim git stow zsh curl make python-pip nginx ntp
+* user
+  - password
+  - sudo
+  - zsh
+* ssh
+- public key
+** sshd
+  - Port ---
+  - ClientAliveInterval 120
+  - ClientAliveCountMax 20
+  - PermitRootLogin no
+  - PasswordAuthentication no
+  - UseDNS no
+  - GatewayPorts no/clientspecified
+* /etc/security/limits.conf
+* shadowsocks
+  - install: https://github.com/shadowsocks/shadowsocks-libev
+  - optimize: https://github.com/shadowsocks/shadowsocks/wiki/Optimizing-Shadowsocks
+* fail2ban
+* nginx
+  - ssl, acme-tiny
