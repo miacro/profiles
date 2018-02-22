@@ -1,0 +1,7 @@
+* master
+- kube-apiserver
+- kube-controller-manager
+- kube-scheduler
+* non-master
+- kubelet
+- kube-proxy
