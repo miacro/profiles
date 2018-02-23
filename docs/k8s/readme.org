@@ -1,7 +1,24 @@
+* common
+  - kubectl
+  - etcd
+  - docker or rkt
 * master
-- kube-apiserver
-- kube-controller-manager
-- kube-scheduler
+  - kube-apiserver
+  - kube-controller-manager
+  - kube-scheduler
 * non-master
-- kubelet
-- kube-proxy
+  - kubelet
+  - kube-proxy
+
+* deploy
+** reference
+  - [[https://kubernetes.io/docs/getting-started-guides/scratch/]]
+** outside of a container
+  - docker
+  - kubelet
+  - kube-proxy
+** as a container
+  - etcd
+  - kube-apiserver
+  - kube-controller-manager
+  - kube-scheduler
