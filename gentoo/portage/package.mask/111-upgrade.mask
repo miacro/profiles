@@ -1,3 +1,0 @@
-# tensorflow depends on 9.0
-=dev-util/nvidia-cuda-sdk-9.1.85
-=dev-util/nvidia-cuda-toolkit-9.1.85
