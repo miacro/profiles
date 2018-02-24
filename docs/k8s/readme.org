@@ -22,3 +22,13 @@
   - kube-apiserver
   - kube-controller-manager
   - kube-scheduler
+** steps
+  1. run on erery node
+    1. docker
+    2. kubelet
+    3. run kube-proxy
+  2. run as a container
+    1. etcd
+    2. kube-apiserver
+    3. kube-controller-manager
+    3. kube-scheduler 
