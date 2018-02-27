@@ -1,0 +1,14 @@
+[Unit]
+Description=Kubernetes Proxy
+Documentation=https://github.com/kubernetes/kubernetes
+After=network.service
+
+[Service]
+User=root
+ExecStart=/usr/bin/kube-proxy \
+  --master=http://192.168.0.80
+Restart=on-failure
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target

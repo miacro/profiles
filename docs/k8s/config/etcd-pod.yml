@@ -1,0 +1,37 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: kube-system
+  name: kube-etcd
+spec:
+  hostNetwork: true
+  containers:
+  - command:
+    - /usr/local/bin/etcd
+    - --name
+    - kube-etcd
+    - --initial-advertise-peer-urls
+    - http://0.0.0.0:2380
+    - --listen-peer-urls
+    - http://0.0.0.0:2380
+    - --listen-client-urls
+    - http://0.0.0.0:2379
+    - --advertise-client-urls
+    - http://0.0.0.0:2379
+    - --initial-cluster
+    - kube-etcd=http://0.0.0.0:2380
+    - --initial-cluster-state
+    - new
+    image: docker.nihaomai.com/cqthink/docker/etcd:3.3.1
+    name: kube-etcd
+    ports:
+    - containerPort: 2379
+      hostPort: 2379
+      name: clientport
+      protocol: TCP
+    - containerPort: 2380
+      hostPort: 2380
+      name: serverport
+      protocol: TCP
+  restartPolicy: Never

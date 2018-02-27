@@ -1,0 +1,18 @@
+[Unit]
+Description=Kubernetes Kubelet
+Documentation=https://github.com/kubernetes/kubernetes
+After=docker.service
+
+[Service]
+User=root
+ExecStart=/usr/bin/kubelet \
+  --address 0.0.0.0 \
+  --cert-dir /var/lib/kubelet/pki \
+  --cluster-dns 8.8.8.8 \
+  --container-runtime docker \
+  --pod-manifest-path /etc/kubernetes/manifests/
+Restart=on-failure
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target

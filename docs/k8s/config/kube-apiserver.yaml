@@ -1,0 +1,38 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  labels: 
+    app: kube-system
+  name: kube-apiserver
+spec:
+  hostNetwork: true
+  containers: 
+  - command:
+    - /usr/local/bin/hyperkube
+    - apiserver
+    - --advertise-address=192.168.0.80
+    - --tls-cert-file=/var/lib/kubernetes/apiserver/serviceaccount.crt
+    - --tls-private-key-file=/var/lib/kubernetes/apiserver/serviceaccount.key
+    - --service-account-lookup=false
+    - --admission-control=NamespaceLifecycle,LimitRanger,ServiceAccount,ResourceQuota
+    - --bind-address=0.0.0.0
+    - --insecure-bind-address=0.0.0.0
+    - --insecure-port=8080
+    - --etcd-servers=http://192.168.0.80:2379
+    name: kube-apiserver
+    image: docker.nihaomai.com/cqthink/docker/hyperkube:1.9.3
+    ports:
+    - name: https
+      hostPort: 443
+      containerPort: 443
+    - name: local
+      hostPort: 8080
+      containerPort: 8080
+    volumeMounts:
+    - name: srvkube
+      mountPath: /var/lib/kubernetes/apiserver
+      readOnly: true
+  volumes:
+  - name: srvkube
+    hostPath:
+      path: /var/lib/kubernetes/apiserver

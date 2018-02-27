@@ -1,5 +1,6 @@
 {
   "data-root": "/mnt/repository/docker",
   "iptables": false,
+  "dns": ["8.8.8.8"],
   "ip-masq": false
 }
