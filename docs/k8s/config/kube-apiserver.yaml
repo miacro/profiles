@@ -19,6 +19,7 @@ spec:
     - --insecure-bind-address=0.0.0.0
     - --insecure-port=8080
     - --etcd-servers=http://192.168.0.80:2379
+    - --logtostderr=true
     name: kube-apiserver
     image: docker.nihaomai.com/cqthink/docker/hyperkube:1.9.3
     ports:

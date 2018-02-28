@@ -1,0 +1,26 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  labels: 
+    app: kube-system
+  name: kube-controller-manager
+spec:
+  hostNetwork: true
+  containers: 
+  - command:
+    - /usr/local/bin/hyperkube
+    - controller-manager
+    - --master=192.168.0.80:8080
+    - --root-ca-file=/var/lib/kubernetes/apiserver/serviceaccount.crt
+    - --service-account-private-key-file=/var/lib/kubernetes/apiserver/serviceaccount.key
+    - --logtostderr=true
+    name: kube-controller-manager
+    image: docker.nihaomai.com/cqthink/docker/hyperkube:1.9.3
+    volumeMounts:
+    - name: srvkube
+      mountPath: /var/lib/kubernetes/apiserver
+      readOnly: true
+  volumes:
+  - name: srvkube
+    hostPath:
+      path: /var/lib/kubernetes/apiserver

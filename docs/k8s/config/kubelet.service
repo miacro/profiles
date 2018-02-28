@@ -11,6 +11,7 @@ ExecStart=/usr/bin/kubelet \
   --cluster-dns 8.8.8.8 \
   --container-runtime docker \
   --pod-manifest-path /etc/kubernetes/manifests/
+  --logtostderr=true
 Restart=on-failure
 LimitNOFILE=65536
 

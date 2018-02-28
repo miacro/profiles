@@ -1,0 +1,16 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  labels: 
+    app: kube-system
+  name: kube-scheduler
+spec:
+  hostNetwork: true
+  containers: 
+  - command:
+    - /usr/local/bin/hyperkube
+    - scheduler
+    - --master=192.168.0.80:8080
+    - --logtostderr=true
+    name: kube-scheduler
+    image: docker.nihaomai.com/cqthink/docker/hyperkube:1.9.3
