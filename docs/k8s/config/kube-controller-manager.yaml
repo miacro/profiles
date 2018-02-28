@@ -20,6 +20,14 @@ spec:
     - name: srvkube
       mountPath: /var/lib/kubernetes/apiserver
       readOnly: true
+    livenessProbe:
+      httpGet:
+        scheme: HTTP
+        host: 127.0.0.1
+        port: 10252
+        path: /healthz
+      initialDelaySeconds: 15
+      timeoutSeconds: 15
   volumes:
   - name: srvkube
     hostPath:

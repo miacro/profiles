@@ -34,4 +34,11 @@ spec:
       hostPort: 2380
       name: serverport
       protocol: TCP
+    livenessProbe:
+      httpGet:
+        host: 0.0.0.0
+        port: 2379
+        path: "/health"
+      initialDelaySeconds: 15
+      timeoutSeconds: 15
   restartPolicy: Never
