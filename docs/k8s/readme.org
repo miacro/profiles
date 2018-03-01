@@ -32,3 +32,5 @@
     2. kube-apiserver
     3. kube-controller-manager
     3. kube-scheduler 
+  3. cephfs
+    - [[https://github.com/kubernetes/examples/tree/master/staging/volumes/cephfs/][cephfs example]]
