@@ -40,7 +40,7 @@ peer_exchange = no
 # on_finished = 
 
 
-upload_rate = 150
+upload_rate = 100
 # download_rate = 
 # min_peers = 
 # max_peers = 
