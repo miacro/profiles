@@ -7,5 +7,5 @@
 	ui = auto
 [alias]
 	lof = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset by:%cN' --abbrev-commit --date=relative 
-#[https "https://github.com"]
-#	proxy = socks5://127.0.0.1:5060
+[credential]
+	helper = store
