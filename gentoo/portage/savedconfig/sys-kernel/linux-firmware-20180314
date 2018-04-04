@@ -456,6 +456,7 @@ brcm/brcmfmac43143-sdio.bin
 brcm/bcm43xx_hdr-0.fw
 brcm/bcm43xx-0.fw
 brcm/bcm4329-fullmac-4.bin
+brcm/BCM-0bb4-0306.hcd
 carl9170-1.fw
 carl9170fw/tools/src/wol.c
 carl9170fw/tools/src/miniboot.c
@@ -758,6 +759,7 @@ intel/fw_sst_0f28.bin
 intel/dsp_fw_release_v969.bin
 intel/dsp_fw_release.bin
 intel/dsp_fw_kbl_v701.bin
+intel/dsp_fw_kbl_v3420.bin
 intel/dsp_fw_kbl_v3266.bin
 intel/dsp_fw_kbl_v2630.bin
 intel/dsp_fw_kbl_v2042.bin
@@ -910,6 +912,7 @@ liquidio/lio_210sv_nic.bin
 liquidio/lio_210nv_nic.bin
 matrox/g400_warp.fw
 matrox/g200_warp.fw
+mellanox/mlxsw_spectrum-13.1620.192.mfa2
 mellanox/mlxsw_spectrum-13.1530.152.mfa2
 mellanox/mlxsw_spectrum-13.1420.122.mfa2
 moxa/moxa-1658.fw
@@ -1250,12 +1253,16 @@ qcom/a300_pfp.fw
 qcom/NOTICE.txt
 qed/qed_init_values_zipped-8.7.3.0.bin
 qed/qed_init_values_zipped-8.4.2.0.bin
+qed/qed_init_values_zipped-8.33.11.0.bin
 qed/qed_init_values_zipped-8.33.1.0.bin
 qed/qed_init_values_zipped-8.20.0.0.bin
 qed/qed_init_values_zipped-8.15.3.0.bin
 qed/qed_init_values_zipped-8.10.5.0.bin
 qed/qed_init_values_zipped-8.10.10.0.bin
 qed/qed_init_values-8.30.12.0.bin
+qed/qed_init_values-8.20.0.0.bin
+qed/qed_init_values-8.18.9.0.bin
+qed/qed_init_values-8.14.6.0.bin
 qed/qed_init_values-8.10.9.0.bin
 ql2100_fw.bin
 ql2200_fw.bin
