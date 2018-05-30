@@ -89,7 +89,7 @@ media-gfx/fontforge cjk
 media-libs/alsa-lib python alisp
 media-libs/clutter egl
 media-libs/cogl gles2
-media-libs/freetype infinality -cleartype_hinting
+media-libs/freetype infinality cleartype_hinting harfbuzz
 media-libs/gegl raw jpeg2k
 media-libs/gexiv2 introspection -python_targets_python2_7 python_targets_python3_4
 media-libs/grilo playlist
