@@ -1,0 +1,17 @@
+* ocr
+- [[https://www.cs.toronto.edu/~kriz/cifar.html][cifar]]
+- [[http://cocodataset.org][coco]]
+  [https://github.com/cocodataset/cocoapi]
+- [[https://vision.cornell.edu/se3/coco-text-2/][coco-text]]
+  https://github.com/andreasveit/coco-text
+- [[http://www.nlpr.ia.ac.cn/databases/handwriting/Download.html][CASIA]]
+- [[http://www.iapr-tc11.org/mediawiki/index.php?title=Harbin_Institute_of_Technology_Opening_Recognition_Corpus_for_Chinese_Characters_(HIT-OR3C)][HIT-OR3C]]
+- [[http://rrc.cvc.uab.es][ICDAR2017MLT]]
+- [[http://www.icst.pku.edu.cn/cpdp/data/marmot_data.htm][Marmot Dataset]]
+- [[https://github.com/weinman/cnn_lstm_ctc_ocr][mjsynth]]
+- [[http://vision.princeton.edu/projects/2010/SUN/][SUN_Database]]
+- [[https://github.com/YCG09/chinese_ocr][Synthetic-Chinese-String-Dataset]]
+* corpus
+- [[dumps.wikimedia.org]]
+* ctpn
+- [[https://github.com/eragonruan/text-detection-ctpn]]
