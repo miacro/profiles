@@ -100,7 +100,7 @@ media-libs/libmp4v2 utils
 media-libs/libmypaint gegl
 media-libs/libpng apng
 media-libs/libvpx postproc svc
-media-libs/mesa opencl gles gles1 gles2
+media-libs/mesa gles gles1 gles2
 media-plugins/alsa-plugins jack
 media-plugins/audacious-plugins -gtk -gtk3 cue lame sndfile wavpack jack adplug bs2b fluidsynth libsamplerate lirc midi mms -scrobbler sid
 media-plugins/grilo-plugins tracker
