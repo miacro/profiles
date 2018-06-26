@@ -1,4 +1,5 @@
 #!/bin/sh
+export TERM=xterm-256color
 
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
@@ -14,4 +15,4 @@ export XMODIFIERS="@im=fcitx"
 fcitx &
 volumeicon &
 
-#[[ -f ~/.xmodmaprc ]] && xmodmap ~/.xmodmaprc #disabled by input method
+# [[ -f ~/.xmodmaprc ]] && xmodmap ~/.xmodmaprc #disabled by input method
