@@ -46,8 +46,10 @@ XTerm*VT100.CjkWidth:false
 ! XTerm*eightBitOutput: true
 XTerm*metaSendsEscape: true
 
-! XTerm.vt100.backarrowKey: false
-! XTerm.ttyModes: erase ^?
+! xterm not send ^H as <Backspace>
+XTerm*backarrowKey: false
+! tells tty ^? as <Backspace>
+XTerm*ttyModes: erase ^?
 
 
 ! Solarized color scheme for the X Window System
