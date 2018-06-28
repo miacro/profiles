@@ -13,5 +13,4 @@ export PATH=~/bin:~/bin/private:~/bin/utils:~/bin/kindlegen:${PATH}
 [[ -f ~/.pathrc ]] && source ~/.pathrc
 
 export EDITOR="vim" 
-export TERM=xterm-256color
 alias grep='grep --color=auto --exclude-dir=node_modules --exclude-dir=.cvs --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn'

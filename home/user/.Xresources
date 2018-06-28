@@ -1,8 +1,9 @@
-!-*-{ Xft settings
+! Xft settings
 Xft*dpi:              96
 Xft*antialias:        True
 Xft*hinting:          Full
-!-*-}
+
+XTerm.termName: xterm-256color
 
 XTerm*VT100.geometry:     1920x1080
 XTerm*VT100.DynamicColors: true
@@ -28,24 +29,25 @@ XTerm*VT100.Translations: #override \n\
         Shift <Key>Down:        scroll-forw(1,lines) \n\
 
 
-!XTerm font and locale
+! XTerm font and locale
 XTerm*VT100.Locale: true
 XTerm*VT100.Utf8Title: true
 XTerm*fontMenu*fontdefault*Label: Default
 XTerm*faceName: Source Code Pro:antialias=true:pixelsize=16
-!XTerm*faceName: DejaVu Sans Mono:antialias=true:pixelsize=16
-!XTerm*faceName: Consolas:antialias=true:pixelsize=18:italic
+! XTerm*faceName: DejaVu Sans Mono:antialias=true:pixelsize=16
+! XTerm*faceName: Consolas:antialias=true:pixelsize=18:italic
 XTerm*faceNameDoublesize: Source Han Sans CN:pixelsize=16:antialias=true
-!XTerm*faceNameDoublesize: WenQuanYi Micro Hei Mono:pixelsize=16:antialias=true
-!XTerm*faceNameDoublesize: WenQuanYi Micro Hei Mono:pixelsize=18:antialias=true:italic
+! XTerm*faceNameDoublesize: WenQuanYi Micro Hei Mono:pixelsize=16:antialias=true
+! XTerm*faceNameDoublesize: WenQuanYi Micro Hei Mono:pixelsize=18:antialias=true:italic
 XTerm*xftAntialias: true
 XTerm*VT100.CjkWidth:false
-! 
-!解决Alt键不好使
-!XTerm*eightBitInput:false
-XTerm*altIsNotMeta:true
-XTerm*altSendsEscape:true
 
+! XTerm*eightBitInput: true
+! XTerm*eightBitOutput: true
+XTerm*metaSendsEscape: true
+
+! XTerm.vt100.backarrowKey: false
+! XTerm.ttyModes: erase ^?
 
 
 ! Solarized color scheme for the X Window System
