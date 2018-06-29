@@ -135,6 +135,7 @@ net-wireless/hostapd netlink
 net-wireless/wpa_supplicant dbus
 sci-visualization/gnuplot wxwidgets
 sys-apps/busybox
+sys-apps/portage gentoo-dev
 sys-apps/util-linux caps fdformat slang tty-helpers
 sys-boot/grub efiemu mount sdl truetype
 sys-devel/clang python
