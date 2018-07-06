@@ -31,7 +31,7 @@ dev-java/icedtea-web nsplugin
 dev-java/oracle-jdk-bin -nsplugin cups derby javafx jce
 dev-lang/mono minimal
 dev-lang/php -truetype -exif apache2 gd cgi fpm xmlrpc mysqli
-dev-lang/python sqlite
+dev-lang/python sqlite tk
 dev-libs/boehm-gc threads
 dev-libs/boost tools context
 dev-libs/botan threads
