@@ -10,10 +10,10 @@ check_hash = no
 # directory = ~/rtorrent.d/downloads
 session = ~/rtorrent.d/session
 # http_proxy = http://127.0.0.1:5061
-http_proxy = ""
+# http_proxy = ""
 encoding_list = UTF-8
 encryption = allow_incoming,try_outgoing,enable_retry
-peer_exchange = no
+# peer_exchange = no
 # schedule = 
 # schedule_remove =
 # start_tied =
@@ -61,7 +61,7 @@ upload_rate = 100
 #enable_trackers = yes
 # tracker_dump = ~/rtorrent.d/tracker_dump
 # tracker_nuwant = 
-use_udp_trackers = yes
+# use_udp_trackers = yes
 dht = disable
 # dht_port = 
 # dht_add_node = 
@@ -72,7 +72,7 @@ dht = disable
 
 
 # view_add 
-view_sort = complete
+# view_sort = complete
 # view_sort_new = 
 # view_sort_current = 
 key_layout = qwerty
