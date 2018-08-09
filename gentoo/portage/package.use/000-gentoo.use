@@ -133,6 +133,7 @@ net-print/cups dbus
 net-print/cups-filters -postscript
 net-wireless/hostapd netlink
 net-wireless/wpa_supplicant dbus
+sci-libs/dlib cblas cuda
 sci-visualization/gnuplot wxwidgets
 sys-apps/busybox
 sys-apps/portage gentoo-dev
