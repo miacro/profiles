@@ -113,7 +113,7 @@ media-sound/moc wavpack sndfile musepack jack
 media-sound/ncmpcpp clock outputs curl taglib visualizer
 media-sound/pulseaudio gnome
 media-sound/split2flac enca flake imagemagick mac mp3 mp4 ogg replaygain wavpack
-media-video/ffmpeg vorbis threads 3dnow 3dnowext amr amrenc avx avx2 bluray cdio celt cpudetection examples flite fma3 fma4 gme gnutls gsm iec61883 ieee1394 jack jpeg2k ladspa libass libcaca libsoxr libv4l mmx mmxext modplug openal opus pulseaudio quvi rtmp schroedinger speex sse sse2 sse3 sse4 sse4_2 ssh ssse3 theora twolame v4l vaapi vdpau vpx wavpack webp x265 zvbi
+media-video/ffmpeg vorbis threads 3dnow 3dnowext amr amrenc avx avx2 bluray cdio celt cpudetection examples flite fma3 fma4 gme gnutls gsm iec61883 ieee1394 jack jpeg2k ladspa libass libcaca libsoxr libv4l mmx mmxext modplug openal opus pulseaudio quvi rtmp schroedinger speex sse sse2 sse3 sse4 sse4_2 ssh ssse3 theora twolame v4l vaapi vdpau vpx wavpack webp x265 zvbi xcb
 media-video/libav oss pulseaudio jack tools vaapi vdpau vpx threads
 media-video/mplayer a52 cddb dts faac gif mng xinerama xvid 3dnow 3dnowext aalib bl bluray bidi bs2b cdparanoia cpudetection dga directfb dv dvb faad fbcon ftp ggi gsm jack joystick jpeg2k ladspa libcaca libmpeg2 lirc lzo md5sum mmxext nas nut openal oss pnm pvr radio rar rtc rtmp samba speex sse sse2 ssse3 tga theora toolame tremor twolame v4l vdpau vidix xanim zoran 
 media-video/mpv bluray bs2b cdio doc-pdf dvb dvdnav egl jack joystick ladspa libcaca libguess libmpv lirc lua luajit openal portaudio oss postproc pvr samba sdl v4l vaapi vdpau vf-dlopen wayland
