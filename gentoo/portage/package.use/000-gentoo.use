@@ -126,6 +126,7 @@ net-firewall/iptables netlink
 net-fs/samba system-mitkrb5 client -addc addns ads aio avahi cups fam gnutls ldap quota winbind 
 net-libs/c-client chappa
 net-libs/libvncserver gnutls
+net-libs/zeromq drafts
 net-misc/iputils gnutls idn caps
 net-misc/networkmanager connection-sharing -bluetooth
 net-p2p/rtorrent daemon color xmlrpc
