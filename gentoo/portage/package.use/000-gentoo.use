@@ -42,7 +42,6 @@ dev-libs/glib dbus
 dev-libs/gmime smime
 dev-libs/libgdata gnome-online-accounts
 dev-libs/libgit2 ssh
-dev-libs/libgudev introspection
 dev-libs/libpcre2 pcre32 pcre16
 dev-libs/libpcre pcre16
 dev-libs/openssl gmp kerberos rfc3779 sctp
@@ -148,14 +147,12 @@ sys-libs/libseccomp static-libs
 sys-libs/ncurses tinfo
 sys-libs/zlib minizip
 sys-process/tini static
-virtual/libgudev introspection
 virtual/mysql embedded
 www-apps/lxr cvs postgres vhosts
 x11-base/xorg-server dmx kdrive tslib unwind wayland xnest xvfb
 x11-drivers/nvidia-drivers uvm
 x11-libs/cairo xcb
 x11-libs/gdk-pixbuf tiff
-x11-libs/gtk+ cups
 x11-libs/libxcb xkb
 x11-libs/wxGTK tiff
 x11-terms/xterm Xaw3d toolbar
