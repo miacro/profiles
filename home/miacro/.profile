@@ -11,7 +11,7 @@ export CPLUS_INCLUDE_PATH=~/.local/include:${C_INCLUDE_PATH}
 export PATH=${PATH}:/sbin:/usr/sbin:/usr/local/sbin
 export PATH=~/node_modules/.bin:${PATH}
 export PATH=~/.local/bin:${PATH}
-export PATH=~/.local/texlive/2018/bin:${PATH}
+export PATH=~/.local/texlive/2018/bin/x86_64-linux:${PATH}
 export PATH=~/bin:~/bin/private:~/bin/utils:${PATH}
 
 export MANPATH=${MANPATH}:~/.local/share/man
