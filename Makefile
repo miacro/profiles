@@ -5,7 +5,7 @@ ACTION=reinstall
 INSTALLER=stow
 
 TARGET_DIR=${HOME}
-PACKAGE=user
+PACKAGE=miacro
 PACKAGE_DIR=home
 STOW_OPTIONS=
 
