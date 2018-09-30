@@ -14,5 +14,11 @@ export PATH=~/.local/bin:${PATH}
 export PATH=~/.local/texlive/2018/bin:${PATH}
 export PATH=~/bin:~/bin/private:~/bin/utils:${PATH}
 
+export MANPATH=${MANPATH}:~/.local/share/man
+export MANPATH=${MANPATH}:~/.local/texlive/2018/texmf-dist/doc/man
+
+export INFOPATH=${INFOPATH}:~/.local/share/info
+export INFOPATH=${INFOPATH}:~/.local/texlive/2018/texmf-dist/doc/info
+
 export EDITOR="vim" 
 alias grep='grep --color=auto --exclude-dir=node_modules --exclude-dir=.cvs --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn'
