@@ -5,7 +5,7 @@ sys-devel/gcc -~amd64
 #sys-libs/glibc -~amd64
 
 sys-apps/sandbox -~amd64
-#sys-apps/portage -~amd64
+sys-apps/portage -~amd64
 
 #x11-base/xorg-server -~amd64
 #x11-base/xorg-drivers -~amd64
