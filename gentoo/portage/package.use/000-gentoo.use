@@ -140,7 +140,7 @@ sys-apps/portage gentoo-dev
 sys-apps/util-linux caps fdformat slang tty-helpers
 sys-boot/grub efiemu mount sdl truetype
 sys-devel/clang python
-sys-devel/gcc doc
+sys-devel/gcc doc pie
 sys-devel/llvm clang doc gold python
 sys-libs/libapparmor static-libs
 sys-libs/libseccomp static-libs

@@ -13,6 +13,7 @@ LICENCE.agere
 LICENCE.atheros_firmware
 LICENCE.broadcom_bcm43xx
 LICENCE.ca0132
+LICENCE.cadence
 LICENCE.cavium
 LICENCE.chelsio_firmware
 LICENCE.cw1200
@@ -561,6 +562,7 @@ brcm/bcm43xx_hdr-0.fw
 brcm/bcm43xx-0.fw
 brcm/bcm4329-fullmac-4.bin
 brcm/BCM-0bb4-0306.hcd
+cadence/mhdp8546.bin
 carl9170-1.fw
 carl9170fw/tools/src/wol.c
 carl9170fw/tools/src/miniboot.c
@@ -1027,6 +1029,8 @@ matrox/g200_warp.fw
 mediatek/mt7662u_rom_patch.bin
 mediatek/mt7662u.bin
 mediatek/mt7622pr2h.bin
+mediatek/mt7610u.bin
+mellanox/mlxsw_spectrum-13.1703.4.mfa2
 mellanox/mlxsw_spectrum-13.1702.6.mfa2
 mellanox/mlxsw_spectrum-13.1620.192.mfa2
 mellanox/mlxsw_spectrum-13.1530.152.mfa2
@@ -1164,10 +1168,10 @@ nvidia/gp108/gr/fecs_sig.bin
 nvidia/gp108/gr/fecs_inst.bin
 nvidia/gp108/gr/fecs_data.bin
 nvidia/gp108/gr/fecs_bl.bin
-nvidia/gp108/acr/unload_bl.bin
-nvidia/gp108/acr/ucode_unload.bin
-nvidia/gp108/acr/ucode_load.bin
 nvidia/gp108/acr/bl.bin
+nvidia/gp108/acr/ucode_load.bin
+nvidia/gp108/acr/ucode_unload.bin
+nvidia/gp108/acr/unload_bl.bin
 nvidia/gp107/sec2/desc.bin
 nvidia/gp107/sec2/image.bin
 nvidia/gp107/sec2/sig.bin
@@ -1384,6 +1388,7 @@ qcom/a300_pfp.fw
 qcom/NOTICE.txt
 qed/qed_init_values_zipped-8.7.3.0.bin
 qed/qed_init_values_zipped-8.4.2.0.bin
+qed/qed_init_values_zipped-8.37.7.0.bin
 qed/qed_init_values_zipped-8.37.2.0.bin
 qed/qed_init_values_zipped-8.33.11.0.bin
 qed/qed_init_values_zipped-8.33.1.0.bin
@@ -1675,6 +1680,7 @@ rt3071.bin
 rt3090.bin
 rt3290.bin
 rt73.bin
+rtl_bt/rtl8822cu_fw.bin
 rtl_bt/rtl8822b_fw.bin
 rtl_bt/rtl8822b_config.bin
 rtl_bt/rtl8821c_fw.bin
