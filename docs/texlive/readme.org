@@ -1,0 +1,15 @@
+* install
+#+begin_src shell
+./install-tl -init-from-profile texlive.profile
+#+end_src
+* edit ~/.profile
+#+begin_src shell
+export PATH=~/.local/texlive/2018/bin/x86_64-linux:${PATH}
+export MANPATH=${MANPATH}:~/.local/texlive/2018/texmf-dist/doc/man
+export INFOPATH=${INFOPATH}:~/.local/texlive/2018/texmf-dist/doc/info
+#+end_src
+* fontconfig
+#+begin_src shell
+cp ~/.local/texlive/2018/texmf-var/fonts/conf/texlive-fontconfig.conf ~/.config/fontconfig/09-texlive.conf
+fc-cache -fsv
+#+end_src
