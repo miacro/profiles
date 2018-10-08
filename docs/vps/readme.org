@@ -1,5 +1,5 @@
 * install
-- vim git stow zsh curl make python-pip nginx ntp
+- vim git vcsh zsh curl make python-pip nginx ntp
 * user
   - password
   - sudo
