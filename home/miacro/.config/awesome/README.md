@@ -1,2 +1,0 @@
-# awesome
-awesome wm configuration

@@ -9,10 +9,6 @@ PACKAGE=miacro
 PACKAGE_DIR=home
 STOW_OPTIONS=
 
-install-dotfiles:
-	@${MAKE} stow-${ACTION} \
-	&& ${MAKE} install-powerline
-
 install-portage:
 	@${MAKE} TARGET_DIR=/etc PACKAGE=portage PACKAGE_DIR=gentoo ln-${ACTION}
 
@@ -44,8 +40,4 @@ stow-uninstall:
 stow:
 	stow -d ${PACKAGE_DIR} -t ${TARGET_DIR} ${STOW_OPTIONS} ${PACKAGE}
 
-install-powerline:
-#	@pip install --upgrade --user git+git://github.com/powerline/powerline
-	@pip install --upgrade --user powerline-status
-
-.PHONY: install-dotfiles install-portage install-powerline
+.PHONY: install-portage
