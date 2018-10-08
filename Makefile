@@ -1,43 +1,13 @@
 SHELL=/bin/bash
 MAKE=make --no-print-directory
 
-ACTION=reinstall
-INSTALLER=stow
-
-TARGET_DIR=${HOME}
-PACKAGE=miacro
-PACKAGE_DIR=home
-STOW_OPTIONS=
-
 install-portage:
-	@${MAKE} TARGET_DIR=/etc PACKAGE=portage PACKAGE_DIR=gentoo ln-${ACTION}
+	ln -fs -T $(realpath gentoo/portage) /etc/portage
+
+uninstall-portage:
+	@[[ -L /etc/portage ]] && rm /etc/portage || exit 0
 
 eselect-profile:
 	eselect profile set `cat gentoo/portage/readme.profile`
 
-ln-reinstall:
-	@${MAKE} ln-uninstall \
-	&& ${MAKE} ln-install
-
-ln-install:
-	@[[ ! -L ${TARGET_DIR}/${PACKAGE} ]] && [[ ! -f ${TARGET_DIR}/${PACKAGE} ]] \
-	&& ln -s $(realpath ${PACKAGE_DIR}/${PACKAGE}) ${TARGET_DIR}/${PACKAGE}
-
-ln-uninstall:
-	@[[ -L ${TARGET_DIR}/${PACKAGE} ]] \
-	&& rm -f ${TARGET_DIR}/${PACKAGE} \
-	|| exit 0
-
-stow-reinstall:
-	@${MAKE} STOW_OPTIONS=-R stow
-
-stow-install:
-	@${MAKE} STOW_OPTIONS= stow
-
-stow-uninstall:
-	@${MAKE} STOW_OPTIONS=-D stow
-
-stow:
-	stow -d ${PACKAGE_DIR} -t ${TARGET_DIR} ${STOW_OPTIONS} ${PACKAGE}
-
-.PHONY: install-portage
+.PHONY: install-portage uninstall-portage eselect-profile
