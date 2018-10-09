@@ -8,6 +8,6 @@ uninstall-portage:
 	[[ -L /etc/portage ]] && rm /etc/portage || exit 0
 
 eselect-profile:
-	eselect profile set `cat gentoo/portage/readme.profile`
+	eselect profile set $$(cat gentoo/portage/readme.profile)
 
 .PHONY: install-portage uninstall-portage eselect-profile
