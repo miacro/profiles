@@ -10,10 +10,13 @@ spec:
   - command:
     - /usr/local/bin/hyperkube
     - scheduler
-    - --master=192.168.0.80:8080
-    - --logtostderr=true
+    - --kubeconfig=/etc/kubernetes/config
     name: kube-scheduler
     image: docker.nihaomai.com/cqthink/docker/hyperkube:1.9.3
+    volumeMounts:
+    - name: kubeconfig
+      mountPath: /etc/kubernetes
+      readOnly: true
     livenessProbe:
       httpGet:
         scheme: HTTP
@@ -22,3 +25,7 @@ spec:
         path: /healthz
       initialDelaySeconds: 15
       timeoutSeconds: 15
+  volumes:
+  - name: kubeconfig
+    hostPath:
+      path: /etc/kubernetes

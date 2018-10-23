@@ -7,12 +7,7 @@ After=docker.service
 User=root
 ExecStart=/usr/bin/kubelet \
   --kubeconfig=/etc/kubernetes/config \
-  --address 0.0.0.0 \
-  --cert-dir /var/lib/kubelet/pki \
-  --cluster-dns 8.8.8.8 \
-  --container-runtime docker \
-  --pod-manifest-path /etc/kubernetes/manifests/ \
-  --logtostderr=true
+  --config=/etc/kubernetes/kubelet/config
 Restart=on-failure
 LimitNOFILE=65536
 

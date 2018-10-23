@@ -10,15 +10,15 @@ spec:
   - command:
     - /usr/local/bin/hyperkube
     - controller-manager
-    - --master=192.168.0.80:8080
-    - --root-ca-file=/var/lib/kubernetes/apiserver/serviceaccount.crt
-    - --service-account-private-key-file=/var/lib/kubernetes/apiserver/serviceaccount.key
+    - --kubeconfig=/etc/kubernetes/config
+    - --root-ca-file=/etc/kubernetes/ca/ca.crt
+    - --service-account-private-key-file=/etc/kubernetes/service-account/private.key
     - --logtostderr=true
     name: kube-controller-manager
     image: docker.nihaomai.com/cqthink/docker/hyperkube:1.9.3
     volumeMounts:
-    - name: srvkube
-      mountPath: /var/lib/kubernetes/apiserver
+    - name: kubeconfig
+      mountPath: /etc/kubernetes
       readOnly: true
     livenessProbe:
       httpGet:
@@ -29,6 +29,6 @@ spec:
       initialDelaySeconds: 15
       timeoutSeconds: 15
   volumes:
-  - name: srvkube
+  - name: kubeconfig
     hostPath:
-      path: /var/lib/kubernetes/apiserver
+      path: /etc/kubernetes
