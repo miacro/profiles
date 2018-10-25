@@ -12,11 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Configuration to deploy release version of the Dashboard UI compatible with
-# Kubernetes 1.8.
-#
-# Example usage: kubectl create -f <this_file>
-
 # ------------------- Dashboard Secret ------------------- #
 
 apiVersion: v1
@@ -114,22 +109,26 @@ spec:
     spec:
       containers:
       - name: kubernetes-dashboard
-        image: k8s.gcr.io/kubernetes-dashboard-amd64:v1.8.3
+        image: k8s.gcr.io/kubernetes-dashboard-amd64:v1.10.0
         ports:
         - containerPort: 8443
           protocol: TCP
         args:
+          - --kubeconfig=/etc/kubernetes/config
           - --auto-generate-certificates
           # Uncomment the following line to manually specify Kubernetes API server Host
           # If not specified, Dashboard will attempt to auto discover the API server and connect
           # to it. Uncomment only if the default does not work.
-          - --apiserver-host=http://192.168.0.80:8080
+          # --apiserver-host=http://192.168.0.80:6443
         volumeMounts:
         - name: kubernetes-dashboard-certs
           mountPath: /certs
           # Create on-disk volume to store exec logs
         - mountPath: /tmp
           name: tmp-volume
+        - name: kubeconfig
+          mountPath: /etc/kubernetes
+          readOnly: true
         livenessProbe:
           httpGet:
             scheme: HTTPS
@@ -143,6 +142,9 @@ spec:
           secretName: kubernetes-dashboard-certs
       - name: tmp-volume
         emptyDir: {}
+      - name: kubeconfig
+        hostPath:
+          path: /etc/kubernetes
       serviceAccountName: kubernetes-dashboard
       # Comment the following tolerations if Dashboard must not be deployed on master
       tolerations:
@@ -163,5 +165,6 @@ spec:
   ports:
     - port: 443
       targetPort: 8443
+  type: NodePort
   selector:
     k8s-app: kubernetes-dashboard

@@ -7,15 +7,16 @@ metadata:
 spec:
   hostNetwork: true
   containers: 
-  - command:
-    - /usr/local/bin/hyperkube
+  - args:
     - controller-manager
     - --kubeconfig=/etc/kubernetes/config
     - --root-ca-file=/etc/kubernetes/ca/ca.crt
     - --service-account-private-key-file=/etc/kubernetes/service-account/private.key
+    - --allocate-node-cidrs=true
+    - --cluster-cidr=162.8.8.0/16
     - --logtostderr=true
     name: kube-controller-manager
-    image: docker.nihaomai.com/cqthink/docker/hyperkube:1.9.3
+    image: docker.nihaomai.com/cqthink/docker/hyperkube:1.12.1
     volumeMounts:
     - name: kubeconfig
       mountPath: /etc/kubernetes

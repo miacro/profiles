@@ -7,12 +7,11 @@ metadata:
 spec:
   hostNetwork: true
   containers: 
-  - command:
-    - /usr/local/bin/hyperkube
+  - args:
     - scheduler
     - --kubeconfig=/etc/kubernetes/config
     name: kube-scheduler
-    image: docker.nihaomai.com/cqthink/docker/hyperkube:1.9.3
+    image: docker.nihaomai.com/cqthink/docker/hyperkube:1.12.1
     volumeMounts:
     - name: kubeconfig
       mountPath: /etc/kubernetes

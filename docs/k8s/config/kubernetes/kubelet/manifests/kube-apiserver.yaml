@@ -7,21 +7,21 @@ metadata:
 spec:
   hostNetwork: true
   containers: 
-  - command:
-    - /usr/local/bin/hyperkube
+  - args:
     - apiserver
     - --advertise-address=192.168.0.80
     - --tls-cert-file=/etc/kubernetes/apiserver/tls.crt
     - --tls-private-key-file=/etc/kubernetes/apiserver/tls.key
     - --service-account-key-file=/etc/kubernetes/service-account/public.key
-    - --admission-control=NamespaceLifecycle,LimitRanger,ServiceAccount,ResourceQuota
     - --bind-address=0.0.0.0
     - --etcd-servers=http://192.168.0.80:2379
     - --logtostderr=true
     - --client-ca-file=/etc/kubernetes/ca/ca.crt
     - --token-auth-file=/etc/kubernetes/apiserver/token-auth.csv
+    - --enable-admission-plugins=NamespaceLifecycle,LimitRanger,ServiceAccount,ResourceQuota
+    - --authorization-mode=RBAC,AlwaysAllow
     name: kube-apiserver
-    image: docker.nihaomai.com/cqthink/docker/hyperkube:1.9.3
+    image: docker.nihaomai.com/cqthink/docker/hyperkube:1.12.1
     ports:
     - name: https
       hostPort: 6443
