@@ -20,6 +20,8 @@ spec:
     - --token-auth-file=/etc/kubernetes/apiserver/token-auth.csv
     - --enable-admission-plugins=NamespaceLifecycle,LimitRanger,ServiceAccount,ResourceQuota
     - --authorization-mode=RBAC,AlwaysAllow
+    - --allow-privileged=true
+    # -  --service-cluster-ip-range=168.9.0.0/16
     name: kube-apiserver
     image: docker.nihaomai.com/cqthink/docker/hyperkube:1.12.1
     ports:
