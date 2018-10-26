@@ -10,12 +10,12 @@ spec:
   containers: 
   - args:
     - apiserver
-    - --advertise-address=192.168.0.80
+    - --advertise-address=192.168.0.2
     - --tls-cert-file=/etc/kubernetes/apiserver/tls.crt
     - --tls-private-key-file=/etc/kubernetes/apiserver/tls.key
     - --service-account-key-file=/etc/kubernetes/service-account/public.key
     - --bind-address=0.0.0.0
-    - --etcd-servers=http://192.168.0.80:2379
+    - --etcd-servers=http://192.168.0.2:2379
     - --logtostderr=true
     - --client-ca-file=/etc/kubernetes/ca/ca.crt
     - --token-auth-file=/etc/kubernetes/apiserver/token-auth.csv
