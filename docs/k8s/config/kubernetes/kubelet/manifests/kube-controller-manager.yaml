@@ -4,6 +4,7 @@ metadata:
   labels: 
     app: kube-system
   name: kube-controller-manager
+  namespace: kube-system
 spec:
   hostNetwork: true
   containers: 
@@ -12,9 +13,10 @@ spec:
     - --kubeconfig=/etc/kubernetes/config
     - --root-ca-file=/etc/kubernetes/ca/ca.crt
     - --service-account-private-key-file=/etc/kubernetes/service-account/private.key
-    # - --allocate-node-cidrs=true
-    # - --cluster-cidr=162.8.0.0/16
-    # - --service-cluster-ip-range=162.9.0.0/16
+    - --allocate-node-cidrs=true
+    - --cluster-cidr=168.9.0.0/16
+    - --node-cidr-mask-size=16
+    - --service-cluster-ip-range=168.8.0.0/16
     - --logtostderr=true
     name: kube-controller-manager
     image: docker.nihaomai.com/cqthink/docker/hyperkube:1.12.1
