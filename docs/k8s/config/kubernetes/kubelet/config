@@ -7,5 +7,6 @@ authentication:
   kubeletAuthentication:
     x509:
       clientCAFile: /etc/kubernetes/ca/ca.crt
-#clusterDNS: 
-#- 8.8.8.8
+clusterDNS: 
+- 168.8.8.8
+clusterDomain: cluster.local
