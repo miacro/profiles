@@ -4,9 +4,10 @@ address: 0.0.0.0
 port: 10250
 staticPodPath: /etc/kubernetes/kubelet/manifests
 authentication:
-  kubeletAuthentication:
-    x509:
-      clientCAFile: /etc/kubernetes/ca/ca.crt
+  x509:
+    clientCAFile: /etc/kubernetes/ca/ca.crt
+authorization:
+  mode: AlwaysAllow
 clusterDNS: 
 - 168.8.8.8
 clusterDomain: cluster.local
