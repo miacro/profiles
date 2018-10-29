@@ -3,7 +3,6 @@ kind: Secret
 metadata:
   name: cephfs-secret
   namespace: kube-system
-type: kubernetes.io/rbd
 data:
   key: QVFERjg3RmJaT3FoT2hBQTZ5OVhsZEJZMlZsNS9JWGhsdHNQT2c9PQ==
 
@@ -13,12 +12,16 @@ kind: PersistentVolume
 metadata:
   name: cephfs
   namespace: kube-system
+  labels:
+    class: cephfs
 spec:
   capacity:
     storage: 500Gi
   volumeMode: Filesystem
   accessModes:
     - ReadWriteMany
+    - ReadOnlyMany
+    - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
   cephfs:
     monitors:
@@ -28,3 +31,4 @@ spec:
     path: "/PIKS8"
     secretRef: 
       name: cephfs-secret
+      namespace: kube-system

@@ -24,6 +24,8 @@ spec:
     - kube-etcd=http://0.0.0.0:2380
     - --initial-cluster-state
     - new
+    - --data-dir
+    - /var/lib/etcd
     image: docker.nihaomai.com/cqthink/docker/etcd:3.3.1
     name: kube-etcd
     ports:
@@ -35,6 +37,10 @@ spec:
       hostPort: 2380
       name: serverport
       protocol: TCP
+    volumeMounts:
+    - name: etcd-data
+      mountPath: /var/lib/etcd
+      readOnly: false
     livenessProbe:
       httpGet:
         host: 0.0.0.0
@@ -42,4 +48,8 @@ spec:
         path: "/health"
       initialDelaySeconds: 15
       timeoutSeconds: 15
-  restartPolicy: Never
+  restartPolicy: Always
+  volumes:
+  - name: etcd-data
+    emptyDir: {}
+
