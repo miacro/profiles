@@ -23,6 +23,7 @@ spec:
     - --authorization-mode=RBAC,AlwaysAllow
     - --allow-privileged=true
     - --service-cluster-ip-range=168.8.0.0/16
+    # - --kubelet-certificate-authority=/etc/kubernetes/ca/ca.crt
     - --kubelet-client-certificate=/etc/kubernetes/apiserver/kubelet-client.crt
     - --kubelet-client-key=/etc/kubernetes/apiserver/kubelet-client.key
     name: kube-apiserver

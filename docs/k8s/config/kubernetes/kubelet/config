@@ -2,7 +2,7 @@ kind: KubeletConfiguration
 apiVersion: kubelet.config.k8s.io/v1beta1
 address: 0.0.0.0
 port: 10250
-staticPodPath: /etc/kubernetes/kubelet/manifests
+staticPodPath: /etc/kubernetes/manifests
 authentication:
   x509:
     clientCAFile: /etc/kubernetes/ca/ca.crt
@@ -11,3 +11,5 @@ authorization:
 clusterDNS: 
 - 168.8.8.8
 clusterDomain: cluster.local
+tlsCertFile: /etc/kubernetes/kubelet/tls.crt
+tlsPrivateKeyFile: /etc/kubernetes/kubelet/tls.key
