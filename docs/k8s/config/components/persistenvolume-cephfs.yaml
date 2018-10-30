@@ -13,7 +13,7 @@ metadata:
   name: cephfs
   namespace: kube-system
   labels:
-    class: cephfs
+    type: cephfs
 spec:
   capacity:
     storage: 500Gi
