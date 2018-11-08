@@ -13,3 +13,8 @@ clusterDNS:
 clusterDomain: cluster.local
 tlsCertFile: /etc/kubernetes/kubelet/tls.crt
 tlsPrivateKeyFile: /etc/kubernetes/kubelet/tls.key
+evictionHard:
+  "memory.available": 100Mi
+  "imagefs.available": 15%
+  "nodefs.available": 10%
+  "nodefs.inodesFree": 5%
