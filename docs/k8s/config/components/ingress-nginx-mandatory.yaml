@@ -195,6 +195,7 @@ spec:
             - --configmap=$(POD_NAMESPACE)/nginx-configuration
             - --publish-service=$(POD_NAMESPACE)/ingress-nginx
             - --annotations-prefix=nginx.ingress.kubernetes.io
+            - --kubeconfig=/etc/kubernetes/config
           securityContext:
             capabilities:
               drop:
@@ -236,5 +237,14 @@ spec:
             periodSeconds: 10
             successThreshold: 1
             timeoutSeconds: 1
+          volumeMounts:
+          - name: kubeconfig
+            mountPath: /etc/kubernetes
+            readOnly: true
+      volumes:
+      - name: kubeconfig
+        hostPath:
+          path: /etc/kubernetes
+
 
 ---
