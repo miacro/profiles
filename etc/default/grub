@@ -29,7 +29,7 @@ GRUB_DISTRIBUTOR="Gentoo"
 GRUB_CMDLINE_LINUX="init=/lib/systemd/systemd"
 
 # Append parameters to the linux kernel command line for non-recovery entries
-GRUB_CMDLINE_LINUX_DEFAULT="intel_iommu=on"
+GRUB_CMDLINE_LINUX_DEFAULT="iommu=pt intel_iommu=on pcie_acs_override=downstream,multifunction"
 
 # Uncomment to disable graphical terminal (grub-pc only)
 #GRUB_TERMINAL=console
