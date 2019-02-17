@@ -12,5 +12,5 @@ sys-apps/portage -~amd64
 #x11-drivers/xf86-input-evdev -~amd64
 #x11-drivers/xf86-input-synaptics -~amd64
 
-# dev-libs/openssl -~amd64
+dev-libs/openssl -~amd64
 net-misc/openssh -~amd64
