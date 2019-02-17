@@ -1,0 +1,2 @@
+libvirt create tun by /usr/libexec/qemu-bridge-helper which need suid set
+# chmod u+s /usr/libexec/qemu-bridge-helper 
