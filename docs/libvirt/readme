@@ -1,2 +1,5 @@
-libvirt create tun by /usr/libexec/qemu-bridge-helper which need suid set
+* libvirt create tun by /usr/libexec/qemu-bridge-helper which need suid set
 # chmod u+s /usr/libexec/qemu-bridge-helper 
+* virtio drivers (installed in guest os)
+  https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/
+* device passthrough: vfio, iommu
