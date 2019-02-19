@@ -1,2 +1,3 @@
 sys-apps/kmod -~amd64
 sys-apps/man-db -~amd64
+www-client/firefox -~amd64
