@@ -1,0 +1,4 @@
+# /etc/exports: NFS file systems being exported.  See exports(5).
+/export/repository    192.168.1.0/24(insecure,rw,sync,no_subtree_check)
+/export/freeblock     192.168.1.0/24(insecure,rw,sync,no_subtree_check)
+

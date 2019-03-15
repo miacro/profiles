@@ -1,0 +1,17 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>  <dir>  <type>  <options>  <dump>  <pass>
+UUID=44dded5f-4238-4bb4-a203-b2c6eaddf53d  /                  ext4    rw,relatime,data=ordered  0 1
+# UUID=90816600-a30f-42dd-84ad-ad29f4ec0d70  /home            ext4    defaults                  0 2
+UUID=5534-DB7F                             /boot/efi          vfat    defaults                  0 2
+tmpfs                                      /var/tmp           tmpfs   defaults                  0 0  
+
+#UUID=7be98b97-8e2a-4b8c-b935-b71b597e0f46  none             swap    defaults                  0 0
+/swapfile                                  none               swap    defaults                  0 0
+
+UUID=6701f310-11cc-45c6-a5ff-9db0143cc908  /mnt/repository    ext4    defaults                  0 2
+UUID=d638ac99-2143-44f3-b368-c9a3e11fa65a  /mnt/freeblock     ext4    defaults                  0 2
+UUID=cf693753-0bfc-421a-8c10-61411aa43c15  /mnt/miacro        ext4    defaults                  0 2
+/mnt/repository/repository                 /export/repository none    bind                      0 0
+/mnt/freeblock/freeblock                   /export/freeblock  none    bind                      0 0
