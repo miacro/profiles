@@ -10,8 +10,11 @@ tmpfs                                      /var/tmp           tmpfs   defaults  
 #UUID=7be98b97-8e2a-4b8c-b935-b71b597e0f46  none             swap    defaults                  0 0
 /swapfile                                  none               swap    defaults                  0 0
 
-UUID=6701f310-11cc-45c6-a5ff-9db0143cc908  /mnt/repository    ext4    defaults                  0 2
-UUID=d638ac99-2143-44f3-b368-c9a3e11fa65a  /mnt/freeblock     ext4    defaults                  0 2
-UUID=cf693753-0bfc-421a-8c10-61411aa43c15  /mnt/miacro        ext4    defaults                  0 2
-/mnt/repository/repository                 /export/repository none    bind                      0 0
-/mnt/freeblock/freeblock                   /export/freeblock  none    bind                      0 0
+UUID=6701f310-11cc-45c6-a5ff-9db0143cc908  /mnt/repository    ext4    defaults,nofail           0 2
+UUID=d638ac99-2143-44f3-b368-c9a3e11fa65a  /mnt/freeblock     ext4    defaults,nofail           0 2
+UUID=cf693753-0bfc-421a-8c10-61411aa43c15  /mnt/miacro        ext4    defaults,nofail           0 2
+/mnt/repository/repository                 /export/repository none    bind,nofail               0 0
+/mnt/freeblock/freeblock                   /export/freeblock  none    bind,nofail               0 0
+
+192.168.1.80:/export/repository            /mnt/repository    nfs     rw,_netdev,nofail         0 0
+192.168.1.80:/export/freeblock            /mnt/freeblock      nfs     rw,_netdev,nofail         0 0
