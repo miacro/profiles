@@ -8,7 +8,7 @@ app-editors/vim python cscope lua perl ruby tcl vim-pager -python_targets_python
 app-emulation/docker aufs btrfs apparmor overlay
 app-emulation/docker-runc apparmor
 app-emulation/libvirt  virt-network
-app-emulation/qemu rbd iscsi sdl2 infiniband lzo nfs numa python sasl smartcard snappy systemtap tci tls usbredir vde virtfs xattr xfs
+app-emulation/qemu iscsi sdl2 infiniband lzo nfs numa python sasl smartcard snappy systemtap tci tls usbredir vde virtfs xattr xfs
 app-emulation/runc apparmor
 app-emulation/vmware-tools vmware_guest_linux vmware_guest_netware
 app-emulation/vmware-workstation ovftool server vix vmware-tools
@@ -138,6 +138,7 @@ sci-libs/dlib cblas cuda
 sci-visualization/gnuplot wxwidgets
 sys-apps/busybox
 sys-apps/portage gentoo-dev
+sys-apps/systemd policykit
 sys-apps/util-linux caps fdformat slang tty-helpers
 sys-boot/grub efiemu mount sdl truetype
 sys-devel/clang python
