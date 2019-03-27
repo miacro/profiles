@@ -1,3 +1,0 @@
-# required by app-office/libreoffice-bin-5.4.4.2::gentoo
-# required by app-office/libreoffice-bin (argument)
->=dev-libs/xmlsec-1.2.25 nss

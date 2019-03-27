@@ -4,7 +4,7 @@ app-arch/unzip bzip2 natspec
 app-crypt/pinentry gnome-keyring
 app-doc/doxygen dot clang doxysearch latex
 app-editors/emacs xft Xaw3d athena games gconf gnutls gsettings gzip-el hesiod imagemagick kerberos libxml2 m17n-lib motif pax_kernel sound source toolkit-scroll-bars 
-app-editors/vim python cscope lua perl ruby tcl vim-pager -python_targets_python3_4
+app-editors/vim python cscope lua perl ruby tcl vim-pager
 app-emulation/docker aufs btrfs apparmor overlay
 app-emulation/docker-runc apparmor
 app-emulation/libvirt  virt-network
@@ -14,7 +14,6 @@ app-emulation/vmware-tools vmware_guest_linux vmware_guest_netware
 app-emulation/vmware-workstation ovftool server vix vmware-tools
 app-emulation/wine opencl
 app-eselect/eselect-php fpm
-app-text/asciidoc python_single_target_python2_7
 app-text/dvipng t1lib
 app-text/texlive cjk context detex dvi2tty dvipdfm epspdf extra games graphics humanities jadetex luatex metapost music omega pstricks publishers science tex4ht texi2html xetex
 app-text/texlive-core cjk tk xetex
@@ -90,7 +89,6 @@ media-libs/clutter egl
 media-libs/cogl gles2
 media-libs/freetype infinality cleartype_hinting harfbuzz
 media-libs/gegl raw jpeg2k
-media-libs/gexiv2 introspection -python_targets_python2_7 python_targets_python3_4
 media-libs/grilo playlist
 media-libs/gst-plugins-bad egl
 media-libs/gst-plugins-base theora
@@ -101,11 +99,9 @@ media-libs/libpng apng
 media-libs/libvpx postproc svc
 media-libs/mesa gles gles1 gles2
 media-plugins/alsa-plugins jack
-media-plugins/audacious-plugins -gtk -gtk3 cue lame sndfile wavpack jack adplug bs2b fluidsynth libsamplerate lirc midi mms -scrobbler sid
 media-plugins/grilo-plugins tracker
 media-plugins/grilo-plugins upnp-av
 media-sound/amarok cdda mtp ofa
-media-sound/audacious chardet  -gtk -gtk3
 media-sound/deadbeef aac cdda dts vorbis ape converter wavpack wma mms hotkeys tta alac m3u midi musepack sndfile adplug cover cover-network cover-imlib2 curl dumb gme lastfm mono2stereo notify pltbrowser psf rpath shn sid src supereq threads vtx
 media-sound/mac mmx
 media-sound/moc wavpack sndfile musepack jack
