@@ -46,6 +46,7 @@ dev-libs/libpcre pcre16
 dev-libs/openssl gmp kerberos rfc3779 sctp
 dev-libs/weston X colord dbus drm editor examples fbdev gles2 ivi launch rdp resize-optimizatio screen-sharing suid systemd unwind wayland-compositor xwayland 
 dev-libs/xmlrpc-c tools
+dev-libs/xmlsec nss
 dev-python/PyQt5 widgets printsupport webkit gui network
 dev-qt/qtgui:4 mng -egl
 dev-qt/qtgui mng egl
@@ -153,6 +154,7 @@ x11-libs/cairo xcb
 x11-libs/gdk-pixbuf tiff
 x11-libs/libxcb xkb
 x11-libs/wxGTK tiff
+x11-terms/rxvt-unicode 256-color blink pixbuf fading-colors unicode3
 x11-terms/xterm Xaw3d toolbar
 x11-wm/awesome dbus
 x11-wm/stumpwm contrib
