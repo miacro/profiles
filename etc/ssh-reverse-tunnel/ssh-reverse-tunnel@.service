@@ -1,0 +1,20 @@
+[Unit]
+Description=ssh reverse tunnel
+After=network.target
+StartLimitIntervalSec=300s
+StartLimitBurst=60
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=6s
+EnvironmentFile=/etc/ssh-reverse-tunnel/%i.conf
+ExecStartPre=
+User=root
+Group=root
+ExecStart=/usr/bin/sudo -u $USER /usr/bin/ssh -N -o StrictHostKeyChecking=no -o ExitOnForwardFailure=yes -o ServerAliveInterval=15 -o ServerAliveCountMax=4 $TUNNEL_OPTIONS
+ExecReload=/bin/kill -HUP $MAINPID
+ExecStop=/bin/kill -QUIT $MAINPID
+
+[Install]
+WantedBy=multi-user.target
