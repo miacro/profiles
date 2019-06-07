@@ -1,10 +1,32 @@
+app-arch/p7zip unRAR
 app-arch/rar RAR
+app-arch/unrar unRAR
+app-i18n/libgooglepinyin Apache license
 dev-java/oracle-jdk-bin Oracle-BCLA-JavaSE
+dev-libs/cudnn NVIDIA-cuDNN
 dev-util/adobe-air-runtime AdobeAIRSDK
+dev-util/libnvidia-container BSD-3
+dev-util/nvidia-container-runtime BSD-3
+dev-util/nvidia-container-runtime-hook BSD-3
 dev-util/nvidia-cuda-toolkit NVIDIA-CUDA
+dev-util/nvidia-docker NVIDIA CORPORATION
+games-util/steam-launcher ValveSteamLicense
+media-fonts/corefonts MSttfEULA
+media-fonts/font-bh-ttf bh-luxi
+media-fonts/font-bh-type1 bh-luxi
+media-fonts/freefonts freedist
+media-fonts/mgopen MagentaMgOpen
+media-fonts/steamfonts MSttfEULA
+media-gfx/nvidia-cg-toolkit NVIDIA-r1
+media-libs/faac MPEG-4
 media-libs/fdk-aac FraunhoferFDK
+media-libs/fmod fmod
+media-sound/deadbeef MAME UNICODE curl shorten
+media-sound/mac mac
+sys-kernel/linux-firmware linux-fw-redistributable no-source-code
 www-client/google-chrome google-chrome
 www-client/opera-developer OPERA-2014
 www-client/opera OPERA-2014
 www-plugins/adobe-flash AdobeFlash-11.x
 www-plugins/chrome-binary-plugins google-chrome
+x11-drivers/nvidia-drivers NVIDIA-r2
