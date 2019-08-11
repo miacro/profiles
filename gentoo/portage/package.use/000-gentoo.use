@@ -5,6 +5,7 @@ app-crypt/pinentry gnome-keyring
 app-doc/doxygen dot clang doxysearch latex
 app-editors/emacs xft Xaw3d athena games gconf gnutls gsettings gzip-el hesiod imagemagick kerberos libxml2 m17n-lib motif pax_kernel sound source toolkit-scroll-bars 
 app-editors/vim python cscope lua perl ruby tcl vim-pager
+app-emacs/emacs-common-gentoo games
 app-emulation/docker aufs btrfs apparmor overlay
 app-emulation/docker-runc apparmor
 app-emulation/libvirt  virt-network
