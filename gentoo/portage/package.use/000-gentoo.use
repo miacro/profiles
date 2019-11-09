@@ -48,11 +48,13 @@ dev-libs/openssl gmp kerberos rfc3779 sctp
 dev-libs/weston X colord dbus drm editor examples fbdev gles2 ivi launch rdp resize-optimizatio screen-sharing suid systemd unwind wayland-compositor xwayland 
 dev-libs/xmlrpc-c tools
 dev-libs/xmlsec nss
-dev-python/PyQt5 widgets printsupport webkit gui network
+dev-python/PyQt5 widgets printsupport webkit gui network webchannel
 dev-qt/qtgui:4 mng -egl
 dev-qt/qtgui mng egl
 dev-qt/qtmultimedia widgets gstreamer
 dev-qt/qtwayland egl
+dev-qt/qtwebchannel qml
+dev-qt/qtwebengine widgets
 dev-qt/qtwebkit printsupport
 dev-qt/qtwidgets -gtk
 dev-ruby/activerecord postgres
