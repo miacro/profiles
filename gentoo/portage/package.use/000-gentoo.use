@@ -124,6 +124,7 @@ net-dns/dnsmasq script dbus
 net-firewall/iptables netlink
 net-fs/samba system-mitkrb5 client -addc addns ads aio avahi cups fam gnutls ldap quota winbind 
 net-libs/c-client chappa
+net-misc/remmina rdp ssh vnc
 net-libs/libvncserver gnutls
 net-libs/zeromq drafts
 net-misc/iputils gnutls idn caps

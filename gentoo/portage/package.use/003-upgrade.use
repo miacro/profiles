@@ -1,0 +1,2 @@
+dev-libs/redland -mysql
+net-dns/bind -mysql
