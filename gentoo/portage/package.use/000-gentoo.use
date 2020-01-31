@@ -139,7 +139,7 @@ sci-libs/dlib cblas cuda
 sci-visualization/gnuplot wxwidgets
 sys-apps/busybox
 sys-apps/portage gentoo-dev
-sys-apps/systemd policykit
+sys-apps/systemd policykit cgroup-hybrid
 sys-apps/util-linux caps fdformat slang tty-helpers
 sys-boot/grub efiemu mount sdl truetype
 sys-devel/clang python

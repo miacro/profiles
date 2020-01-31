@@ -16,6 +16,7 @@ media-fonts/font-bh-ttf bh-luxi
 media-fonts/font-bh-type1 bh-luxi
 media-fonts/freefonts freedist
 media-fonts/mgopen MagentaMgOpen
+media-fonts/freefonts free-noncomm all-rights-reserved
 media-fonts/steamfonts MSttfEULA
 media-gfx/nvidia-cg-toolkit NVIDIA-r1
 media-libs/faac MPEG-4
@@ -23,7 +24,7 @@ media-libs/fdk-aac FraunhoferFDK
 media-libs/fmod fmod
 media-sound/deadbeef MAME UNICODE curl shorten
 media-sound/mac mac
-sys-kernel/linux-firmware linux-fw-redistributable no-source-code
+sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
 www-client/google-chrome google-chrome
 www-client/opera-developer OPERA-2014
 www-client/opera OPERA-2014
