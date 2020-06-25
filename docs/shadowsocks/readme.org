@@ -1,0 +1,5 @@
+* shadowsocks
+  - install: https://github.com/shadowsocks/shadowsocks-libev
+  - optimize: https://github.com/shadowsocks/shadowsocks/wiki/Optimizing-Shadowsocks
+  - v2ray: https://github.com/shadowsocks/v2ray-plugin/
+  - acme-tiny https://github.com/diafygi/acme-tiny
