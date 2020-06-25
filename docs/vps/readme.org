@@ -16,7 +16,7 @@
   - GatewayPorts no/clientspecified
 * /etc/security/limits.conf
 * shadowsocks
-[file://../readme.org]
+[[../readme.org]]
   - install: https://github.com/shadowsocks/shadowsocks-libev
   - optimize: https://github.com/shadowsocks/shadowsocks/wiki/Optimizing-Shadowsocks
   - v2ray: https://github.com/shadowsocks/v2ray-plugin/
