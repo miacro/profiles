@@ -1,0 +1,14 @@
+{
+  "server": ["[::0]","0.0.0.0"],
+  "server_port": 7312,
+  "password": "123456",
+  "timeout": 600,
+  "method": "aes-256-gcm",
+  "fast_open": true,
+  "workers": 20,
+  "plugin": "v2ray-plugin",
+  "plugin_opts": "server",
+  "dns_ipv6": true,
+  "ipv6_first": true
+}
+

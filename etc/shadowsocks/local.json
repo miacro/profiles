@@ -1,0 +1,12 @@
+{
+    "server": "0.0.0.0",
+    "server_port": 2222,
+    "local_address": "127.0.0.1",
+    "local_port": 3333,
+    "password": "123456",
+    "timeout": 600,
+    "method": "aes-256-gcm",
+    "plugin": "v2ray-plugin",
+    "fast_open": true,
+    "workers": 5
+}
