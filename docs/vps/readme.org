@@ -15,7 +15,7 @@
   - UseDNS no
   - GatewayPorts no/clientspecified
 * /etc/security/limits.conf
-* [[../readme.org][shadowsocks]]
+* [[../shadowsocks/readme.org][shadowsocks]]
 * fail2ban
 * nginx
   - ssl, acme-tiny, cron
