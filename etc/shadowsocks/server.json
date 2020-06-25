@@ -7,7 +7,7 @@
   "fast_open": true,
   "workers": 20,
   "plugin": "v2ray-plugin",
-  "plugin_opts": "server",
+  "plugin_opts": "server;tls;host=domain.me;cert=/path/to/cert;key=/path/to/key",
   "dns_ipv6": true,
   "ipv6_first": true
 }
