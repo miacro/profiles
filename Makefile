@@ -2,7 +2,7 @@ SHELL=/bin/bash
 MAKE=make --no-print-directory
 
 install-portage:
-	ln -fs -T $(realpath gentoo/portage) /etc/portage
+	ln -fs -n $(realpath gentoo/portage) /etc/portage
 
 uninstall-portage:
 	[[ -L /etc/portage ]] && rm /etc/portage || exit 0
