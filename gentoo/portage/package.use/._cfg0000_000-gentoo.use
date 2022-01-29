@@ -3,15 +3,17 @@ app-arch/p7zip rar wxwidgets
 app-arch/unzip bzip2 natspec
 app-crypt/pinentry gnome-keyring
 app-doc/doxygen dot clang doxysearch latex
-app-editors/emacs xft Xaw3d athena games gconf gnutls gsettings gzip-el hesiod imagemagick kerberos libxml2 m17n-lib motif pax_kernel sound source toolkit-scroll-bars
+app-editors/emacs xft Xaw3d athena games gconf gnutls gsettings gzip-el hesiod imagemagick kerberos libxml2 m17n-lib motif pax_kernel sound source toolkit-scroll-bars 
 app-editors/vim python cscope lua perl ruby tcl vim-pager
-app-emacs/emacs-common-gentoo games
+# move app-emacs/emacs-common-gentoo app-emacs/emacs-common
 app-emacs/emacs-common games
-app-emulation/docker aufs btrfs apparmor overlay
+# move app-emulation/docker app-containers/docker
+app-containers/docker aufs btrfs apparmor overlay
 app-emulation/docker-runc apparmor
 app-emulation/libvirt  virt-network
 app-emulation/qemu iscsi sdl2 infiniband lzo nfs numa python sasl smartcard snappy systemtap tci tls usbredir vde virtfs xattr xfs spice virgl
-app-emulation/runc apparmor
+# move app-emulation/runc app-containers/runc
+app-containers/runc apparmor
 app-emulation/vmware-tools vmware_guest_linux vmware_guest_netware
 app-emulation/vmware-workstation ovftool server vix vmware-tools
 app-emulation/wine opencl
@@ -130,7 +132,7 @@ net-misc/remmina rdp ssh vnc
 net-libs/libvncserver gnutls
 net-libs/zeromq drafts
 net-misc/iputils gnutls idn caps
-net-misc/networkmanager connection-sharing -bluetooth nftables
+net-misc/networkmanager connection-sharing -bluetooth
 net-misc/spice-gtk usbredir
 net-p2p/rtorrent daemon color xmlrpc
 net-print/cups dbus
@@ -147,7 +149,6 @@ sys-boot/grub efiemu mount sdl truetype
 sys-devel/clang python
 sys-devel/gcc doc pie
 sys-devel/llvm clang doc gold python
-sys-libs/ldb ldap
 sys-libs/libapparmor static-libs
 sys-libs/libseccomp static-libs
 sys-libs/ncurses tinfo
