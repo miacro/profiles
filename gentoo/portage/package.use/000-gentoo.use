@@ -130,7 +130,7 @@ net-misc/remmina rdp ssh vnc
 net-libs/libvncserver gnutls
 net-libs/zeromq drafts
 net-misc/iputils gnutls idn caps
-net-misc/networkmanager connection-sharing -bluetooth nftables
+net-misc/networkmanager connection-sharing bluetooth nftables
 net-misc/spice-gtk usbredir
 net-p2p/rtorrent daemon color xmlrpc
 net-print/cups dbus
