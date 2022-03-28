@@ -1,2 +1,3 @@
 dev-libs/redland -mysql
 net-dns/bind -mysql
+>=x11-drivers/nvidia-drivers-510.60.02 static-libs

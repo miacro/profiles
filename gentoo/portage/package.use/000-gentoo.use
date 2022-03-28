@@ -100,7 +100,6 @@ media-libs/gst-plugins-base theora
 media-libs/libmediaart -gtk
 media-libs/libmp4v2 utils
 media-libs/libmypaint gegl
-media-libs/libpng apng
 media-libs/libsdl2 gles2
 media-libs/libvpx postproc svc
 media-libs/mesa gles gles1 gles2
@@ -126,11 +125,12 @@ net-dns/dnsmasq script dbus
 net-firewall/iptables netlink
 net-fs/samba system-mitkrb5 client -addc addns ads aio avahi cups fam gnutls ldap quota winbind 
 net-libs/c-client chappa
-net-misc/remmina rdp ssh vnc
 net-libs/libvncserver gnutls
+net-libs/nodejs inspector
 net-libs/zeromq drafts
 net-misc/iputils gnutls idn caps
 net-misc/networkmanager connection-sharing bluetooth nftables
+net-misc/remmina rdp ssh vnc
 net-misc/spice-gtk usbredir
 net-p2p/rtorrent daemon color xmlrpc
 net-print/cups dbus
