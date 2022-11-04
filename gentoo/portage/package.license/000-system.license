@@ -24,6 +24,7 @@ media-libs/fdk-aac FraunhoferFDK
 media-libs/fmod fmod
 media-sound/deadbeef MAME UNICODE curl shorten
 media-sound/mac mac
+sys-firmware/alsa-firmware freedist
 sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
 www-client/google-chrome google-chrome
 www-client/opera-developer OPERA-2014

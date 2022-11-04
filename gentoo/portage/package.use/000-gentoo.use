@@ -3,9 +3,10 @@ app-arch/p7zip rar wxwidgets
 app-arch/unzip bzip2 natspec
 app-crypt/pinentry gnome-keyring
 app-doc/doxygen dot clang doxysearch latex
-app-editors/emacs xft Xaw3d athena games gconf gnutls gsettings gzip-el hesiod imagemagick kerberos libxml2 m17n-lib motif pax_kernel sound source toolkit-scroll-bars
+app-editors/emacs xft Xaw3d athena games gconf gnutls gsettings gzip-el hesiod imagemagick kerberos libxml2 m17n-lib motif pax_kernel sound source gui aqua dbus dynamic-loading gfile gif gpm harfbuzz jit json lcms mailutils tiff wide-int xwidgets
 app-editors/vim python cscope lua perl ruby tcl vim-pager
 app-emacs/emacs-common-gentoo games
+app-emacs/emacs-common gui
 app-emacs/emacs-common games
 app-emulation/docker aufs btrfs apparmor overlay
 app-emulation/docker-runc apparmor
@@ -16,6 +17,7 @@ app-emulation/vmware-tools vmware_guest_linux vmware_guest_netware
 app-emulation/vmware-workstation ovftool server vix vmware-tools
 app-emulation/wine opencl
 app-eselect/eselect-php fpm
+app-misc/mime-types nginx
 app-text/dvipng t1lib
 app-text/texlive cjk context detex dvi2tty dvipdfm epspdf extra games graphics humanities jadetex luatex metapost music omega pstricks publishers science tex4ht texi2html xetex
 app-text/texlive-core cjk tk xetex
@@ -130,7 +132,7 @@ net-libs/nodejs inspector
 net-libs/zeromq drafts
 net-misc/iputils gnutls idn caps
 net-misc/networkmanager connection-sharing bluetooth nftables
-net-misc/remmina rdp ssh vnc
+net-misc/remmina rdp ssh vnc gvnc spice webkit x2go zeroconf gnome-keyring
 net-misc/spice-gtk usbredir
 net-p2p/rtorrent daemon color xmlrpc
 net-print/cups dbus
@@ -145,7 +147,7 @@ sys-apps/systemd policykit cgroup-hybrid
 sys-apps/util-linux caps fdformat slang tty-helpers
 sys-boot/grub efiemu mount sdl truetype
 sys-devel/clang python
-sys-devel/gcc doc pie
+sys-devel/gcc doc pie jit
 sys-devel/llvm clang doc gold python
 sys-libs/ldb ldap
 sys-libs/libapparmor static-libs
@@ -160,8 +162,8 @@ x11-drivers/nvidia-drivers uvm
 x11-libs/cairo xcb
 x11-libs/gdk-pixbuf tiff
 x11-libs/libxcb xkb
-x11-libs/wxGTK tiff
-x11-terms/rxvt-unicode 256-color blink pixbuf fading-colors unicode3
+x11-libs/wxGTK tiff webkit
+x11-terms/rxvt-unicode 256-color blink pixbuf fading-colors unicode3 gdk-pixbuf perl
 x11-terms/xterm Xaw3d toolbar
 x11-wm/awesome dbus
 x11-wm/stumpwm contrib

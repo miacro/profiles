@@ -2,3 +2,10 @@ sys-apps/kmod -~amd64
 sys-apps/man-db -~amd64
 www-client/firefox -~amd64
 dev-vcs/subversion -~amd64
+x11-drivers/nvidia-drivers -~amd64
+media-sound/alsa-utils -~amd64
+media-sound/alsa-tools -~amd64
+media-libs/alsa-lib -~amd64
+media-libs/libpulse -~amd64
+media-plugins/alsa-plugins -~amd64
+media-sound/pulseaudio-daemon -~amd64
