@@ -1,6 +1,7 @@
 app-arch/p7zip unRAR
 app-arch/rar RAR
 app-arch/unrar unRAR
+app-editors/vscode Microsoft-vscode
 app-i18n/libgooglepinyin Apache license
 dev-java/oracle-jdk-bin Oracle-BCLA-JavaSE
 dev-libs/cudnn NVIDIA-cuDNN

@@ -43,8 +43,9 @@ dev-libs/fcgi html
 dev-libs/folks eds
 dev-libs/glib dbus
 dev-libs/gmime smime
-dev-libs/libgdata gnome-online-accounts
+dev-libs/libgdata gnome-online-accounts vala
 dev-libs/libgit2 ssh
+dev-libs/libical vala
 dev-libs/libpcre2 pcre32 pcre16
 dev-libs/libpcre pcre16
 dev-libs/openssl gmp kerberos rfc3779 sctp
@@ -73,6 +74,8 @@ games-util/steam-client-meta flash pulseaudio steamfonts steamruntime streaming 
 games-util/steam-games-meta mono s3tc steamgames_bioshock_infinite steamgames_dwarfs steamgames_hammerwatch steamgames_ironclad_tactics steamgames_journey_down steamgames_narcissu steamgames_painkiller steamgames_portal steamgames_shatter steamgames_source_engine steamgames_tf2 steamgames_trine2 steamgames_unwritten_tales steamgames_voidexpanse steamgames_witcher2 steamruntime 
 games-util/steam-launcher steamruntime
 games-util/steam-meta steamruntime
+gui-apps/swaybg gdk-pixbuf
+gui-wm/sway grimshot tray wallpapers
 gnome-base/gnome-control-center networkmanager
 gnome-base/gnome-settings-daemon policykit
 gnome-base/gvfs cdda udisks
@@ -161,6 +164,7 @@ x11-base/xorg-server dmx kdrive tslib unwind wayland xnest xvfb
 x11-drivers/nvidia-drivers uvm
 x11-libs/cairo xcb
 x11-libs/gdk-pixbuf tiff
+x11-libs/libdrm video_cards_nouveau
 x11-libs/libxcb xkb
 x11-libs/wxGTK tiff webkit
 x11-terms/rxvt-unicode 256-color blink pixbuf fading-colors unicode3 gdk-pixbuf perl
