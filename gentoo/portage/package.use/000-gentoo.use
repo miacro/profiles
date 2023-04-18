@@ -13,6 +13,7 @@ app-emulation/docker-runc apparmor
 app-emulation/libvirt  virt-network
 app-emulation/qemu iscsi sdl2 infiniband lzo nfs numa python sasl smartcard snappy systemtap tci tls usbredir vde virtfs xattr xfs spice virgl
 app-emulation/runc apparmor
+app-emulation/virt-manager gui
 app-emulation/vmware-tools vmware_guest_linux vmware_guest_netware
 app-emulation/vmware-workstation ovftool server vix vmware-tools
 app-emulation/wine opencl

@@ -9,3 +9,4 @@ media-libs/alsa-lib -~amd64
 media-libs/libpulse -~amd64
 media-plugins/alsa-plugins -~amd64
 media-sound/pulseaudio-daemon -~amd64
+dev-qt/qtwebengine -~amd64
