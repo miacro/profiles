@@ -1,0 +1,1 @@
+/opt/gentoo/var/db/repos/gentoo/profiles/prefix/darwin/macos/13.0/arm64/gcc
