@@ -16,3 +16,4 @@ sys-devel/make -~amd64
 
 dev-libs/openssl -~amd64
 net-misc/openssh -~amd64
+ x11-terms/rxvt-unicode -~amd64

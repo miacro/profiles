@@ -20,6 +20,7 @@ app-emulation/wine opencl
 app-eselect/eselect-php fpm
 app-misc/mime-types nginx
 app-text/dvipng t1lib
+app-text/stardict youdaodict dictdotcn flite
 app-text/texlive cjk context detex dvi2tty dvipdfm epspdf extra games graphics humanities jadetex luatex metapost music omega pstricks publishers science tex4ht texi2html xetex
 app-text/texlive-core cjk tk xetex
 app-text/xdvik Xaw3d emacs motif neXt
@@ -151,7 +152,7 @@ sys-apps/systemd policykit cgroup-hybrid
 sys-apps/util-linux caps fdformat slang tty-helpers
 sys-boot/grub efiemu mount sdl truetype
 sys-devel/clang python
-sys-devel/gcc doc pie jit
+sys-devel/gcc doc pie jit objc objc++ objc-gc
 sys-devel/llvm clang doc gold python
 sys-libs/ldb ldap
 sys-libs/libapparmor static-libs
