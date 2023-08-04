@@ -1,0 +1,3 @@
+# net-misc/remmina -appindicator
+sys-apps/portage gentoo-dev # rsync-verify
+app-portage/eix sqlite
