@@ -1,3 +1,4 @@
 dev-libs/redland -mysql
 net-dns/bind -mysql
+media-libs/gegl -sdl
 >=x11-drivers/nvidia-drivers-510.60.02 static-libs

@@ -6,7 +6,7 @@ app-doc/doxygen dot clang doxysearch latex
 app-editors/emacs xft Xaw3d athena games gconf gnutls gsettings gzip-el hesiod imagemagick kerberos libxml2 m17n-lib motif pax_kernel sound source gui aqua dbus dynamic-loading gfile gif gpm harfbuzz jit json lcms mailutils tiff wide-int xwidgets
 app-editors/vim python cscope lua perl ruby tcl vim-pager
 app-emacs/emacs-common-gentoo games
-app-emacs/emacs-common gui
+app-emacs/emacs-common gui gsettings
 app-emacs/emacs-common games
 app-emulation/docker aufs btrfs apparmor overlay
 app-emulation/docker-runc apparmor
