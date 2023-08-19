@@ -137,7 +137,7 @@ net-libs/nodejs inspector
 net-libs/zeromq drafts
 net-misc/iputils gnutls idn caps
 net-misc/networkmanager connection-sharing bluetooth nftables
-net-misc/remmina rdp ssh vnc gvnc spice webkit x2go zeroconf gnome-keyring
+net-misc/remmina rdp ssh vnc gvnc spice webkit x2go zeroconf gnome-keyring keyring
 net-misc/spice-gtk usbredir
 net-p2p/rtorrent daemon color xmlrpc
 net-print/cups dbus
