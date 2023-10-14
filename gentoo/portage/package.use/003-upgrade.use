@@ -2,3 +2,6 @@ dev-libs/redland -mysql
 net-dns/bind -mysql
 media-libs/gegl -sdl
 >=x11-drivers/nvidia-drivers-510.60.02 static-libs
+media-video/pipewire extra
+net-libs/gnutls pkcs11 tools
+x11-base/xwayland libei

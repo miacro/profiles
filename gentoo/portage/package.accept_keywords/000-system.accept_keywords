@@ -7,6 +7,7 @@ sys-libs/glibc -~amd64
 sys-apps/sandbox -~amd64
 sys-apps/portage -~amd64
 app-portage/portage-utils -~amd64
+app-portage/gentoolkit -~amd64
 sys-devel/make -~amd64
 
 #x11-base/xorg-server -~amd64
