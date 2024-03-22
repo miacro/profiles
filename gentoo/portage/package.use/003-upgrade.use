@@ -5,3 +5,4 @@ media-libs/gegl -sdl
 media-video/pipewire extra
 net-libs/gnutls pkcs11 tools
 x11-base/xwayland libei
+dev-python/PyQt6 quick qml webchannel

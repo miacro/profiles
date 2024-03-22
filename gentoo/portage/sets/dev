@@ -1,6 +1,10 @@
+dev-build/cmake
 dev-db/freetds
 dev-db/mariadb
 dev-db/unixODBC
+dev-debug/cgdb
+dev-debug/strace
+dev-debug/valgrind
 dev-java/icedtea-bin
 dev-lang/lua
 dev-lang/perl
@@ -18,16 +22,12 @@ dev-qt/qtnetwork
 #dev-util/android-studio
 #dev-util/android-tools
 dev-util/ccache
-dev-util/cgdb
-dev-util/cmake
 #dev-util/codeblocks
 dev-util/cscope
 dev-util/global
 dev-util/nvidia-cuda-sdk
 dev-util/nvidia-cuda-toolkit
-dev-util/strace
 #dev-util/universalindentgui
-dev-util/valgrind
 dev-vcs/bzr
 dev-vcs/cvsps
 dev-vcs/git

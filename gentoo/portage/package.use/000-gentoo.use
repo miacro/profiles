@@ -8,8 +8,8 @@ app-editors/vim python cscope lua perl ruby tcl vim-pager
 app-emacs/emacs-common-gentoo games
 app-emacs/emacs-common gui gsettings
 app-emacs/emacs-common games
-app-emulation/docker aufs btrfs apparmor overlay
-app-emulation/docker-runc apparmor
+app-containers/docker aufs btrfs apparmor overlay
+app-containers/runc apparmor
 app-emulation/libvirt  virt-network
 app-emulation/qemu iscsi sdl2 infiniband lzo nfs numa python sasl smartcard snappy systemtap tci tls usbredir vde virtfs xattr xfs spice virgl
 app-emulation/runc apparmor
@@ -41,6 +41,7 @@ dev-libs/boehm-gc threads
 dev-libs/boost tools context
 dev-libs/botan threads
 dev-libs/cyrus-sasl kerberos
+dev-libs/elfutils debuginfod
 dev-libs/fcgi html
 dev-libs/folks eds
 dev-libs/glib dbus
@@ -54,6 +55,7 @@ dev-libs/openssl gmp kerberos rfc3779 sctp
 dev-libs/weston X colord dbus drm editor examples fbdev gles2 ivi launch rdp resize-optimizatio screen-sharing suid systemd unwind wayland-compositor xwayland 
 dev-libs/xmlrpc-c tools
 dev-libs/xmlsec nss
+dev-python/pillow webp
 dev-python/PyQt5 widgets printsupport webkit gui network webchannel
 dev-qt/qtgui:4 mng -egl
 dev-qt/qtgui mng egl
@@ -64,7 +66,7 @@ dev-qt/qtwebengine widgets
 dev-qt/qtwebkit printsupport
 dev-qt/qtwidgets -gtk
 dev-ruby/activerecord postgres
-dev-util/cmake emacs internal-jsoncpp
+dev-build/cmake emacs internal-jsoncpp
 dev-util/codeblocks contrib pch
 dev-util/cscope emacs
 dev-util/global emacs vim 
@@ -89,6 +91,7 @@ kde-frameworks/ktexteditor -git
 kde-plasma/kinfocenter -gles
 kde-plasma/plasma-desktop legacy-systray 
 kde-plasma/plasma-workspace -geolocation
+media-gfx/imagemagick tiff
 media-fonts/dejavu fontforge
 media-fonts/noto cjk
 media-fonts/source-han-sans linguas_ja linguas_zh_TW linguas_ko 
