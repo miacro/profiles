@@ -8,6 +8,7 @@ app-editors/vim python cscope lua perl ruby tcl vim-pager
 app-emacs/emacs-common-gentoo games
 app-emacs/emacs-common gui gsettings
 app-emacs/emacs-common games
+app-containers/containerd btrfs apparmor
 app-containers/docker aufs btrfs apparmor overlay
 app-containers/runc apparmor
 app-emulation/libvirt  virt-network
