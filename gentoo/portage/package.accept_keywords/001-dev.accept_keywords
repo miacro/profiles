@@ -2,3 +2,4 @@ net-libs/nodejs -~amd64
 dev-lang/php -~amd64
 dev-lang/python -~amd64
 dev-lang/ruby -~amd64
+media-libs/opencv -~amd64
