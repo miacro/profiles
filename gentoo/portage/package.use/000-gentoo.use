@@ -87,6 +87,7 @@ gnome-base/gnome-control-center networkmanager
 gnome-base/gnome-settings-daemon policykit
 gnome-base/gvfs cdda udisks
 gnome-extra/evolution-data-server vala
+kde-apps/kde-apps-meta -games -education
 kde-apps/kio-extras -man
 kde-apps/okular -chm
 kde-frameworks/kdelibs -acl -policykit -upower -crypt plasma
