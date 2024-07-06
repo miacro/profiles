@@ -137,7 +137,7 @@ net-dns/avahi dbus
 net-dns/bind dlz -threads
 net-dns/bind-tools gssapi
 net-dns/dnsmasq script dbus
-net-firewall/iptables netlink
+net-firewall/iptables netlink nftables
 net-fs/samba system-mitkrb5 client -addc addns ads aio avahi cups fam gnutls ldap quota winbind 
 net-libs/c-client chappa
 net-libs/libvncserver gnutls

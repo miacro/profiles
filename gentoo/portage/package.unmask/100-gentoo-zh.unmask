@@ -9,3 +9,10 @@ app-i18n/libgooglepinyin::gentoo-zh
 app-i18n/fcitx-sogoupinyin::gentoo-zh
 app-dicts/youdao-dict::gentoo-zh
 media-sound/netease-cloud-music::gentoo-zh
+
+net-proxy/v2ray::gentoo-zh
+net-proxy/v2rayA::gentoo-zh
+app-alternatives/v2ray-geoip::gentoo-zh
+app-alternatives/v2ray-geosite::gentoo-zh
+dev-libs/v2ray-domain-list-community-bin::gentoo-zh
+dev-libs/v2ray-geoip-bin::gentoo-zh
