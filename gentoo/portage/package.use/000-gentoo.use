@@ -103,6 +103,7 @@ media-fonts/source-pro cjk
 media-fonts/unifont fontforge utils
 media-gfx/exiv2 xmp
 media-gfx/fontforge cjk
+media-gfx/gthumb heif webp gstreamer colord jpegxl
 media-libs/alsa-lib python alisp
 media-libs/clutter egl
 media-libs/cogl gles2
