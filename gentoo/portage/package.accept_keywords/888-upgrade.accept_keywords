@@ -10,3 +10,8 @@ media-libs/libpulse -~amd64
 media-plugins/alsa-plugins -~amd64
 media-sound/pulseaudio-daemon -~amd64
 dev-libs/icu -~amd64
+net-fs/samba -~amd64
+dev-qt/qtwebengine -~amd64
+dev-qt/* -~amd64
+kde-apps/kde-apps-meta -~amd64
+kde-plasma/plasma-meta -~amd64

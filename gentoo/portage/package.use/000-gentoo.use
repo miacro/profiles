@@ -88,10 +88,10 @@ gnome-base/gnome-settings-daemon policykit
 gnome-base/gvfs cdda udisks
 gnome-extra/evolution-data-server vala
 kde-apps/kde-apps-meta -games -education
-kde-apps/kio-extras -man
 kde-apps/okular -chm
 kde-frameworks/kdelibs -acl -policykit -upower -crypt plasma
 kde-frameworks/ktexteditor -git
+kde-frameworks/kio handbook
 kde-plasma/kinfocenter -gles
 kde-plasma/plasma-desktop legacy-systray 
 kde-plasma/plasma-workspace -geolocation
@@ -133,9 +133,9 @@ media-video/ffmpeg vorbis threads 3dnow 3dnowext amr amrenc avx avx2 bluray cdio
 media-video/libav oss pulseaudio jack tools vaapi vdpau vpx threads
 media-video/mplayer a52 cddb dts faac gif mng xinerama xvid 3dnow 3dnowext aalib bl bluray bidi bs2b cdparanoia cpudetection dga directfb dv dvb faad fbcon ftp ggi gsm jack joystick jpeg2k ladspa libcaca libmpeg2 lirc lzo md5sum mmxext nas nut openal oss pnm pvr radio rar rtc rtmp samba speex sse sse2 ssse3 tga theora toolame tremor twolame v4l vdpau vidix xanim zoran 
 media-video/mpv bluray bs2b cdio doc-pdf dvb dvdnav egl jack joystick ladspa libcaca libguess libmpv lirc lua luajit openal portaudio oss postproc pvr samba sdl v4l vaapi vdpau vf-dlopen wayland
-media-video/vlc archive bidi cdda cddb dc1394 dts libnotify rdp vpx xv a52 dvd vorbis dbus ogg skins bibi libass httpd lua aalib atmo audioqueue avahi bluray chromaprint dirac directfb dvb egl faad fdk fluidsynth gme gnutls growl ieee1394 jack kate libcaca libsamplerate libtar libtiger linsys lirc matroska mmx modplug mtp musepack omxil opencv optimisememory opus projectm rtsp samba schroedinger sdl-image sftp shout sid speex sse taglib theora tremor twolame upnp v4l vaapi vcdx vdpau vlm vnc wma-fixed zvbi postproc
+media-video/vlc archive bidi cdda cddb dc1394 dts libnotify -rdp vpx xv a52 dvd vorbis dbus ogg skins bibi libass httpd lua aalib atmo audioqueue avahi bluray chromaprint dirac directfb dvb egl faad fdk fluidsynth gme gnutls growl ieee1394 jack kate libcaca libsamplerate libtar libtiger linsys lirc matroska mmx modplug mtp musepack omxil opencv optimisememory opus projectm rtsp samba schroedinger sdl-image sftp shout sid speex sse taglib theora tremor twolame upnp v4l vaapi vcdx vdpau vlm vnc wma-fixed zvbi postproc
 net-dns/avahi dbus
-net-dns/bind dlz -threads
+net-dns/bind dlz -threads gssapi
 net-dns/bind-tools gssapi
 net-dns/dnsmasq script dbus
 net-firewall/iptables netlink nftables
@@ -158,7 +158,7 @@ sci-libs/dlib cblas cuda
 sci-visualization/gnuplot wxwidgets
 sys-apps/busybox
 sys-apps/portage gentoo-dev
-sys-apps/systemd policykit cgroup-hybrid
+sys-apps/systemd policykit
 sys-apps/util-linux caps fdformat slang tty-helpers
 sys-boot/grub efiemu mount sdl truetype
 sys-devel/clang python

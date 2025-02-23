@@ -6,3 +6,6 @@ media-video/pipewire extra
 net-libs/gnutls pkcs11 tools
 x11-base/xwayland libei
 dev-python/PyQt6 quick qml webchannel
+>=dev-python/pyqt6-6.8.1 quick
+>=dev-python/pyside-6.8.1.1 uitools positioning webengine quick
+kde-apps/krdc -rdp

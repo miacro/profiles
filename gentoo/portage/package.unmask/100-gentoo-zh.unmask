@@ -16,3 +16,7 @@ app-alternatives/v2ray-geoip::gentoo-zh
 app-alternatives/v2ray-geosite::gentoo-zh
 dev-libs/v2ray-domain-list-community-bin::gentoo-zh
 dev-libs/v2ray-geoip-bin::gentoo-zh
+virtual/v2ray-geoip::gentoo-zh
+virtual/v2ray-domain-list-community::gentoo-zh
+
+media-sound/qqmusic::gentoo-zh
