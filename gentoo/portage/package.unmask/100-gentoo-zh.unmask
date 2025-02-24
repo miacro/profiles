@@ -20,3 +20,10 @@ virtual/v2ray-geoip::gentoo-zh
 virtual/v2ray-domain-list-community::gentoo-zh
 
 media-sound/qqmusic::gentoo-zh
+
+app-dicts/fcitx-pinyin-moegirl::gentoo-zh
+app-dicts/fcitx-pinyin-sougou-baidu::gentoo-zh
+app-dicts/fcitx-pinyin-zhwiki::gentoo-zh
+dev-python/mw2fcitx::gentoo-zh
+dev-python/pypinyin::gentoo-zh
+app-text/imewlconverter::gentoo-zh
