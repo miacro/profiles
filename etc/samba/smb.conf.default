@@ -23,8 +23,6 @@
 
 [global]
 
-unix extensions = no
-
 ## Browsing/Identification ###
 
 # Change this to the workgroup/NT-domain name your Samba server will part of
@@ -170,7 +168,6 @@ unix extensions = no
 
 [homes]
    comment = Home Directories
-   available = no
    browseable = no
 
 # By default, the home directories are exported read-only. Change the
@@ -237,19 +234,3 @@ unix extensions = no
 # to the drivers directory for these users to have write rights in it
 ;   write list = root, @lpadmin
 
-
-[miacro-share-r]
-comment = miacro's share
-path = /home/miacro/share/readonly
-valid users = miacro
-writable = no
-follow symlinks = yes
-wide links = yes
-
-[miacro-share-w]
-comment = miacro's writable share
-path = /home/miacro/share/writable
-valid users = miacro
-writable = yes
-follow symlinks = yes
-wide links = yes
