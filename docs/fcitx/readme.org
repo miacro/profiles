@@ -1,0 +1,7 @@
+* rime
+** [[https://rime.im/][home]]
+** [[https://github.com/rime/home/wiki][wiki]]
+
+* rime-ice
+** [[https://github.com/iDvel/rime-ice][repo]]
+** [[https://dvel.me/posts/rime-ice/][configuration]]
