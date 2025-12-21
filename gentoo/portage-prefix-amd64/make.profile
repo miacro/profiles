@@ -1,0 +1,1 @@
+/opt/gentoo/var/db/repos/gentoo/profiles/default/linux/amd64/23.0/no-multilib/prefix/kernel-3.2+
