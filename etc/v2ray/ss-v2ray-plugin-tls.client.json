@@ -1,0 +1,70 @@
+{
+  "log": {
+    "loglevel": "info"
+  },
+  "inbounds": [
+    {
+      "port": 7152,
+      "listen": "0.0.0.0",
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth"
+      }
+    },
+    {
+      "port": 7182,
+      "listen": "0.0.0.0",
+      "protocol": "http",
+      "settings": {
+        "timeout": 300
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy-ss",
+      "sendThrough": "0.0.0.0",
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "<server-name>",
+            "port": 7312,
+            "method": "aes-256-gcm",
+            "password": "<password>"
+          }
+        ]
+      },
+      "proxySettings": {
+        "tag": "proxy-tls"
+      },
+      "streamSettings": {
+        "sockopt": {}
+      }
+    },
+    {
+      "tag": "proxy-tls",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "AsIs",
+        "redirect": "<server-name>:7312"
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/",
+          "headers": {
+            "Host": "<server-name>"
+          }
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "<server-name>"
+        },
+        "sockopt": {}
+      },
+      "mux": { "enabled": true, "concurrency": 1 }
+    }
+  ]
+}
