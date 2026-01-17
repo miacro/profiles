@@ -18,3 +18,7 @@ openssl req -new -key client.key -out client.csr -config csr.conf
 openssl x509 -req -in client.csr -CA ca.crt -CAkey ca.key \
   -CAcreateserial -out client.crt -days 10000 \
   -extensions v3_ext -extfile csr.conf
+
+
+
+openssl req -new -sha256 -key domain.key -subj "/" -addext "subjectAltName = DNS:miacro.me, DNS:doss.miacro.me" > domain.csr
