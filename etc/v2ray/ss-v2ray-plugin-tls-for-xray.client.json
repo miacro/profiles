@@ -1,0 +1,52 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "port": 7152,
+      "listen": "0.0.0.0",
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth"
+      }
+    },
+    {
+      "port": 7182,
+      "listen": "0.0.0.0",
+      "protocol": "http",
+      "settings": {
+        "timeout": 300
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "<SERVER-NAME>",
+            "port": 7312,
+            "method": "aes-256-gcm",
+            "password": "<PASSWORD>"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/",
+          "headers": {
+            "Host": "<DOMAIN>"
+          }
+        },
+        "tlsSettings": {
+          "serverName": "<DOMAIN>",
+          "allowInsecure": true
+        }
+      }
+    }
+  ]
+}
