@@ -1,0 +1,1 @@
+0 4 * * * find /etc/nginx/certs/signed_chain.crt -mtime -1 -exec systemctl reload nginx \;
