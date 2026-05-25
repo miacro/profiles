@@ -39,7 +39,6 @@
       "tag": "tuic-in",
       "listen": "::",
       "listen_port": 17312,
-      "listen_port_range": "17312-17317",
       "users": [
         {
           "uuid": "<YOUR_UUID>",
@@ -59,7 +58,6 @@
       "tag": "hy2-in",
       "listen": "::",
       "listen_port": 27312,
-      "listen_port_range": "27312-27317",
       "users": [
         {
           "password": "<YOUR_HYSTERIA2_PASSWORD>"
@@ -75,15 +73,14 @@
     },
     // 3. Shadowsocks + Websocket + TLS (TCP 8443)
     {
-      "type": "shadowsocks",
-      "tag": "ss-ws-in",
+      "type": "trojan",
+      "tag": "ws-tls-frontend",
       "listen": "::",
       "listen_port": 8443,
-      "method": "256-gcm", // Recommended: 256-gcm or chacha20-ietf-poly1305
-      "password": "<YOUR_SHADOWSOCKS_PASSWORD>",
+      "users": [], 
       "transport": {
         "type": "ws",
-        "path": "/", // Custom WebSocket path
+        "path": "/your-secret-path",
         "headers": {
           "Host": "<YOUR_ACTUAL_DOMAIN>"
         }
@@ -93,7 +90,15 @@
         "server_name": "<YOUR_ACTUAL_DOMAIN>",
         "certificate_path": "/etc/nginx/certs/signed_chain.crt",
         "key_path": "/etc/nginx/certs/self/domain.key"
-      }
+      },
+      "detour": "ss-layer"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ss-layer",
+      "listen": "127.0.0.1",
+      "method": "256-gcm",
+      "password": "<YOUR_SHADOWSOCKS_PASSWORD>"
     }
   ],
   "outbounds": [
