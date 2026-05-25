@@ -30,68 +30,7 @@
         }
       }
     },
-    // 2. Hysteria 2 
-    // {
-    //   "port": "17312,27312,16321,12312,19312",
-    //   "protocol": "hysteria",
-    //   "tag": "hysteria_udp_backup",
-    //   "settings": {
-    //     "version": 2,
-    //     "auth": "<PASSWORD>",
-    //     "masquerade": {
-    //       "type": "proxy",
-    //       "url": "https://news.ycombinator.com/",
-    //       "rewriteHost": true
-    //     }
-    //   },
-    //   "streamSettings": {
-    //     "network": "hysteria",
-    //     "security": "tls",
-    //     "tlsSettings": {
-    //       "serverName": "miacro.me",
-    //       "alpn": ["h3"],
-    //       "certificates": [
-    //         {
-    //           "certificateFile": "/etc/nginx/certs/signed_chain.crt",
-    //           "keyFile": "/etc/nginx/certs/self/domain.key"
-    //         }
-    //       ]
-    //     },
-    //     "hysteriaSettings": {
-    //       "version": 2
-    //     }
-    //   }
-    // },
-    // 2. TUIC(v5)
-    {
-      "port": "17312,27312,16321,12312,19312",
-      "protocol": "tuic",
-      "tag": "tuic_udp_backup",
-      "settings": {
-        "users": [
-          {
-            "id": "<YOUR-UUID>",
-            "password": "<YOUR-PASSWORD>"
-          }
-        ],
-        "congestionControl": "cubic"
-      },
-      "streamSettings": {
-        "network": "tuic",
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "<TLS_DOMAIN>",
-          "alpn": ["h3"],
-          "certificates": [
-            {
-               "certificateFile": "/etc/nginx/certs/signed_chain.crt",
-               "keyFile": "/etc/nginx/certs/self/domain.key"
-            }
-          ]
-        }
-      }
-    },
-    // 3. Shadowsocks + v2ray-plugin (WebSocket + TLS)
+    // 2. Shadowsocks + v2ray-plugin (WebSocket + TLS)
     {
       "port": 7312,
       "listen": "0.0.0.0",
