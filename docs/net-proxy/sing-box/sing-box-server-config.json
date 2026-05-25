@@ -73,14 +73,13 @@
     },
     // 3. Shadowsocks + Websocket + TLS (TCP 8443)
     {
-      "type": "trojan",
-      "tag": "ws-tls-frontend",
+      "type": "redirect",
+      "tag": "ws-tls-unwrapper",
       "listen": "::",
       "listen_port": 7312,
-      "users": [], 
       "transport": {
         "type": "ws",
-        "path": "/your-secret-path",
+        "path": "/",
         "headers": {
           "Host": "<YOUR_ACTUAL_DOMAIN>"
         }
@@ -91,11 +90,11 @@
         "certificate_path": "/etc/nginx/certs/signed_chain.crt",
         "key_path": "/etc/nginx/certs/self/domain.key"
       },
-      "detour": "ss-layer"
+      "detour": "ss-core"
     },
     {
       "type": "shadowsocks",
-      "tag": "ss-layer",
+      "tag": "ss-core",
       "listen": "127.0.0.1",
       "method": "aes-256-gcm",
       "password": "<YOUR_SHADOWSOCKS_PASSWORD>"
