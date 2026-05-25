@@ -1,3 +1,5 @@
 vless://{UUID}@{SERVER IP}:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.microsoft.com&fp=chrome&pbk={REALITY PUB_KEY}&sid={SID}#XRAY_REALITY
 
 hysteria2://{AUTH}@{SERVER IP}:36888/?sni={TLS DOMAIN}&alpn=h3#BACKUP_Hysteria2
+
+tuic://{UUID}:{PASSWORD}@{SERVER IP}:{{PORT}/?congestion_control=cubic&alpn=h3&sni={TLS_DOMAIN}#{NODE NAME}
