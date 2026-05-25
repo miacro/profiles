@@ -1,0 +1,117 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "inbounds": [
+    // 1. VLESS + Vision + REALITY (TCP 443)
+    {
+      "type": "vless",
+      "tag": "vless-reality-in",
+      "listen": "::",
+      "listen_port": 443,
+      "users": [
+        {
+          "uuid": "<YOUR_UUID>", 
+          "flow": "xtls-rprx-vision"
+        }
+      ],
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com", // SNI for masquerading
+        "reality": {
+          "enabled": true,
+          "handshake": {
+            "server": "www.microsoft.com", // Destination website for handshake
+            "server_port": 443
+          },
+          "private_key": "<YOUR_REALITY_PRIVATE_KEY>",
+          "short_id": [
+            "<YOUR_SHORT_ID>" // 16-character hex string, customizable
+          ]
+        }
+      }
+    },
+
+    // 2. TUIC v5 (UDP 443)
+    {
+      "type": "tuic",
+      "tag": "tuic-in",
+      "listen": "::",
+      "listen_port": 17312,
+      "listen_port_range": "17312-17317",
+      "users": [
+        {
+          "uuid": "<YOUR_UUID>",
+          "password": "<YOUR_TUIC_PASSWORD>"
+        }
+      ],
+      "congestion_control": "bbr",
+      "tls": {
+        "enabled": true,
+        "server_name": "<YOUR_ACTUAL_DOMAIN>",
+        "certificate_path": "/etc/nginx/certs/signed_chain.crt",
+        "key_path": "/etc/nginx/certs/self/domain.key"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hy2-in",
+      "listen": "::",
+      "listen_port": 27312,
+      "listen_port_range": "27312-27317",
+      "users": [
+        {
+          "password": "<YOUR_HYSTERIA2_PASSWORD>"
+        }
+      ],
+      "ignore_client_bandwidth": false,
+      "tls": {
+        "enabled": true,
+        "server_name": "<YOUR_ACTUAL_DOMAIN>",
+        "certificate_path": "/etc/nginx/certs/signed_chain.crt",
+        "key_path": "/etc/nginx/certs/self/domain.key"
+      }
+    },
+    // 3. Shadowsocks + Websocket + TLS (TCP 8443)
+    {
+      "type": "shadowsocks",
+      "tag": "ss-ws-in",
+      "listen": "::",
+      "listen_port": 8443,
+      "method": "256-gcm", // Recommended: 256-gcm or chacha20-ietf-poly1305
+      "password": "<YOUR_SHADOWSOCKS_PASSWORD>",
+      "transport": {
+        "type": "ws",
+        "path": "/", // Custom WebSocket path
+        "headers": {
+          "Host": "<YOUR_ACTUAL_DOMAIN>"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "<YOUR_ACTUAL_DOMAIN>",
+        "certificate_path": "/etc/nginx/certs/signed_chain.crt",
+        "key_path": "/etc/nginx/certs/self/domain.key"
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "direct"
+      }
+    ]
+  }
+}
